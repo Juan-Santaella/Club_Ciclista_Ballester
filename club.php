@@ -34,8 +34,8 @@
             <div class="menu" id="show-menu">
                 <nav>
                     <ul>
-                        <li class="menu-selected"><a href="#" class="text-menu-selected"><i class="fas fa-home"></i> Inicio</a></li>
-                        <li><a href="club.php"><i class="fas fa-biking"></i> Club</a></li>
+                        <li><a href="index.php"><i class="fas fa-home"></i> Inicio</a></li>
+                        <li class="menu-selected"><a href="#" class="text-menu-selected"><i class="fas fa-biking"></i> Club</a></li>
                         <li><a href="#"><i class="fas fa-chalkboard-teacher"></i> Escuela</a></li>
                         <li><a href="#"><i class="fas fa-images"></i> Galería</a></li>
                         <li><a href="#"><i class="fas fa-envelope"></i> Contáctanos</a></li>
