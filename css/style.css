@@ -112,29 +112,6 @@
     opacity: 0.8;
 }
 
-
-/****  ENUNCIADO DE SECCIONES  ****/
-
-.enunciado_seccion{
-    width: 100%;
-    height: 7%;
-    left: 0;
-    background:#000;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    top: 20px;
-    padding: 2px 0;
-    padding: 15px 0;
-    color: #fff;
-}
-
-.enunciado_seccion b{
-    color:#b71c1c;
-    /* font-weight: bold; */
-}
-
-
 /* Portada */
 
 .container-cover{
@@ -184,13 +161,14 @@
     font-weight: 300;
 }
 
-
 /***** CONTENEDOR DEL CONTENIDO DEL ARTÍCULO *****/
 
 .container-content{
     width: 1200px;      /*Como el header, (container-header)*/
     margin: auto;
     margin-top: 40px;
+    display: flex;      /*Nos permite posicionar los aside en un margen de la página*/
+    justify-content: center;    /*Con el display:flex: nos permite centrar el contenido de cada elemento*/
 }
 
 article{
@@ -228,6 +206,52 @@ article p{
 article img{
     width: 100%;
     margin-top: 20px;
+}
+
+/******* ASIDE DE LOS ARTÍCULOS RELACIONADOS ********/
+
+.container-aside aside{
+    width: 320px;
+    border-radius: 6px;
+    box-shadow: 0 0 20px -20px #000;
+    border-radius: 6px;
+    overflow: hidden;
+    margin-left: 40px;
+    margin-bottom: 40px;
+    padding-bottom: 20px;
+}
+
+.container-aside img{
+    width: 100%;
+}
+
+.container-aside aside h2{
+    margin-top: 20px;
+    /* margin-left: 27px; */
+    text-align: center;
+    padding: 0px 20px;
+}
+
+/* .container-aside aside h2, */
+.container-aside aside p{
+    margin-top: 20px;
+    padding: 0px 20px;
+}
+
+.container-aside aside button{
+    margin-top: 20px;
+    margin-left: 65px;
+    padding: 10px 50px;
+    font-size: 16px;
+    background: #b71c1c;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+    border-radius: 6px;
+}
+
+.container-aside aside button:hover{
+    opacity: 0.9;
 }
 
 
@@ -332,10 +356,20 @@ footer .redes-footer .fa-youtube:hover{
         box-shadow: 0 0 0 0;
     }
 
+    .container-aside{
+        display: flex;
+        justify-content: center;
+    }
+
+    .container-aside aside{
+        max-width: 300px;
+        margin: 10px;
+    }
+
 }
 
 
-@media screen and (max-width: 800px){
+@media screen and (max-width: 990px){
 
     /*Eliminamos la barra de scroll horizontal*/
     body{
@@ -398,6 +432,12 @@ footer .redes-footer .fa-youtube:hover{
         color:#b71c1c
     }
 
+    /*Ajustamos la posición de los artículos relacionados, (aside)*/
+    .container-aside{
+        flex-wrap: wrap;
+    }
+
+    /*Mostramos la hamburguesa del menú lateral-vertical*/
     #icon-menu{
         display: flex;
     }

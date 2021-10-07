@@ -3,16 +3,10 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="Description" content="Club Ciclista Ballester"/>
-    <meta name="Keywords" content="Club Ciclista Ballester, escuela de ciclismo en Tenerife, mountainbike, ciclismo, Tenerife, escuela de mountainbike, ciclismo de carretera, escuela de mountainbike en Tenerife, ciclismo de carretera en Tenerife, ciclismo en Candelaria, escuela de ciclismo de Candelaria, circuito de Punta Larga, Punta Larga, MTB, ciclismo en Tenerife"/>
+    <!-- <meta name="viewport" content="width=device-width, initial-scale=1.0"> -->
     <meta name="author" content="Juan Santaella">
+    <title> Diseño web tipo blog </title>
 
-    <title> Club Ciclista Ballester </title>
-
-    <!--Icono en el title-->
-    <link rel="icon" type="image/png" href="img/logo.png">
-
-    <!--Enlace a los iconos de Font Awesome-->
     <script src="https://kit.fontawesome.com/4e2bb02eb5.js" crossorigin="anonymous"></script>
 
     <link rel="stylesheet" href="css/style.css">    <!--*** LOS ESTILOS SIEMPRE VAN DESPUÉS DE LOS ICONOS ***-->
@@ -34,10 +28,10 @@
             <div class="menu" id="show-menu">
                 <nav>
                     <ul>
-                        <li class="menu-selected"><a href="#" class="text-menu-selected"><i class="fas fa-home"></i> Inicio</a></li>
-                        <li><a href="club.php"><i class="fas fa-biking"></i> Club</a></li>
+                        <li><a href="#"><i class="fas fa-home"></i> Inicio</a></li>
+                        <li><a href="#"><i class="fas fa-biking"></i> Club</a></li>
                         <li><a href="#"><i class="fas fa-chalkboard-teacher"></i> Escuela</a></li>
-                        <li><a href="#"><i class="fas fa-images"></i> Galería</a></li>
+                        <li class="menu-selected"><a href="#" class="text-menu-selected"><i class="fas fa-images"></i> Galería</a></li>
                         <li><a href="#"><i class="fas fa-envelope"></i> Contáctanos</a></li>
                         <li><a href="#"><i class="fas fa-lock"></i> Entrar</a></li>
                     </ul>
@@ -64,13 +58,11 @@
         </div>
     </div>
 
-
-
     <!-- Artículo -->
     <div class="container-content">
         <article>
 
-            <h1>Bienvenidos</h1>
+            <h1>Título del artículo</h1>
 
             <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sit non dolores consectetur, quas qui laboriosam! Similique aliquam deserunt soluta porro culpa at itaque eos ipsam molestiae dolorum dolore voluptas optio cupiditate omnis, explicabo aperiam saepe ex aut! Commodi aspernatur aliquam adipisci recusandae, facilis autem error delectus soluta accusantium quae totam quam. Ex eveniet corporis facere aspernatur nisi laudantium perferendis inventore? Necessitatibus nihil quos temporibus qui dolores commodi ipsam aperiam, dolor, minus totam modi perspiciatis ut corporis nesciunt doloremque nemo, nulla adipisci voluptatibus. Officiis repudiandae, numquam totam dignissimos, animi assumenda perspiciatis obcaecati dolore, recusandae veniam incidunt aut unde laboriosam qui fugit cum quod deserunt autem dolor explicabo dicta provident quo similique! Rem eveniet deleniti, dolorem ullam corporis necessitatibus illum rerum ducimus molestias eum nihil porro exercitationem sed laboriosam numquam voluptates accusantium debitis voluptatum? Molestias quia sed modi doloribus, possimus aut ratione numquam nulla id minus cupiditate ad error velit unde tenetur recusandae eius dolores? Magni pariatur sint animi nostrum provident, corporis vitae possimus veritatis minima incidunt perspiciatis accusamus, corrupti autem doloribus dolore velit! Tenetur sint quam autem voluptate voluptates velit nostrum fugit doloribus iusto eligendi aut inventore, nobis nulla, totam libero aspernatur veritatis consequuntur. Atque ab aliquam necessitatibus? Laborum id veniam officia ex vitae pariatur amet magnam, reprehenderit tenetur provident molestiae error. Necessitatibus nostrum assumenda totam delectus, dolorum molestiae quos earum sunt neque tempora, illo fuga id sed temporibus magni dicta alias iusto unde cumque eum quasi soluta repellendus autem. Voluptatum a quibusdam voluptatibus nihil, optio assumenda ratione voluptas. Minima pariatur eius fuga doloribus, earum dolorem vitae recusandae sed, facere tempora alias suscipit perspiciatis atque, ipsa aut voluptatem non ipsum? Fugiat in itaque repudiandae totam, sunt, iure recusandae beatae nesciunt laudantium cum similique asperiores culpa quis voluptatum, illo praesentium dolorem libero labore nihil blanditiis a! Porro officia perspiciatis quas magnam excepturi.</p>
 
@@ -91,6 +83,41 @@
                 <P>Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur natus non amet sapiente hic, minima cum labore quis voluptate quibusdam odit esse quisquam, velit totam. Fugit minima, dolor dicta explicabo ad aliquid nemo quibusdam eos voluptatum delectus? Perferendis maiores, distinctio, excepturi mollitia laborum voluptatum rerum autem hic pariatur non iure.</P>
 
         </article>
+
+        <!--Artículos relacionados-->
+        <div class="container-aside">
+
+            <!--aside 1-->
+            <aside>
+                <img src="img/DSC_7372.jpg" alt="ruedas bicicletas">
+                <h2>Título del artículo</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus in nulla perspiciatis deleniti! Dicta consequuntur, fuga adipisci quam magnam molestias. Voluptatibus autem hic dolor perferendis?</p>
+
+                <!--Botón para abrir un artículo-->
+                <a href=""><button>Leer más</button></a>
+            </aside>
+
+            <!--aside 2-->
+            <aside>
+                <img src="img/DSC_8191.jpg" alt="grupo Ballester">
+                <h2>Título del artículo</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus in nulla perspiciatis deleniti! Dicta consequuntur, fuga adipisci quam magnam molestias. Voluptatibus autem hic dolor perferendis?</p>
+
+                <!--Botón para abrir un artículo-->
+                <a href=""><button>Leer más</button></a>
+            </aside>
+
+            <!--aside 3-->
+            <aside>
+                <img src="img/DSC_7264.jpg" alt="circuito mountainbike">
+                <h2>Título del artículo</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus in nulla perspiciatis deleniti! Dicta consequuntur, fuga adipisci quam magnam molestias. Voluptatibus autem hic dolor perferendis?</p>
+
+                <!--Botón para abrir un artículo-->
+                <a href=""><button>Leer más</button></a>
+            </aside>
+
+        </div>
     </div>
 
     <!-- Footer -->
