@@ -19,6 +19,51 @@
     z-index: 2;
 }
 
+/*Barra de redes sociales en el header*/
+.container-social-top{
+    display: flex;
+    width: 100%;
+    justify-content: left;
+    /* margin-top: 20px; */
+    margin: 0;
+    background: #eeeeee;
+}
+
+/*Imagen del logo en el social bar superior*/
+.container-social-top .logo-top{
+    /* text-align: left; */
+    margin-left: 18.35%;
+    margin-right: 5%;
+}
+
+.container-social-top .logo-top img{
+    /* width: 100px; */
+    width: 110px;
+    height: 100%;
+    border-radius: 5%;
+    /* margin-left: 2%; */
+}
+
+.container-social-top .icon-redes-header{
+    font-size: 20px;
+    margin: 20px;
+    /* background: #000; */
+    width: 5px;
+    height: 5px;
+    display: flex;
+    /* justify-content: center;
+    align-items: center; */
+    /* border-radius: 100%; */
+    color: #a2a2a2;
+    /* color: #fff; */
+}
+
+.container-social-top .icon-redes-header:hover{
+    /* background: #b71c1c; */
+    color: #b71c1c;
+}
+
+/*Nav*/
 .header-content{
     max-width: 1200px;
     margin: auto;
@@ -129,7 +174,8 @@
     content: '';
     width: 100%;
     height: 100%;
-    background: rgba(55, 71, 79, .7);
+    /* background: rgba(55, 71, 79, .7); */
+    background: rgba(26, 35, 126, .6);
     position: absolute;             /*Para que se vea la capa*/
     top: 0;
     left: 0;
@@ -336,6 +382,7 @@ footer .redes-footer .fa-youtube:hover{
 
 @media screen and (max-width: 1220px){
 
+    .container-social-top,
     .header-content,
     .container-content,
     .container-footer footer{

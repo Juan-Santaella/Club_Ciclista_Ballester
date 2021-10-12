@@ -20,7 +20,22 @@
     <!-- Header - menu -->
     <header>
 
+        <!--Cabecera con logo e iconos de redes sociales-->
+        <div class="container-social-top">
+
+            <div class="logo-top">
+                <img src="img/logo.png" alt="Logo Club Ciclista Ballester">
+            </div>
+
+            <a href="#"><i class="fab fa-facebook-square icon-redes-header"></i></a>
+            <a href="#"><i class="fab fa-twitter-square icon-redes-header"></i></a>
+            <a href="#"><i class="fab fa-instagram-square icon-redes-header"></i></a>
+            <a href="#"><i class="fab fa-youtube-square icon-redes-header"></i></a>
+        </div>
+
         <div class="header-content">
+            
+            <!--Nav-->
             <div class="logo">
                 <h1>Club Ciclista <b>Ballester</b></h1>
             </div>
