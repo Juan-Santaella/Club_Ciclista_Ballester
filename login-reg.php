@@ -27,7 +27,8 @@
     <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
 
 </head>
-<body class="background_login">
+<!-- <body class="background_login"> -->
+<body>
 
     <!-- Header - menu -->
     <header>
@@ -67,11 +68,12 @@
     </header>
     
     <!-- Formulario de Login - Registro -->
+    <div class="container-login" id="move-content">
 
     <main>
+        
         <!--Contenedor principal-->
         <div class="contenedor__todo">
-
             <!--Contenedor que se va a mostrar por detrás-->
             <div class="caja__trasera">
                 <!--Contenedor trasero para el login-->
@@ -87,7 +89,6 @@
                     <button id="btn__registrarse">Registrarse</button>
                 </div>
             </div>
-
             <!--Contenedor de los formularios que vamos a utilizar (login y register)-->
             <div class="contenedor__login-register">
                 <!--Formulario de login-->
@@ -98,7 +99,6 @@
                     <!--<input type="submit" name="submit" value="Entrar">-->
                     <button>Entrar</button>
                 </form>
-
                 <!--Formulario de register-->
                 <form action="php/registro_usuario_bd.php" method="POST" class="formulario__register">
                     <h2>Registrarse</h2>
@@ -113,11 +113,10 @@
                     <!--Button tiene por defecto type="submit"-->
                     <button>Registrarse</button>
                 </form>
-
             </div>
-
         </div>
     </main>
+    </div>
 
 
     <!--Incrustamos el código del botón de scroll_up-->
