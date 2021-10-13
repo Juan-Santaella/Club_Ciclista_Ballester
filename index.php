@@ -5,7 +5,10 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <!-- <meta name="viewport" content="width=device-width, initial-scale=1.0"> -->
     <meta name="author" content="Juan Santaella">
-    <title> Diseño web tipo blog </title>
+    <title> Club Ciclista Ballester </title>
+
+    <!--Icono en el title-->
+    <link rel="icon" type="image/png" href="img/logo.png">
 
     <script src="https://kit.fontawesome.com/4e2bb02eb5.js" crossorigin="anonymous"></script>
 
@@ -20,7 +23,12 @@
     <!-- Header - menu -->
     <header>
 
-        <!--Cabecera con logo e iconos de redes sociales-->
+        <!--SocialBar superior-->
+        <?php
+            include "includes/social_up.php";
+        ?>
+
+        <!-- Cabecera con logo e iconos de redes sociales
         <div class="container-social-top">
 
             <div class="logo-top">
@@ -31,7 +39,7 @@
             <a href="#"><i class="fab fa-twitter-square icon-redes-header"></i></a>
             <a href="#"><i class="fab fa-instagram-square icon-redes-header"></i></a>
             <a href="#"><i class="fab fa-youtube-square icon-redes-header"></i></a>
-        </div>
+        </div> -->
 
         <div class="header-content">
             
@@ -43,12 +51,12 @@
             <div class="menu" id="show-menu">
                 <nav>
                     <ul>
-                        <li><a href="#"><i class="fas fa-home"></i> Inicio</a></li>
+                        <li class="menu-selected"><a href="index.php" class="text-menu-selected"><i class="fas fa-home"></i> Inicio</a></li>
                         <li><a href="#"><i class="fas fa-biking"></i> Club</a></li>
-                        <li><a href="#"><i class="fas fa-chalkboard-teacher"></i> Escuela</a></li>
-                        <li class="menu-selected"><a href="#" class="text-menu-selected"><i class="fas fa-images"></i> Galería</a></li>
+                        <li><a href="escuela.php"><i class="fas fa-chalkboard-teacher"></i> Escuela</a></li>
+                        <li><a href="#"><i class="fas fa-images"></i> Galería</a></li>
                         <li><a href="#"><i class="fas fa-envelope"></i> Contáctanos</a></li>
-                        <li><a href="#"><i class="fas fa-lock"></i> Entrar</a></li>
+                        <li><a href="login-reg.php"><i class="fas fa-lock"></i> Entrar</a></li>
                     </ul>
                 </nav>
             </div>
@@ -136,7 +144,7 @@
     </div>
 
     <!-- Footer -->
-    <div class="container-footer">
+    <!-- <div class="container-footer">
         <footer>
             <div class="logo-footer">
                 <img src="img/logo.png" alt="Logo Club Ciclista Ballester">
@@ -153,8 +161,22 @@
             <h4>&copy; 2021 Juan Santaella - Todos los derechos reservados</h4>
 
         </footer>
-    </div>
+    </div> -->
 
+    <!--div id="button-up">
+        <i class="fas fa-chevron-up"></i>
+    </div>-->
+
+
+    <!--Incrustamos el código del botón de scroll_up-->
+    <?php
+        include "includes/scroll_button.php"
+    ?>
+
+    <!-- Incrustamos el código del footer-->
+    <?php
+        include "includes/footer.php";
+    ?>
     </div>
 
     <!--Enlace a los scripts de JavaScript-->

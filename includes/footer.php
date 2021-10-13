@@ -6,7 +6,7 @@
             <!--Caja del logo y Términos-->
             <div class="box__footer">
                <div class="logo">
-                    <a href="../index.php"><img src="../img/logo.png" alt="Club Ciclista Ballester"></a>
+                    <a href="index.php"><img src="img/logo.png" alt="Club Ciclista Ballester"></a>
                </div>
                <div class="terms">
                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Fugiat sequi obcaecati ex sunt fuga corporis, ipsum vitae asperiores tempora expedita nemo laboriosam iusto natus ipsam autem dolor aliquid similique. Veritatis!</p>
@@ -33,10 +33,10 @@
             <!--Caja de Redes Sociales-->
             <div class="box__footer">
                 <h2>Redes Sociales</h2>
-                <a href="https://www.facebook.com/clubciclistaballester.azucareraespanola" target="none" ><i class="fab fa-facebook-square"></i> Facebook</a>
+                <a href="https://www.facebook.com/clubciclistaballester.azucareraespanola" target="none"><i class="fab fa-facebook-square"></i> Facebook</a>
                 <a href="#"><i class="fab fa-twitter-square"></i> Twitter</a>
+                <a href="https://www.instagram.com/club_ciclista_ballester/" target="none"><i class="fab fa-instagram-square"></i> Instagram</a>
                 <a href="https://www.youtube.com/results?search_query=club+ciclista+ballester" target="none" ><i class="fab fa-youtube"></i> YouTube</a>
-                <a href="https://www.instagram.com/"><i class="fab fa-instagram-square" target="none" ></i> Instagram</a>
                 <a href="#"><i class="fas fa-envelope-square"></i> Correo</a>
             </div>
         </div>

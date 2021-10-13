@@ -40,7 +40,7 @@
     /* width: 100px; */
     width: 110px;
     height: 100%;
-    border-radius: 5%;
+    border-radius: 15%;
     /* margin-left: 2%; */
 }
 
@@ -174,7 +174,6 @@
     content: '';
     width: 100%;
     height: 100%;
-    /* background: rgba(55, 71, 79, .7); */
     background: rgba(26, 35, 126, .6);
     position: absolute;             /*Para que se vea la capa*/
     top: 0;
@@ -301,79 +300,267 @@ article img{
 }
 
 
-/***** FOOTER *****/
 
-.container-footer{
+/****  ATRIBUTOS DEL FOOTER  ****/
+
+footer{
     width: 100%;
-    padding: 40px 0;
-    background: #f7f7f7;
-    margin-top: 40px;
+    height: 15%;
+    padding: 50px 0px;
+    /*background-color: #a70404d8;*/
+    background-color: #eeeeee;
+    background-size: cover;
+    /*color: #fff;*/
 }
 
-.container-footer footer{
+/*Atributos del contenedor del footer*/
+.container__footer{
+    display: flex;          /*Las cajas van a ir en columnas contíguas*/
+    flex-wrap: wrap;        /*Efecto responsive, cuando las columnas no caben una al lado de la otra, por el tamaña de la pantalla, (responsive design)*/
+    justify-content: space-between;  /*Para que las columnas ocupen el espacio completo del foooter*/ 
     max-width: 1200px;
-    margin: auto;
+    margin: auto;           /*Se centra el contenedor del footer*/
+    margin-top: 5px;
 }
 
-.container-footer footer .logo-footer{
-    text-align: center;
-}
-
-.container-footer footer .logo-footer img{
-    width: 100px;
-}
-
-.container-footer footer .redes-footer{
+/*Atributos de las columnas de las diferentes secciones*/
+.box__footer{
     display: flex;
-    justify-content: center;
+    flex-direction: column;
+    padding: 40px;
+}
+
+/*Atributos del logo del Club*/
+.box__footer .logo img{
+    width: 180px;
+    /* align-content: left; */
+    margin-left: -47%;
+    border-radius: 5%;
+}
+
+/*Atributos de los términos*/
+.box__footer .terms{
+    max-width: 350px;
     margin-top: 20px;
+    font-weight: 700;
+    /*color: #B3B6B7 ;*/
+    color: #616161;
+    font-size: 18px;
 }
 
-.container-footer footer .redes-footer .icon-redes-footer{
-    font-size: 20px;
-    margin: 20px;
-    background: #efefef;
-    width: 50px;
-    height: 50px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border-radius: 100%;
+/*Propiedades de todos los títulos "h2" de cada columna*/
+.box__footer h2{
+    margin-bottom: 30px;
+    /*color:#ffee58;*/
+    /*color:#FFB300;*/
+    color: #000;
+    /* font-weight: 500; */
+    font-weight: bold;
+}
+
+/*Propiedades de todos los links "<a>" de cada columna*/
+
+.box__footer a{
+    margin-top: 10px;
+    /*color: #B3B6B7;*/
+    color: #616161;
+    font-weight: 600;
+}
+
+.box__footer i{
     color: #a2a2a2;
 }
 
-footer .redes-footer .fa-facebook-f:hover{
-    background: #3b5998;
-    color: #fff;
+/*Efecto al pasar el puntero del ratón sobre los enlaces*/
+.box__footer a:hover{
+    /* opacity: 0.5; */
+    color:#b71c1c;
 }
 
-footer .redes-footer .fa-twitter:hover{
-    background: #55acee;
-    color: #fff;
+/*Propiedades de los iconos de las redes sociales y el correo*/
+.box__footer a .fab,.fas{
+    font-size: 20px;
 }
 
-footer .redes-footer .fa-instagram:hover{
-    background: linear-gradient(to top right, #fcde30, #e9712a, #d2313b, #ae4198, #7540a1, #5443a8);
-    color: #fff;
-}
-
-footer .redes-footer .fa-youtube:hover{
-    background: #bb0000;
-    color: #fff;
-}
-
-.container-footer footer hr{
-    margin-top: 20px;
-    border: none;
-    height: 2px;
-    background: #c0c0c07a;
-}
-
-.container-footer h4{
+.box__copyright{
+    max-width: 1200px;
+    margin: auto;
     text-align: center;
+    padding: 0px 40px;
+}
+
+.box__copyright p{
+    margin-top: 20px;
+    /*color: #B3B6B7;*/
+    color: #616161;
+    font-weight: 700;
+}
+
+.box__copyright hr{
+    border: none;
+    height: 1px;
+    /*background-color: #B3B6B7;*/
+    /* color: #616161; */
+    background-color: #616161;
+}
+
+/**** ATRIBUTOS DEL BOTÓN SUBIR PARA EL SCROLL ****/
+
+#button-up{
+    width: 60px;
+    height: 60px;
+    background: #e95950;
+
+    /*posicionamos el icono en el centro*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    color: white;
+    border-radius: 50%;
+    font-size: 20px;
+    position:fixed;
+    bottom: 50px;
+    right: 50px;
+    cursor: pointer;
+    border: 4px solid transparent;
+    transition: all 300ms ease;
+    transform: scale(0);
+}
+
+#button-up:hover{
+    transform: scale(1.1);
+    border-color: rgba(0,0,0,0.1);
+}
+
+
+/*****   ATRIBUTOS Y PROPIEDADES DE LOS FORMULARIOS DE LOGIN - REGISTER   *******/
+
+.background_login{
+    background-image: url(../img/DSC_7259.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+main{
+    width: 100%;
+    padding: 20px;
+    margin: auto;
+    margin-top: 110px;
+    margin-bottom: 250px;
+}
+
+.contenedor__todo{
+    width: 100%;
+    max-width: 800px;
+    margin: auto;
+    position: relative;
+}
+
+.caja__trasera{
+    width: 100%;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: center;
+    /*Desenfoque de la imagen bajo la cafa trasera*/
+    backdrop-filter: blur(10px);
+    /*Degradado del color de fondo*/
+    /* background-color: rgba(59, 103, 146, 0.5); */
+    background-color: rgba(0,0,0,0.3);
+}
+
+.caja__trasera div{
+    margin: 100px 40px;
+    color: white;
+    transition: all 500ms;
+}
+
+.caja__trasera div p,
+.caja__trasera div button{
+    margin-top: 30px;
+}
+
+.caja__trasera div h3{
+    font-weight: 400;
+    font-size: 26px;
+}
+
+.caja__trasera button{
+    padding: 10px 40px;
+    border: 2px solid #fff;
+    background: transparent;
+    font-size: 14px;
+    font-weight: 600;
+    cursor: pointer;
+    color: white;
+    outline: none;
+    transition: all 300ms;
+}
+
+.caja__trasera button:hover{
+    background: #fff;
+    color:#b71c1c;;
+}
+
+/*Propiedades de los FORMULARIOS*/
+.contenedor__login-register{
+    display: flex;  /*Posicionado vertical*/
+    align-items: center;
+    width: 100%;
+    max-width: 380px;
+    position: relative;
+    top: -185px;
+    left: 10px;
+    transition: left 500ms cubic-bezier(0.175, 0.885, 0.320, 1.275);
+}
+
+.contenedor__login-register form{
+    width: 100%;
+    padding: 80px 20px;
+    background: #fff;
+    /*Posición para poderlo mover*/
+    position: absolute;
+    border-radius: 20px;
+}
+
+.contenedor__login-register form h2{
+    font-size: 30px;
+    text-align: center;
+    margin-bottom: 20px;
+    color: #b71c1c;
+}
+
+.contenedor__login-register form input{
+    width: 100%;
+    margin-top: 20px;
+    padding: 10px;
+    border: none;
+    background: #F2F2F2;
+    font-size: 16px;
+    outline: none;
+}
+
+.contenedor__login-register form button{
+    padding: 10px 40px;
     margin-top: 40px;
-    color: #8e8e8e;
-    font-weight: 500;
+    border: none;
+    font-size: 14px;
+    background: #b71c1c;;
+    color: white;
+    cursor: pointer;
+    outline: none;
+}
+
+.formulario__login{
+    opacity: 1;
+    display: block;
+}
+
+.formulario__register{
+    /*Aparece el formulario de registro con "display:block"*/
+    display: none;  
 }
 
 
@@ -489,4 +676,63 @@ footer .redes-footer .fa-youtube:hover{
         display: flex;
     }
 
+    /**** ATRIBUTOS DEL BOTÓN SUBIR PARA EL SCROLL ****/
+
+    #button-up{
+        width: 50px;
+        height: 50px;
+        background: #e95950;
+        
+        /*posicionamos el icono en el centro*/
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        
+        color: white;
+        border-radius: 50%;
+        font-size: 20px;
+        position:fixed;
+        bottom: 155px;
+        right: 26px;
+        cursor: pointer;
+        border: 4px solid transparent;
+        transition: all 300ms ease;
+        transform: scale(0);
+    }  
+
+
+    /**** PROPIEDADES DEL RESPONSIVE DESIGN DE LOS FORMULARIOS DE LOGIN - REGISTER ****/
+
+
+    main{
+        margin-top: 50px;
+    }
+    
+    .caja__trasera{
+        max-width: 350px;   /*Más estrecha que el formulario*/
+        /*El contenedor padre "contenedor_todo" tiene 800px*/
+        height: 300px;
+        /*Movimiento de la caja en columna*/
+        flex-direction: column;
+        margin: auto;
+    }
+
+    .caja__trasera div{
+        margin: 0px;
+        /*Montar textos unos encima de otros para ocultar*/
+        position: absolute;
+    }
+
+
+/**** RESPONSIVE DESIGN DE LOS FORMULARIOS ****/
+
+    .contenedor__login-register{
+        top: -10px;
+        left: -5px;
+        margin: auto;
+    }
+
+    .contenedor__login-register form{
+        position: relative;
+    } 
 }
