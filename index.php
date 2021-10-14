@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <!-- <meta name="viewport" content="width=device-width, initial-scale=1.0"> -->
+    <!-- <meta name="viewport" content="> -->
     <meta name="author" content="Juan Santaella">
     <title> Club Ciclista Ballester </title>
 
@@ -15,7 +15,7 @@
     <link rel="stylesheet" href="css/style.css">    <!--*** LOS ESTILOS SIEMPRE VAN DESPUÉS DE LOS ICONOS ***-->
 
     <!--meta etiqueta que va a convertir a la página en RESPONSIVE-->
-    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta name="viewport" content= initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
 
 </head>
 <body>
@@ -27,19 +27,6 @@
         <?php
             include "includes/social_up.php";
         ?>
-
-        <!-- Cabecera con logo e iconos de redes sociales
-        <div class="container-social-top">
-
-            <div class="logo-top">
-                <img src="img/logo.png" alt="Logo Club Ciclista Ballester">
-            </div>
-
-            <a href="#"><i class="fab fa-facebook-square icon-redes-header"></i></a>
-            <a href="#"><i class="fab fa-twitter-square icon-redes-header"></i></a>
-            <a href="#"><i class="fab fa-instagram-square icon-redes-header"></i></a>
-            <a href="#"><i class="fab fa-youtube-square icon-redes-header"></i></a>
-        </div> -->
 
         <div class="header-content">
             
@@ -70,103 +57,169 @@
 
     </header>
     
-    <!-- Portada -->
+    <!-- Contenodor principal -->
 
     <div class="container-all" id="move-content">
 
-    <div class="container-cover">
+    <!--Portada-->
+    
+    <!-- <div class="container-cover-inicio">
         <div class="container-info-cover">
             <h1>¡Pedalea con nosotros!</h1>  
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus quae ducimus mollitia velit beatae nesciunt!</p>
         </div>
-    </div>
-
-    <!-- Artículo -->
-    <div class="container-content">
-        <article>
-
-            <h1>Título del artículo</h1>
-
-            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sit non dolores consectetur, quas qui laboriosam! Similique aliquam deserunt soluta porro culpa at itaque eos ipsam molestiae dolorum dolore voluptas optio cupiditate omnis, explicabo aperiam saepe ex aut! Commodi aspernatur aliquam adipisci recusandae, facilis autem error delectus soluta accusantium quae totam quam. Ex eveniet corporis facere aspernatur nisi laudantium perferendis inventore? Necessitatibus nihil quos temporibus qui dolores commodi ipsam aperiam, dolor, minus totam modi perspiciatis ut corporis nesciunt doloremque nemo, nulla adipisci voluptatibus. Officiis repudiandae, numquam totam dignissimos, animi assumenda perspiciatis obcaecati dolore, recusandae veniam incidunt aut unde laboriosam qui fugit cum quod deserunt autem dolor explicabo dicta provident quo similique! Rem eveniet deleniti, dolorem ullam corporis necessitatibus illum rerum ducimus molestias eum nihil porro exercitationem sed laboriosam numquam voluptates accusantium debitis voluptatum? Molestias quia sed modi doloribus, possimus aut ratione numquam nulla id minus cupiditate ad error velit unde tenetur recusandae eius dolores? Magni pariatur sint animi nostrum provident, corporis vitae possimus veritatis minima incidunt perspiciatis accusamus, corrupti autem doloribus dolore velit! Tenetur sint quam autem voluptate voluptates velit nostrum fugit doloribus iusto eligendi aut inventore, nobis nulla, totam libero aspernatur veritatis consequuntur. Atque ab aliquam necessitatibus? Laborum id veniam officia ex vitae pariatur amet magnam, reprehenderit tenetur provident molestiae error. Necessitatibus nostrum assumenda totam delectus, dolorum molestiae quos earum sunt neque tempora, illo fuga id sed temporibus magni dicta alias iusto unde cumque eum quasi soluta repellendus autem. Voluptatum a quibusdam voluptatibus nihil, optio assumenda ratione voluptas. Minima pariatur eius fuga doloribus, earum dolorem vitae recusandae sed, facere tempora alias suscipit perspiciatis atque, ipsa aut voluptatem non ipsum? Fugiat in itaque repudiandae totam, sunt, iure recusandae beatae nesciunt laudantium cum similique asperiores culpa quis voluptatum, illo praesentium dolorem libero labore nihil blanditiis a! Porro officia perspiciatis quas magnam excepturi.</p>
-
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque modi delectus fugit impedit. Adipisci blanditiis harum corporis atque omnis reprehenderit animi ratione, culpa vitae unde fuga neque et enim quae a consectetur velit voluptatibus suscipit dignissimos, tempore cum doloribus veniam doloremque vel! Perferendis quo, quos deleniti ipsa, quam minus officia molestiae numquam nobis nulla voluptate dicta! Iure deleniti ullam accusamus eos suscipit eaque, amet laborum quidem, ut, exercitationem architecto corporis voluptatum? Quisquam velit, nesciunt incidunt reiciendis nisi cupiditate iure iste quas placeat inventore similique asperiores, voluptas quis sequi repellat? Laboriosam odio quisquam ex voluptate doloremque explicabo optio sequi non nemo debitis enim quibusdam sapiente reprehenderit deleniti provident ea temporibus ratione, quo hic, pariatur eum autem vitae, earum voluptatem? Ducimus suscipit distinctio rerum aperiam? Voluptatum rem sit facere deleniti, tenetur maxime. Dolore illum veniam consectetur ullam obcaecati, consequuntur nihil magni dolorum laborum minima ipsum, impedit ipsam voluptatum voluptates, iure quos necessitatibus.</p>
-
-                <h1>Subtítulo del artículo</h1>
-
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod, sapiente velit. Voluptatibus nulla incidunt dignissimos ullam asperiores, suscipit quae non unde doloribus aperiam. In quis molestiae recusandae unde iusto ex doloribus sed excepturi sint, mollitia quam dicta tenetur aliquid maiores quod officia, quia suscipit sapiente sequi assumenda odio consectetur deleniti, provident expedita. Nam natus ipsam ut maiores, nobis quod libero! Aliquam ipsam accusantium fuga iusto ab delectus qui officia esse repellat, ratione debitis deserunt cupiditate quos! Aliquid corporis ipsam dolor sit nihil sunt quam nisi nulla, ea blanditiis, eos repudiandae officiis quia. Iste explicabo fugit dolore eos eius minus id iure blanditiis, soluta, mollitia ipsam, consequuntur voluptas odit reprehenderit repellendus dolorum veritatis! Amet magni asperiores harum, minima quod nemo quisquam optio minus fugiat omnis itaque? Fugiat doloremque, molestias laudantium iste aut repellendus. Quidem corporis placeat consequatur incidunt dolorum id! Optio ab error sapiente asperiores consectetur quos, enim culpa voluptates tenetur et similique blanditiis aut debitis ea. Repellendus itaque asperiores tempore. Unde quae, inventore quibusdam reiciendis consequuntur facere magnam deserunt repellat possimus iure fugit in numquam, quam similique ea cumque voluptatibus accusantium atque optio at ullam velit quis, perspiciatis doloribus! Suscipit animi libero ducimus explicabo hic error eveniet. Sapiente, ex quis!</p>
-
-                <img src="img/DSC_8181.jpg" alt="Club Ciclista Ballester posando">
-
-                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Et tempora quas temporibus, neque libero vitae nam! Hic similique voluptatum error molestiae est magnam numquam officia eos officiis, tempora inventore unde omnis molestias corrupti, labore consequatur dolorum debitis iste culpa, odit voluptatem non libero! Nam repudiandae assumenda enim obcaecati minus sint adipisci commodi, ex numquam debitis libero esse aperiam laborum autem accusantium ad. Exercitationem, repudiandae doloribus est quae blanditiis soluta nam et distinctio incidunt aut illo veniam atque sapiente totam eum vel odio, iusto velit. Minus doloribus sint illo officia aliquid vel. Non doloremque odit, fugiat error blanditiis soluta nostrum veniam?</p>
-
-                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Qui ratione earum ipsum vel sit fugiat, harum quidem laboriosam veritatis placeat aperiam rem beatae commodi enim sapiente est natus consequatur asperiores. Ratione distinctio blanditiis aut similique adipisci fugiat sequi praesentium esse? Eius, architecto est nisi quae eligendi voluptas et aspernatur debitis optio corporis, cumque sit aliquid quam sunt inventore consequatur, soluta fugiat reprehenderit nostrum assumenda delectus esse aliquam voluptate. Eligendi, aut? Cupiditate omnis repudiandae quasi, quod voluptas sequi itaque saepe sint impedit nisi blanditiis laudantium cum dicta rerum totam magnam. Ducimus totam voluptas error eos pariatur culpa quibusdam alias accusamus perferendis!</p>
-
-                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Non nam laudantium architecto laboriosam. Nihil sunt saepe voluptatem incidunt delectus? Nisi commodi, quasi optio perferendis distinctio iste natus voluptate rerum ullam molestias eligendi iusto, odit excepturi ex, autem ad sapiente? Dolores tempore inventore minus voluptatibus tempora! Natus quos animi excepturi sed quidem sunt labore recusandae obcaecati adipisci ipsum a ex laboriosam hic architecto dolorum quo repellendus consequatur doloremque quia laudantium, quod culpa illo! Rem qui quibusdam deleniti aliquam ut quae sit ipsum cupiditate quasi quo voluptas adipisci ipsa veniam recusandae nihil labore dolorum esse, quia autem, quod consequuntur quam! Dolor, ipsa perferendis est quasi architecto rem quisquam! Eveniet quam quibusdam officia ullam exercitationem eos quae? Aliquid, consequuntur ipsa voluptatum cum illum, quibusdam quis tenetur id pariatur autem magni provident maiores adipisci quos eos doloribus aspernatur. Esse eligendi exercitationem consectetur deleniti distinctio earum? Quos ea error ratione. Magni molestias eum rem modi!</p>
-
-                <P>Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur natus non amet sapiente hic, minima cum labore quis voluptate quibusdam odit esse quisquam, velit totam. Fugit minima, dolor dicta explicabo ad aliquid nemo quibusdam eos voluptatum delectus? Perferendis maiores, distinctio, excepturi mollitia laborum voluptatum rerum autem hic pariatur non iure.</P>
-
-        </article>
-
-        <!--Artículos relacionados-->
-        <div class="container-aside">
-
-            <!--aside 1-->
-            <aside>
-                <img src="img/DSC_7372.jpg" alt="ruedas bicicletas">
-                <h2>Título del artículo</h2>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus in nulla perspiciatis deleniti! Dicta consequuntur, fuga adipisci quam magnam molestias. Voluptatibus autem hic dolor perferendis?</p>
-
-                <!--Botón para abrir un artículo-->
-                <a href=""><button>Leer más</button></a>
-            </aside>
-
-            <!--aside 2-->
-            <aside>
-                <img src="img/DSC_8191.jpg" alt="grupo Ballester">
-                <h2>Título del artículo</h2>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus in nulla perspiciatis deleniti! Dicta consequuntur, fuga adipisci quam magnam molestias. Voluptatibus autem hic dolor perferendis?</p>
-
-                <!--Botón para abrir un artículo-->
-                <a href=""><button>Leer más</button></a>
-            </aside>
-
-            <!--aside 3-->
-            <aside>
-                <img src="img/DSC_7264.jpg" alt="circuito mountainbike">
-                <h2>Título del artículo</h2>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus in nulla perspiciatis deleniti! Dicta consequuntur, fuga adipisci quam magnam molestias. Voluptatibus autem hic dolor perferendis?</p>
-
-                <!--Botón para abrir un artículo-->
-                <a href=""><button>Leer más</button></a>
-            </aside>
-
-        </div>
-    </div>
-
-    <!-- Footer -->
-    <!-- <div class="container-footer">
-        <footer>
-            <div class="logo-footer">
-                <img src="img/logo.png" alt="Logo Club Ciclista Ballester">
-            </div>
-
-            <div class="redes-footer">
-                    <a href="#"><i class="fab fa-facebook-f icon-redes-footer"></i></a>
-                    <a href="#"><i class="fab fa-twitter icon-redes-footer"></i></a>
-                    <a href="#"><i class="fab fa-instagram icon-redes-footer"></i></a>
-                    <a href="#"><i class="fab fa-youtube icon-redes-footer"></i></a>
-            </div>
-
-            <hr>
-            <h4>&copy; 2021 Juan Santaella - Todos los derechos reservados</h4>
-
-        </footer>
     </div> -->
 
-    <!--div id="button-up">
-        <i class="fas fa-chevron-up"></i>
-    </div>-->
+     <!--Slideshow-->
 
+        <div class="slider">
+	    	<!-- fade css -->
+	    	<div class="myslide fade">
+	    		<div class="txt">
+	    			<h1>IMAGE 1</h1>
+	    			<p>Web Devoloper<br>Subscribe To My Channel For More Videos</p>
+	    		</div>
+	    		<img src="img/DSC_8181.jpg" class="img_zoom" style=%;" alt="Club Ciclista Ballester">
+	    	</div>
+    
+	    	<div class="myslide fade">
+	    		<div class="txt">
+	    			<h1>IMAGE 2</h1>
+	    			<p>Web Devoloper<br>Subscribe To My Channel For More Videos</p>
+	    		</div>
+	    		<img src="img/DSC_8191.jpg" class="img_zoom" style=%;" alt="Recibiendo instrucciones">
+	    	</div>
+    
+	    	<div class="myslide fade">
+	    		<div class="txt">
+	    			<h1>IMAGE 3</h1>
+	    			<p>Web Devoloper<br>Subscribe To My Channel For More Videos</p>
+	    		</div>
+	    		<img src="img/DSC_9147.jpg" class="img_zoom" style=%;" alt="Carpa Club Ciclista Ballester">
+	    	</div>
+    
+	    	<div class="myslide fade">
+	    		<div class="txt">
+	    			<h1>IMAGE 4</h1>
+	    			<p>Web Devoloper<br>Subscribe To My Channel For More Videos</p>
+	    		</div>
+	    		<img src="img/DSC_9162.jpg" class="img_zoom" style=%;" alt="Corredores del Club Ciclista Ballester">
+	    	</div>
+    
+	    	<div class="myslide fade">
+	    		<div class="txt">
+	    			<h1>IMAGE 5</h1>
+	    			<p>Web Devoloper<br>Subscribe To My Channel For More Videos</p>
+	    		</div>
+	    		<img src="img/DSC_9662.jpg" class="img_zoom" style=%;" alt="Escuela de Ciclismo">
+	    	</div>
+	    	<!--fade css -->
+    
+	    	<!-- onclick js -->
+	    	<a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+  	    	<a class="next" onclick="plusSlides(1)">&#10095;</a>
+    
+	    	<div class="dotsbox" style="text-align:center">
+	    		<span class="dot" onclick="currentSlide(1)"></span>
+	    		<span class="dot" onclick="currentSlide(2)"></span>
+	    		<span class="dot" onclick="currentSlide(3)"></span>
+	    		<span class="dot" onclick="currentSlide(4)"></span>
+	    		<span class="dot" onclick="currentSlide(5)"></span>
+	    	</div>
+	    	<!-- /onclick js -->
+	    </div>
+
+    <!-- Publicaciones Responsivas (Noticias) -->
+
+    <section class="post-list">
+        <div class="content">
+
+            <!--Post 1-->
+            <article class="post">
+                <div class="post-header">
+                    <div class="post-img-1"></div>
+                </div>
+                <div class="post-body">
+                    <span>14 septiembre, 2021 | Diseño Web</span>
+                    <h2>Tutorial HTML</h2>
+                    <p class="descripcion">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam doloribus iure quae numquam inventore excepturi quas, aliquam exercitationem repellat, reprehenderit sit temporibus odio saepe cum.</p>
+                    <a href="#" class="post-link">Leer más...</a>
+                </div>
+            </article>
+
+            <!--Post 2-->
+            <article class="post">
+                <div class="post-header">
+                    <div class="post-img-2"></div>
+                </div>
+                <div class="post-body">
+                    <span>1 septiembre, 2021 | Desarrollo Web</span>
+                    <h2>Lo nuevo en Django 2.x</h2>
+                    <p class="descripcion">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Similique dolor at praesentium laboriosam laborum nam ab quisquam quae, eveniet sed voluptate ipsam est ratione laudantium!</p>
+                    <a href="#" class="post-link">Leer más...</a>
+                </div>
+            </article>
+
+            <!--Post 3-->
+            <article class="post">
+                <div class="post-header">
+                    <div class="post-img-3"></div>
+                </div>
+                <div class="post-body">
+                    <span>28 agosto, 2021 | Diseño Web</span>
+                    <h2>Tres trucos para CSS3</h2>
+                    <p class="descripcion">Lorem ipsum dolor sit amet consectetur adipisicing elit. A sed perferendis placeat? Atque magni placeat optio, eum nobis illum voluptate ducimus eos vel accusamus ea.</p>
+                    <a href="#" class="post-link">Leer más...</a>
+                </div>
+            </article>
+        </div>
+    </section>
+
+    <!--Vídeos de YouTube-->
+
+    <section class="post-list">
+        <div class="content">
+
+            <!--Video 1-->
+            <article class="post">
+                <div class="post-header">
+                    <iframe class="video" src="https://www.youtube.com/embed/RgyYkH8EFAw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay;  clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </div>
+                <div class="post-body">
+                    <span>14 septiembre, 2021 | Diseño Web</span>
+                    <h2>Tutorial HTML</h2>
+                    <p class="descripcion">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam doloribus iure quae numquam inventore excepturi quas, aliquam exercitationem repellat, reprehenderit sit temporibus odio saepe cum.</p>
+                    <!-- <a href="#" class="post-link">Leer más...</a> -->
+                </div>
+            </article>
+
+            <!--Video 2-->
+            <article class="post">
+                <div class="post-header">
+                    <iframe class="video" src="https://www.youtube.com/embed/RgyYkH8EFAw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay;  clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </div>
+                <div class="post-body">
+                    <span>14 septiembre, 2021 | Diseño Web</span>
+                    <h2>Tutorial HTML</h2>
+                    <p class="descripcion">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam doloribus iure quae numquam inventore excepturi quas, aliquam exercitationem repellat, reprehenderit sit temporibus odio saepe cum.</p>
+                    <!-- <a href="#" class="post-link">Leer más...</a> -->
+                </div>
+            </article>
+
+            <!--Video 3-->
+            <article class="post">
+                <div class="post-header">
+                    <iframe class="video" src="https://www.youtube.com/embed/RgyYkH8EFAw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay;  clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </div>
+                <div class="post-body">
+                    <span>14 septiembre, 2021 | Diseño Web</span>
+                    <h2>Tutorial HTML</h2>
+                    <p class="descripcion">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam doloribus iure quae numquam inventore excepturi quas, aliquam exercitationem repellat, reprehenderit sit temporibus odio saepe cum.</p>
+                    <!-- <a href="#" class="post-link">Leer más...</a> -->
+                </div>
+            </article>
+        </div>
+    </section>
 
     <!--Incrustamos el código del botón de scroll_up-->
     <?php
@@ -181,6 +234,7 @@
 
     <!--Enlace a los scripts de JavaScript-->
     <script src="js/script.js"></script>
+    <script src="js/js-slider.js"></script>
 
 </body>
 </html>

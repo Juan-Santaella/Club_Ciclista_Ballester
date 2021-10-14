@@ -60,9 +60,9 @@
 
     <div class="container-all" id="move-content">
 
-    <div class="container-cover">
+    <div class="container-cover-escuela">
         <div class="container-info-cover">
-            <h1>¡Pedalea con nosotros!</h1>  
+            <h1> Escuela de Ciclismo </h1>  
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus quae ducimus mollitia velit beatae nesciunt!</p>
         </div>
     </div>
