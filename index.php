@@ -166,7 +166,7 @@
                     <div class="post-img-3"></div>
                 </div>
                 <div class="post-body">
-                    <span>28 agosto, 2021 | Diseño Web</span>
+                    <span>28 agosto, 2021 | Diseño Web</span></br>
                     <h2>Tres trucos para CSS3</h2>
                     <p class="descripcion">Lorem ipsum dolor sit amet consectetur adipisicing elit. A sed perferendis placeat? Atque magni placeat optio, eum nobis illum voluptate ducimus eos vel accusamus ea.</p>
                     <a href="#" class="post-link">Leer más...</a>
@@ -177,10 +177,10 @@
 
     <!--Vídeos de YouTube-->
 
-    <section class="post-list">
+    <!--section class="post-list">
         <div class="content">
 
-            <!--Video 1-->
+            Video 1
             <article class="post">
                 <div class="post-header">
                     <iframe class="video" src="https://www.youtube.com/embed/RgyYkH8EFAw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay;  clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
@@ -189,11 +189,11 @@
                     <span>14 septiembre, 2021 | Diseño Web</span>
                     <h2>Tutorial HTML</h2>
                     <p class="descripcion">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam doloribus iure quae numquam inventore excepturi quas, aliquam exercitationem repellat, reprehenderit sit temporibus odio saepe cum.</p>
-                    <!-- <a href="#" class="post-link">Leer más...</a> -->
+                    <a href="#" class="post-link">Leer más...</a>
                 </div>
             </article>
 
-            <!--Video 2-->
+            <!-Video 2
             <article class="post">
                 <div class="post-header">
                     <iframe class="video" src="https://www.youtube.com/embed/RgyYkH8EFAw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay;  clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
@@ -202,11 +202,11 @@
                     <span>14 septiembre, 2021 | Diseño Web</span>
                     <h2>Tutorial HTML</h2>
                     <p class="descripcion">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam doloribus iure quae numquam inventore excepturi quas, aliquam exercitationem repellat, reprehenderit sit temporibus odio saepe cum.</p>
-                    <!-- <a href="#" class="post-link">Leer más...</a> -->
+                    <a href="#" class="post-link">Leer más...</a>
                 </div>
             </article>
 
-            <!--Video 3-->
+            Video 3
             <article class="post">
                 <div class="post-header">
                     <iframe class="video" src="https://www.youtube.com/embed/RgyYkH8EFAw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay;  clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
@@ -215,11 +215,46 @@
                     <span>14 septiembre, 2021 | Diseño Web</span>
                     <h2>Tutorial HTML</h2>
                     <p class="descripcion">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam doloribus iure quae numquam inventore excepturi quas, aliquam exercitationem repellat, reprehenderit sit temporibus odio saepe cum.</p>
-                    <!-- <a href="#" class="post-link">Leer más...</a> -->
+                    <a href="#" class="post-link">Leer más...</a> 
                 </div>
             </article>
         </div>
-    </section>
+    </section>-->
+
+
+
+
+
+    <!--Videos de YouTube-->
+
+    <!--Contenedor-->
+    <div class="container">
+
+        <!--Tarjeta 1-->
+        <div class="card">
+            <iframe src="https://www.youtube.com/embed/f7pLXrH6yJs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <!-- <img src="img/DSC_5235.jpg"> -->
+            <h4>Circuito de MTB</h4>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda, at quibusdam!</p>
+        </div>
+
+        <!--Tarjeta 2-->
+        <div class="card">
+            <iframe src="https://www.youtube.com/embed/RgyYkH8EFAw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay;   clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <h4>Club C. Ballester 2019</h4>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda, at quibusdam!</p>
+        </div>
+
+        <!--Tarjeta 3-->
+        <div class="card">
+            <iframe src="https://www.youtube.com/embed/L56CYYguaEw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay;   clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <h4>Escuela de Ciclismo</h4>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda, at quibusdam!</p>
+        </div>
+
+    </div>
+
+
 
     <!--Incrustamos el código del botón de scroll_up-->
     <?php
