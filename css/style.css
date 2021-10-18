@@ -516,7 +516,7 @@ article img{
     background: url(../img/DSC_8181.jpg);
     width: 100%;
     height: 200px;
-    background-size: cover;    /*Toma la fota y la incrusta*/
+    background-size: cover;    /*Toma la foto y la incrusta*/
     background-position:center;
     transition: .2s;
 }
@@ -526,7 +526,7 @@ article img{
     background: url(../img/DSC_9147.jpg);
     width: 100%;
     height: 200px;
-    background-size: cover;    /*Toma la fota y la incrusta*/
+    background-size: cover;    /*Toma la foto y la incrusta*/
     background-position:center;
     transition: .2s;
 }
@@ -536,7 +536,7 @@ article img{
     background: url(../img/DSC_9349.jpg);
     width: 100%;
     height: 200px;
-    background-size: cover;    /*Toma la fota y la incrusta*/
+    background-size: cover;    /*Toma la foto y la incrusta*/
     background-position:center;
     transition: .2s;
 }
@@ -597,7 +597,10 @@ article img{
     background: #b71c1c;
     color: #fff;
     width: 50%;
-    margin: auto;   /*Lo alineamos al centro*/
+    /* margin: auto;   Lo alineamos al centro */
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 5px;
     border-radius: 20px;
     box-shadow: 1px 2px 6px 1px rgba(0,0,0,.1);
     transition: .2s;
@@ -633,6 +636,15 @@ article img{
     max-width: 1200px;
     height: 430px;
     display: flex;
+
+    /*Definimos e igualamos la estructura de las columnas de los posts
+    display: grid;
+    grid-template-columns: repeat(3,1fr);      /*Definimos 3 columnas, y cada una de ellas ocupará una fracción
+    gap: 50px;   /*Espacio definido entre cada columna*/
+    /*max-width: 1000px;      /*Definimos que ocupe toda la pantalla*/
+    /*margin: auto;           /*Alineamos las columnas al centro del contenedor*/
+
+
     flex-wrap: wrap;
     justify-content: center;
     margin-top: 75px;
@@ -641,6 +653,7 @@ article img{
     margin-right: auto;
     letter-spacing: 0.03em;
     line-height: 1.6;
+    position: relative;
 }
 
 /*Atributos de las tarjetas*/
@@ -685,6 +698,10 @@ article img{
     line-height: 1.5;
     margin-bottom: 20px;
 }
+
+/***********  RESPONSIVE DESIGN  **************/
+
+
 
 /*Atributos de los enlaces de cada tarjeta
 .container .card a{
@@ -875,7 +892,6 @@ footer{
     max-width: 350px;
     margin-top: 20px;
     font-weight: 700;
-    /*color: #B3B6B7 ;*/
     color: #616161;
     font-size: 18px;
 }
@@ -883,10 +899,7 @@ footer{
 /*Propiedades de todos los títulos "h2" de cada columna*/
 .box__footer h2{
     margin-bottom: 30px;
-    /*color:#ffee58;*/
-    /*color:#FFB300;*/
     color: #000;
-    /* font-weight: 500; */
     font-weight: bold;
 }
 
@@ -894,7 +907,6 @@ footer{
 
 .box__footer a{
     margin-top: 10px;
-    /*color: #B3B6B7;*/
     color: #616161;
     font-weight: 600;
 }
@@ -1212,7 +1224,9 @@ main{
     /*Mostramos la hamburguesa del menú lateral-vertical*/
     #icon-menu{
         display: flex;
+        margin-top: 2.8em;
     }
+
 
     /**** ATRIBUTOS DEL BOTÓN SUBIR PARA EL SCROLL ****/
 
@@ -1276,5 +1290,9 @@ main{
         position: relative;
     }
 } 
+
+
+
+
 
 

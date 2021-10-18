@@ -42,7 +42,7 @@
                         <li><a href="#"><i class="fas fa-biking"></i> Club</a></li>
                         <li><a href="escuela.php"><i class="fas fa-chalkboard-teacher"></i> Escuela</a></li>
                         <li><a href="#"><i class="fas fa-images"></i> Galería</a></li>
-                        <li><a href="#"><i class="fas fa-envelope"></i> Contáctanos</a></li>
+                        <li><a href="contacto.php"><i class="fas fa-envelope"></i> Contáctanos</a></li>
                         <li><a href="login-reg.php"><i class="fas fa-lock"></i> Entrar</a></li>
                     </ul>
                 </nav>
@@ -140,9 +140,9 @@
                     <div class="post-img-1"></div>
                 </div>
                 <div class="post-body">
-                    <span>14 septiembre, 2021 | Diseño Web</span>
-                    <h2>Tutorial HTML</h2>
-                    <p class="descripcion">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam doloribus iure quae numquam inventore excepturi quas, aliquam exercitationem repellat, reprehenderit sit temporibus odio saepe cum.</p>
+                    <span>14 septiembre, 2021</span>
+                    <h2>Gran resultado Liga Acentejo</h2>
+                    <p class="descripcion">Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique, cum facere unde voluptatem culpa praesentium.</p>
                     <a href="#" class="post-link">Leer más...</a>
                 </div>
             </article>
@@ -153,9 +153,9 @@
                     <div class="post-img-2"></div>
                 </div>
                 <div class="post-body">
-                    <span>1 septiembre, 2021 | Desarrollo Web</span>
-                    <h2>Lo nuevo en Django 2.x</h2>
-                    <p class="descripcion">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Similique dolor at praesentium laboriosam laborum nam ab quisquam quae, eveniet sed voluptate ipsam est ratione laudantium!</p>
+                    <span>1 septiembre, 2021</span>
+                    <h2>Próximas competiciones</h2>
+                    <p class="descripcion">Lorem ipsum dolor sit amet consectetur adipisicing elit. At consequuntur sint natus exercitationem aliquid doloribus!</p>
                     <a href="#" class="post-link">Leer más...</a>
                 </div>
             </article>
@@ -166,9 +166,9 @@
                     <div class="post-img-3"></div>
                 </div>
                 <div class="post-body">
-                    <span>28 agosto, 2021 | Diseño Web</span></br>
-                    <h2>Tres trucos para CSS3</h2>
-                    <p class="descripcion">Lorem ipsum dolor sit amet consectetur adipisicing elit. A sed perferendis placeat? Atque magni placeat optio, eum nobis illum voluptate ducimus eos vel accusamus ea.</p>
+                    <span>28 agosto, 2021</span></br>
+                    <h2>Protocolo COVID-19</h2>
+                    <p class="descripcion">Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro praesentium optio nisi adipisci quo non.</p>
                     <a href="#" class="post-link">Leer más...</a>
                 </div>
             </article>
@@ -251,6 +251,13 @@
             <h4>Escuela de Ciclismo</h4>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda, at quibusdam!</p>
         </div>
+
+    <div class="div_espaciador">
+            </br>
+            </br>
+            </br>
+            </br>
+    </div>
 
     </div>
 

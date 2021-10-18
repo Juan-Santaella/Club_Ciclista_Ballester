@@ -7,6 +7,7 @@ function mostrar_menu(){
     document.getElementById("show-menu").classList.toggle('show-lateral');
 }
 
+
 //Código para la funcionalidad del botón de subir para el scroll
 
 document.getElementById("button-up").addEventListener("click",scrollUp);
