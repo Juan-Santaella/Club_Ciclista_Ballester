@@ -389,6 +389,28 @@
     left: 0;
 }
 
+/*Portada de Club*/
+.container-cover-club{
+    width: 100%;
+    height: 650px;
+    position: relative;             /*Desplazará todo el contenido que esté debajo*/
+    margin-top: 5px;                      /*Continúa donde acaba el nav*/
+    background-image: url(../img/DSC_8266.jpg);
+    background-position: center;    /*Centra la imagen por todos lados*/
+    background-size: cover;         /*Cubrirá toda la portada*/
+    background-repeat: no-repeat;   /*No se va a repetir la imagen*/
+}
+
+.container-cover-club:before{
+    content: '';
+    width: 100%;
+    height: 100%;
+    background: rgba(26, 35, 126, .6);
+    position: absolute;             /*Para que se vea la capa*/
+    top: 0;
+    left: 0;
+}
+
 /*Portada de Escuela*/
 .container-cover-escuela{
     width: 100%;
@@ -1290,6 +1312,138 @@ main{
         position: relative;
     }
 } 
+
+
+/****** ATRIBUTOS DEL DISEÑO DE LAS TARJETAS CARD 3D ******/
+
+/*Atributos del contenedor general*/
+.container__org{
+    max-width: 1200px;
+    margin: auto;
+    margin-top: 100px;
+    perspective: 1000px;    /*Cambia la perspectiva de la tarjeta al girar*/
+    display: flex;
+    justify-content: center;
+    /* flex-wrap: wrap;        Hacemos que los contenedores sean "Responsive Design" */
+
+   
+}
+
+.enunciado{
+    /* display: flex;
+    justify-content: center;
+    align-content: center; 
+    margin: auto;*/
+}
+
+.enunciado span{
+    color: #b70e21;;
+}
+
+/*Atributos del contenedor padre*/
+.org__father{
+    margin: 20px;
+    perspective: 1000px;        /*Corregimos la perspectiva 3D del texto según posicionemos el contenedor, manteniéndola*/
+    -webkit-box-reflect: below 0 linear-gradient(transparent, transparent, rgba(0,0,0,0.2));
+}
+
+/*Atributos del giro de la tarjeta al pasar el puntero del ratón*/
+.org__father:hover .org{
+    transform: rotateY(180deg);
+}
+
+/*Atributos de las tarjetas*/
+.org{
+    width: 350px;
+    height: 400px;
+    position: relative;     /*Se juntan los contenidos en los contenedores padres*/
+    transform-style: preserve-3d;   /*Preservamos la vista en 3d de ambas caras*/
+    transition: all 600ms;          /*Establecemos el tiempo de transición de la perspectiva*/
+}
+
+/*Atributos de la cara frontal de las tarjetas*/
+.org__front{
+    background-size: cover;
+    background-position: center;
+}
+
+/*Atributos de las caras de las tarjetas*/
+.org__front,
+.org__back{
+    width: 100%;
+    height: 100%;
+    position: absolute;     /*Se juntan los contenidos en el contenedor general*/
+    top: 0;
+    left: 0;
+    backface-visibility: hidden;    /*Ocultamos la cara de la tarjeta*/
+    transform-style: preserve-3d;   /*Preservamos la vista en 3d de ambas caras*/
+    border-radius: 20px;
+}
+
+.org__back{
+    transform: rotateY(180deg);  /*Giramos el contenido de la cara trasera de la tarjeta, 180º*/
+    background: #a70404d8;
+}
+
+/*Atributos del contenido de la cara frontal de las tarjetas*/
+.body__org__front{
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    padding: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgba(235, 252, 4, 0.973);
+    transform: translateZ(60px);            /*Se saca el texto hacia adelante para darle efecto 3D*/
+    /*background: #fff;*/
+    /*transform: translateZ(60px);*/
+}
+
+/*Atributos del oscurecimiento del color del frontal de la tarjeta*/
+.bg{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: rgba(0, 0, 0, 0.4);
+    border-radius: 20px;
+}
+
+/*Atributos del contenido de la cara posterior de las tarjetas*/
+.body__org__back{
+    padding: 40px;
+    text-align: center;
+    color: rgba(235, 252, 4, 0.973);
+    transform: translateZ(60px);            /*Se saca el texto hacia adelante para darle efecto 3D*/
+}
+
+/*Atributos del párrafo de la cara posterior de las tarjetas*/
+.body__org__back p{
+    margin-top: 30px;
+    font-size: 18px;
+}
+
+/*Atributos del input de la cara posterior de las tarjetas*/
+.body__org__back input{
+    padding: 10px 40px;
+    margin-top: 30px;
+    font-size: 16px;
+    cursor: pointer;
+    border: none;
+    color: #fff;
+    font-weight: bold;
+    background: #000;
+    box-shadow: 1px 1px 30px -5px #566573 rgba(0, 0, 0, 0.5);
+    border-radius: 10px;
+    transition: box-shadow 600ms;
+}
+
+/*Atributos del efecto hover al pasar el cursor del ratón por encima*/
+.body__org__back input:hover{
+    box-shadow: 1px 1px 30px -5px #000;
+}
 
 
 

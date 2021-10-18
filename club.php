@@ -38,8 +38,8 @@
                 <nav>
                     <ul>
                         <li><a href="index.php"><i class="fas fa-home"></i> Inicio</a></li>
-                        <li><a href="club.php"><i class="fas fa-biking"></i> Club</a></li>
-                        <li class="menu-selected"><a href="escuela.php" class="text-menu-selected"><i class="fas fa-chalkboard-teacher"></i> Escuela</a></li>
+                        <li class="menu-selected"><a href="club.php" class="text-menu-selected"><i class="fas fa-biking"></i> Club</a></li>
+                        <li><a href="escuela.php"><i class="fas fa-chalkboard-teacher"></i> Escuela</a></li>
                         <li><a href="#"><i class="fas fa-images"></i> Galería</a></li>
                         <li><a href="contacto.php"><i class="fas fa-envelope"></i> Contáctanos</a></li>
                         <li><a href="login-reg.php"><i class="fas fa-lock"></i> Entrar</a></li>
@@ -60,15 +60,109 @@
 
     <div class="container-all" id="move-content">
 
-    <div class="container-cover-escuela">
+    <div class="container-cover-club">
         <div class="container-info-cover">
-            <h1> Escuela de Ciclismo </h1>  
+            <h1> Bienvenidos a nuestro Club </h1>  
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus quae ducimus mollitia velit beatae nesciunt!</p>
         </div>
     </div>
 
     <!-- Artículo -->
     <div class="container-content">
+
+        <!--Organigrama-->
+        <!-- <h1 class="enunciado">Organigrama del Club Ciclista <span>Ballester</span></h1> -->
+        <h1>Organigrama del Club Cilista Ballester</h1>
+
+        <!--Contenedor principal-->
+        <main>
+        <!--Contenedor de las tarjetas-->
+        <div class="container__org">
+
+            <!--Primera tarjeta-->
+            <!--Contenedor padre-->
+            <div class="org__father">
+                <!--Contenedor de las tarjetas-->
+                <div class="org">
+                    <!--Contenedor de la parte frontal de la tarjeta-->
+                    <div class="org__front" style="background-image: url(img/DSC_7372.jpg);">
+                        <div class="bg"></div>
+                        <!--Contenedor del cuerpo del frontal de la tarjeta-->
+                        <div class="body__org__front">
+                            <h1>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ullam, quia.</h1>
+                        </div>
+
+                    </div>
+                    <!--Contenedor de la parte posterior de la tarjeta-->
+                    <div class="org__back">
+                        <!--Contenedor del cuerpo de la zona posterior de la tarjeta-->
+                        <div class="body__org__back">
+                            <h1>El CLUB</h1>
+                            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aspernatur aperiam illum incidunt praesentium expedita ullam doloremque placeat dolores eaque veritatis possimus in consequuntur eum, tempora nobis quo, ipsum tenetur ipsa?</p>
+                            <input type="button" value="Leer más">
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+
+            <!--Segunda tarjeta-->
+            <!--Contenedor padre-->
+            <div class="org__father">
+                <!--Contenedor de las tarjetas-->
+                <div class="org">
+                    <!--Contenedor de la parte frontal de la tarjeta-->
+                    <div class="org__front" style="background-image: url(img/DSC_6526.jpg);">
+                        <div class="bg"></div>
+                        <!--Contenedor del cuerpo del frontal de la tarjeta-->
+                        <div class="body__org__front">
+                            <h1>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ullam, quia.</h1>
+                        </div>
+
+                    </div>
+                    <!--Contenedor de la parte posterior de la tarjeta-->
+                    <div class="org__back">
+                        <!--Contenedor del cuerpo de la zona posterior de la tarjeta-->
+                        <div class="body__org__back">
+                            <h1>PRUEBAS</h1>
+                            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aspernatur aperiam illum incidunt praesentium expedita ullam doloremque placeat dolores eaque veritatis possimus in consequuntur eum, tempora nobis quo, ipsum tenetur ipsa?</p>
+                            <input type="button" value="Leer más">
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+
+            <!--Tercera tarjeta-->
+            <!--Contenedor padre-->
+            <div class="org__father">
+                <!--Contenedor de las tarjetas-->
+                <div class="org">
+                    <!--Contenedor de la parte frontal de la tarjeta-->
+                    <div class="org__front" style="background-image: url(img/DSC_7559.jpg);">
+                        <div class="bg"></div>
+                        <!--Contenedor del cuerpo del frontal de la tarjeta-->
+                        <div class="body__org__front">
+                            <h1>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ullam, quia.</h1>
+                        </div>
+
+                    </div>
+                    <!--Contenedor de la parte posterior de la tarjeta-->
+                    <div class="org__back">
+                        <!--Contenedor del cuerpo de la zona posterior de la tarjeta-->
+                        <div class="body__org__back">
+                            <h1>PREPARACIÓN</h1>
+                            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aspernatur aperiam illum incidunt praesentium expedita ullam doloremque placeat dolores eaque veritatis possimus in consequuntur eum, tempora nobis quo, ipsum tenetur ipsa?</p>
+                            <input type="button" value="Leer más">
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div> 
+
+
+        <!--Artículo-->
         <article>
 
             <h1>Título del artículo</h1>
