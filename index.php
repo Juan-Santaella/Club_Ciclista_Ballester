@@ -70,64 +70,57 @@
         </div>
     </div> -->
 
-     <!--Slideshow-->
 
-        <div class="slider">
-	    	<!-- fade css -->
-	    	<div class="myslide fade">
-	    		<div class="txt">
-	    			<h1>IMAGE 1</h1>
-	    			<p>Web Devoloper<br>Subscribe To My Channel For More Videos</p>
-	    		</div>
-	    		<img src="img/DSC_8181.jpg" class="img_zoom" style=%;" alt="Club Ciclista Ballester">
-	    	</div>
-    
-	    	<div class="myslide fade">
-	    		<div class="txt">
-	    			<h1>IMAGE 2</h1>
-	    			<p>Web Devoloper<br>Subscribe To My Channel For More Videos</p>
-	    		</div>
-	    		<img src="img/DSC_8191.jpg" class="img_zoom" style=%;" alt="Recibiendo instrucciones">
-	    	</div>
-    
-	    	<div class="myslide fade">
-	    		<div class="txt">
-	    			<h1>IMAGE 3</h1>
-	    			<p>Web Devoloper<br>Subscribe To My Channel For More Videos</p>
-	    		</div>
-	    		<img src="img/DSC_9147.jpg" class="img_zoom" style=%;" alt="Carpa Club Ciclista Ballester">
-	    	</div>
-    
-	    	<div class="myslide fade">
-	    		<div class="txt">
-	    			<h1>IMAGE 4</h1>
-	    			<p>Web Devoloper<br>Subscribe To My Channel For More Videos</p>
-	    		</div>
-	    		<img src="img/DSC_9162.jpg" class="img_zoom" style=%;" alt="Corredores del Club Ciclista Ballester">
-	    	</div>
-    
-	    	<div class="myslide fade">
-	    		<div class="txt">
-	    			<h1>IMAGE 5</h1>
-	    			<p>Web Devoloper<br>Subscribe To My Channel For More Videos</p>
-	    		</div>
-	    		<img src="img/DSC_9662.jpg" class="img_zoom" style=%;" alt="Escuela de Ciclismo">
-	    	</div>
-	    	<!--fade css -->
-    
-	    	<!-- onclick js -->
-	    	<a class="prev" onclick="plusSlides(-1)">&#10094;</a>
-  	    	<a class="next" onclick="plusSlides(1)">&#10095;</a>
-    
-	    	<div class="dotsbox" style="text-align:center">
-	    		<span class="dot" onclick="currentSlide(1)"></span>
-	    		<span class="dot" onclick="currentSlide(2)"></span>
-	    		<span class="dot" onclick="currentSlide(3)"></span>
-	    		<span class="dot" onclick="currentSlide(4)"></span>
-	    		<span class="dot" onclick="currentSlide(5)"></span>
-	    	</div>
-	    	<!-- /onclick js -->
-	    </div>
+    <!-------------------------  SLIDESHOW  --------------------------->
+
+    <div class="slideshow">
+
+        <!--Slide 1-->
+        <div class="slideshow-item">
+            <img src="img/DSC_8181.jpg" alt="Club Ballester posando">
+            <div class="slideshow-item-text">
+                <h5>Club Ciclista Ballester</h5>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad excepturi consequatur unde accusantium magnam alias! Praesentium, iusto, facere libero itaque commodi ipsam hic magni nemo temporibus molestiae laborum nam. Doloremque temporibus itaque velit voluptas! Nulla modi praesentium cumque vel aliquid?</p>
+            </div>
+        </div>
+
+        <!--Slide 2-->
+        <div class="slideshow-item">
+            <img src="img/DSC_7259.jpg" alt="Circuito Punta Larga">
+            <div class="slideshow-item-text">
+                <h5>Circuito de MTB de Punta Larga, Candelaria</h5>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad excepturi consequatur unde accusantium magnam alias! Praesentium, iusto, facere libero itaque commodi ipsam hic magni nemo temporibus molestiae laborum nam. Doloremque temporibus itaque velit voluptas! Nulla modi praesentium cumque vel aliquid?</p>
+            </div>
+        </div>
+
+        <!--Slide 3-->
+        <div class="slideshow-item">
+            <img src="img/DSC_8266.jpg" alt="Club Ballester posando">
+            <div class="slideshow-item-text">
+                <h5>Club Ciclista Ballester</h5>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad excepturi consequatur unde accusantium magnam alias! Praesentium, iusto, facere libero itaque commodi ipsam hic magni nemo temporibus molestiae laborum nam. Doloremque temporibus itaque velit voluptas! Nulla modi praesentium cumque vel aliquid?</p>
+            </div>
+        </div>
+
+        <!--Slide 4-->
+        <div class="slideshow-item">
+            <img src="img/DSC_8266.jpg" alt="Club Ballester posando">
+            <div class="slideshow-item-text">
+                <h5>Club Ciclista Ballester</h5>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad excepturi consequatur unde accusantium magnam alias! Praesentium, iusto, facere libero itaque commodi ipsam hic magni nemo temporibus molestiae laborum nam. Doloremque temporibus itaque velit voluptas! Nulla modi praesentium cumque vel aliquid?</p>
+            </div>
+        </div>
+
+        <!--Slide 5-->
+        <div class="slideshow-item">
+            <img src="img/DSC_8266.jpg" alt="Club Ballester posando">
+            <div class="slideshow-item-text">
+                <h5>Club Ciclista Ballester</h5>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad excepturi consequatur unde accusantium magnam alias! Praesentium, iusto, facere libero itaque commodi ipsam hic magni nemo temporibus molestiae laborum nam. Doloremque temporibus itaque velit voluptas! Nulla modi praesentium cumque vel aliquid?</p>
+            </div>
+        </div>
+
+    </div>
 
     <!-- Publicaciones Responsivas (Noticias) -->
 

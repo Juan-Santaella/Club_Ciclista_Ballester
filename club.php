@@ -62,43 +62,39 @@
 
     <div class="container-cover-club">
         <div class="container-info-cover">
-            <h1> Bienvenidos a nuestro Club </h1>  
+            <h1> Nuestro Club </h1>  
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus quae ducimus mollitia velit beatae nesciunt!</p>
         </div>
     </div>
 
-    <!-- Artículo -->
-    <div class="container-content">
+    <!--Tarjetas 3D-->
 
-        <!--Organigrama-->
-        <!-- <h1 class="enunciado">Organigrama del Club Ciclista <span>Ballester</span></h1> -->
-        <h1>Organigrama del Club Cilista Ballester</h1>
-
-        <!--Contenedor principal-->
-        <main>
+    <!-- Primer contenedor -->
+    <div>
         <!--Contenedor de las tarjetas-->
-        <div class="container__org">
+        <div class="container__card">
 
             <!--Primera tarjeta-->
             <!--Contenedor padre-->
-            <div class="org__father">
+            <div class="card__father">
                 <!--Contenedor de las tarjetas-->
-                <div class="org">
+                <div class="card">
                     <!--Contenedor de la parte frontal de la tarjeta-->
-                    <div class="org__front" style="background-image: url(img/DSC_7372.jpg);">
+                    <div class="card__front" style="background-image: url(img/Antonio.png);">
                         <div class="bg"></div>
                         <!--Contenedor del cuerpo del frontal de la tarjeta-->
-                        <div class="body__org__front">
-                            <h1>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ullam, quia.</h1>
+                        <div class="body__card__front">
+                            <h1>Antonio Sánchez</h1>
+                            <!-- <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vitae, iure!</p> -->
                         </div>
 
                     </div>
                     <!--Contenedor de la parte posterior de la tarjeta-->
-                    <div class="org__back">
+                    <div class="card__back">
                         <!--Contenedor del cuerpo de la zona posterior de la tarjeta-->
-                        <div class="body__org__back">
-                            <h1>El CLUB</h1>
-                            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aspernatur aperiam illum incidunt praesentium expedita ullam doloremque placeat dolores eaque veritatis possimus in consequuntur eum, tempora nobis quo, ipsum tenetur ipsa?</p>
+                        <div class="body__card__back">
+                            <h1>Director Deportivo</h1>
+                            <!-- <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum, veniam voluptas ex aliquam beatae dolore!</p> -->
                             <input type="button" value="Leer más">
                         </div>
 
@@ -108,24 +104,25 @@
 
             <!--Segunda tarjeta-->
             <!--Contenedor padre-->
-            <div class="org__father">
+            <div class="card__father">
                 <!--Contenedor de las tarjetas-->
-                <div class="org">
+                <div class="card">
                     <!--Contenedor de la parte frontal de la tarjeta-->
-                    <div class="org__front" style="background-image: url(img/DSC_6526.jpg);">
+                    <div class="card__front" style="background-image: url(img/Ana.png);">
                         <div class="bg"></div>
                         <!--Contenedor del cuerpo del frontal de la tarjeta-->
-                        <div class="body__org__front">
-                            <h1>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ullam, quia.</h1>
+                        <div class="body__card__front">
+                            <h1>Ana Belén Mesa</h1>
+                            <!-- <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vitae, iure!</p> -->
                         </div>
 
                     </div>
                     <!--Contenedor de la parte posterior de la tarjeta-->
-                    <div class="org__back">
+                    <div class="card__back">
                         <!--Contenedor del cuerpo de la zona posterior de la tarjeta-->
-                        <div class="body__org__back">
-                            <h1>PRUEBAS</h1>
-                            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aspernatur aperiam illum incidunt praesentium expedita ullam doloremque placeat dolores eaque veritatis possimus in consequuntur eum, tempora nobis quo, ipsum tenetur ipsa?</p>
+                        <div class="body__card__back">
+                            <h1>Directora Deportiva</h1>
+                            <!-- <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum, veniam voluptas ex aliquam beatae dolore!</p> -->
                             <input type="button" value="Leer más">
                         </div>
 
@@ -135,43 +132,165 @@
 
             <!--Tercera tarjeta-->
             <!--Contenedor padre-->
-            <div class="org__father">
+            <div class="card__father">
                 <!--Contenedor de las tarjetas-->
-                <div class="org">
+                <div class="card">
                     <!--Contenedor de la parte frontal de la tarjeta-->
-                    <div class="org__front" style="background-image: url(img/DSC_7559.jpg);">
+                    <div class="card__front" style="background-image: url(img/Sergio.png);">
                         <div class="bg"></div>
                         <!--Contenedor del cuerpo del frontal de la tarjeta-->
-                        <div class="body__org__front">
-                            <h1>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ullam, quia.</h1>
+                        <div class="body__card__front">
+                            <h1>Sergio González</h1>
+                            <!-- <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vitae, iure!</p> -->
                         </div>
 
                     </div>
                     <!--Contenedor de la parte posterior de la tarjeta-->
-                    <div class="org__back">
+                    <div class="card__back">
                         <!--Contenedor del cuerpo de la zona posterior de la tarjeta-->
-                        <div class="body__org__back">
-                            <h1>PREPARACIÓN</h1>
-                            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aspernatur aperiam illum incidunt praesentium expedita ullam doloremque placeat dolores eaque veritatis possimus in consequuntur eum, tempora nobis quo, ipsum tenetur ipsa?</p>
+                        <div class="body__card__back">
+                            <h1>Director Deportivo</h1>
+                            <!-- <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum, veniam voluptas ex aliquam beatae dolore!</p> -->
                             <input type="button" value="Leer más">
                         </div>
 
                     </div>
                 </div>
             </div>
-        </div> 
+        </div>
+    </div>
 
+    <!-- Segundo contenedor -->
+    <div>
+        <!--Contenedor de las tarjetas-->
+        <div class="container__card">
 
-        <!--Artículo-->
+            <!--Primera tarjeta-->
+            <!--Contenedor padre-->
+            <div class="card__father">
+                <!--Contenedor de las tarjetas-->
+                <div class="card">
+                    <!--Contenedor de la parte frontal de la tarjeta-->
+                    <div class="card__front" style="background-image: url(img/road-cycling.png);">
+                        <div class="bg"></div>
+                        <!--Contenedor del cuerpo del frontal de la tarjeta-->
+                        <div class="body__card__front">
+                            <h1>Josué Sánchez</h1>
+                            <!-- <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vitae, iure!</p> -->
+                        </div>
+
+                    </div>
+                    <!--Contenedor de la parte posterior de la tarjeta-->
+                    <div class="card__back">
+                        <!--Contenedor del cuerpo de la zona posterior de la tarjeta-->
+                        <div class="body__card__back">
+                            <h1>Director Deportivo</h1>
+                            <!-- <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum, veniam voluptas ex aliquam beatae dolore!</p> -->
+                            <input type="button" value="Leer más">
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+
+            <!--Segunda tarjeta-->
+            <!--Contenedor padre-->
+            <div class="card__father">
+                <!--Contenedor de las tarjetas-->
+                <div class="card">
+                    <!--Contenedor de la parte frontal de la tarjeta-->
+                    <div class="card__front" style="background-image: url(img/road-cycling.png);">
+                        <div class="bg"></div>
+                        <!--Contenedor del cuerpo del frontal de la tarjeta-->
+                        <div class="body__card__front">
+                            <h1>Rubén Domínguez</h1>
+                            <!-- <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vitae, iure!</p> -->
+                        </div>
+
+                    </div>
+                    <!--Contenedor de la parte posterior de la tarjeta-->
+                    <div class="card__back">
+                        <!--Contenedor del cuerpo de la zona posterior de la tarjeta-->
+                        <div class="body__card__back">
+                            <h1>Director Deportivo</h1>
+                            <!-- <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum, veniam voluptas ex aliquam beatae dolore!</p> -->
+                            <input type="button" value="Leer más">
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+
+            <!--Tercera tarjeta-->
+            <!--Contenedor padre-->
+            <div class="card__father">
+                <!--Contenedor de las tarjetas-->
+                <div class="card">
+                    <!--Contenedor de la parte frontal de la tarjeta-->
+                    <div class="card__front" style="background-image: url(img/road-cycling.png);">
+                        <div class="bg"></div>
+                        <!--Contenedor del cuerpo del frontal de la tarjeta-->
+                        <div class="body__card__front">
+                            <h1>Tomás Ramos</h1>
+                            <!-- <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vitae, iure!</p> -->
+                        </div>
+
+                    </div>
+                    <!--Contenedor de la parte posterior de la tarjeta-->
+                    <div class="card__back">
+                        <!--Contenedor del cuerpo de la zona posterior de la tarjeta-->
+                        <div class="body__card__back">
+                            <h1>Director Deportivo</h1>
+                            <!-- <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum, veniam voluptas ex aliquam beatae dolore!</p> -->
+                            <input type="button" value="Leer más">
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+
+            <!--Cuarta tarjeta-->
+            <!--Contenedor padre-->
+            <div class="card__father">
+                <!--Contenedor de las tarjetas-->
+                <div class="card">
+                    <!--Contenedor de la parte frontal de la tarjeta-->
+                    <div class="card__front" style="background-image: url(img/road-cycling.png);">
+                        <div class="bg"></div>
+                        <!--Contenedor del cuerpo del frontal de la tarjeta-->
+                        <div class="body__card__front">
+                            <h1>Héctor Marrero</h1>
+                            <!-- <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vitae, iure!</p> -->
+                        </div>
+
+                    </div>
+                    <!--Contenedor de la parte posterior de la tarjeta-->
+                    <div class="card__back">
+                        <!--Contenedor del cuerpo de la zona posterior de la tarjeta-->
+                        <div class="body__card__back">
+                            <h1>Director Deportivo</h1>
+                            <!-- <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum, veniam voluptas ex aliquam beatae dolore!</p> -->
+                            <input type="button" value="Leer más">
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <!-- Artículo -->
+    <div class="container-content">
         <article>
 
-            <h1>Título del artículo</h1>
+            <h1>Mucho más qué un Club</h1>
 
             <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sit non dolores consectetur, quas qui laboriosam! Similique aliquam deserunt soluta porro culpa at itaque eos ipsam molestiae dolorum dolore voluptas optio cupiditate omnis, explicabo aperiam saepe ex aut! Commodi aspernatur aliquam adipisci recusandae, facilis autem error delectus soluta accusantium quae totam quam. Ex eveniet corporis facere aspernatur nisi laudantium perferendis inventore? Necessitatibus nihil quos temporibus qui dolores commodi ipsam aperiam, dolor, minus totam modi perspiciatis ut corporis nesciunt doloremque nemo, nulla adipisci voluptatibus. Officiis repudiandae, numquam totam dignissimos, animi assumenda perspiciatis obcaecati dolore, recusandae veniam incidunt aut unde laboriosam qui fugit cum quod deserunt autem dolor explicabo dicta provident quo similique! Rem eveniet deleniti, dolorem ullam corporis necessitatibus illum rerum ducimus molestias eum nihil porro exercitationem sed laboriosam numquam voluptates accusantium debitis voluptatum? Molestias quia sed modi doloribus, possimus aut ratione numquam nulla id minus cupiditate ad error velit unde tenetur recusandae eius dolores? Magni pariatur sint animi nostrum provident, corporis vitae possimus veritatis minima incidunt perspiciatis accusamus, corrupti autem doloribus dolore velit! Tenetur sint quam autem voluptate voluptates velit nostrum fugit doloribus iusto eligendi aut inventore, nobis nulla, totam libero aspernatur veritatis consequuntur. Atque ab aliquam necessitatibus? Laborum id veniam officia ex vitae pariatur amet magnam, reprehenderit tenetur provident molestiae error. Necessitatibus nostrum assumenda totam delectus, dolorum molestiae quos earum sunt neque tempora, illo fuga id sed temporibus magni dicta alias iusto unde cumque eum quasi soluta repellendus autem. Voluptatum a quibusdam voluptatibus nihil, optio assumenda ratione voluptas. Minima pariatur eius fuga doloribus, earum dolorem vitae recusandae sed, facere tempora alias suscipit perspiciatis atque, ipsa aut voluptatem non ipsum? Fugiat in itaque repudiandae totam, sunt, iure recusandae beatae nesciunt laudantium cum similique asperiores culpa quis voluptatum, illo praesentium dolorem libero labore nihil blanditiis a! Porro officia perspiciatis quas magnam excepturi.</p>
 
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque modi delectus fugit impedit. Adipisci blanditiis harum corporis atque omnis reprehenderit animi ratione, culpa vitae unde fuga neque et enim quae a consectetur velit voluptatibus suscipit dignissimos, tempore cum doloribus veniam doloremque vel! Perferendis quo, quos deleniti ipsa, quam minus officia molestiae numquam nobis nulla voluptate dicta! Iure deleniti ullam accusamus eos suscipit eaque, amet laborum quidem, ut, exercitationem architecto corporis voluptatum? Quisquam velit, nesciunt incidunt reiciendis nisi cupiditate iure iste quas placeat inventore similique asperiores, voluptas quis sequi repellat? Laboriosam odio quisquam ex voluptate doloremque explicabo optio sequi non nemo debitis enim quibusdam sapiente reprehenderit deleniti provident ea temporibus ratione, quo hic, pariatur eum autem vitae, earum voluptatem? Ducimus suscipit distinctio rerum aperiam? Voluptatum rem sit facere deleniti, tenetur maxime. Dolore illum veniam consectetur ullam obcaecati, consequuntur nihil magni dolorum laborum minima ipsum, impedit ipsam voluptatum voluptates, iure quos necessitatibus.</p>
 
-                <h1>Subtítulo del artículo</h1>
+                <h1>Desarrollando unos valores</h1>
 
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod, sapiente velit. Voluptatibus nulla incidunt dignissimos ullam asperiores, suscipit quae non unde doloribus aperiam. In quis molestiae recusandae unde iusto ex doloribus sed excepturi sint, mollitia quam dicta tenetur aliquid maiores quod officia, quia suscipit sapiente sequi assumenda odio consectetur deleniti, provident expedita. Nam natus ipsam ut maiores, nobis quod libero! Aliquam ipsam accusantium fuga iusto ab delectus qui officia esse repellat, ratione debitis deserunt cupiditate quos! Aliquid corporis ipsam dolor sit nihil sunt quam nisi nulla, ea blanditiis, eos repudiandae officiis quia. Iste explicabo fugit dolore eos eius minus id iure blanditiis, soluta, mollitia ipsam, consequuntur voluptas odit reprehenderit repellendus dolorum veritatis! Amet magni asperiores harum, minima quod nemo quisquam optio minus fugiat omnis itaque? Fugiat doloremque, molestias laudantium iste aut repellendus. Quidem corporis placeat consequatur incidunt dolorum id! Optio ab error sapiente asperiores consectetur quos, enim culpa voluptates tenetur et similique blanditiis aut debitis ea. Repellendus itaque asperiores tempore. Unde quae, inventore quibusdam reiciendis consequuntur facere magnam deserunt repellat possimus iure fugit in numquam, quam similique ea cumque voluptatibus accusantium atque optio at ullam velit quis, perspiciatis doloribus! Suscipit animi libero ducimus explicabo hic error eveniet. Sapiente, ex quis!</p>
 
