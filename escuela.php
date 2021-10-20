@@ -40,7 +40,7 @@
                         <li><a href="index.php"><i class="fas fa-home"></i> Inicio</a></li>
                         <li><a href="club.php"><i class="fas fa-biking"></i> Club</a></li>
                         <li class="menu-selected"><a href="escuela.php" class="text-menu-selected"><i class="fas fa-chalkboard-teacher"></i> Escuela</a></li>
-                        <li><a href="#"><i class="fas fa-images"></i> Galería</a></li>
+                        <li><a href="galeria.php"><i class="fas fa-images"></i> Galería</a></li>
                         <li><a href="contacto.php"><i class="fas fa-envelope"></i> Contáctanos</a></li>
                         <li><a href="login-reg.php"><i class="fas fa-lock"></i> Entrar</a></li>
                     </ul>
@@ -81,7 +81,7 @@
 
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod, sapiente velit. Voluptatibus nulla incidunt dignissimos ullam asperiores, suscipit quae non unde doloribus aperiam. In quis molestiae recusandae unde iusto ex doloribus sed excepturi sint, mollitia quam dicta tenetur aliquid maiores quod officia, quia suscipit sapiente sequi assumenda odio consectetur deleniti, provident expedita. Nam natus ipsam ut maiores, nobis quod libero! Aliquam ipsam accusantium fuga iusto ab delectus qui officia esse repellat, ratione debitis deserunt cupiditate quos! Aliquid corporis ipsam dolor sit nihil sunt quam nisi nulla, ea blanditiis, eos repudiandae officiis quia. Iste explicabo fugit dolore eos eius minus id iure blanditiis, soluta, mollitia ipsam, consequuntur voluptas odit reprehenderit repellendus dolorum veritatis! Amet magni asperiores harum, minima quod nemo quisquam optio minus fugiat omnis itaque? Fugiat doloremque, molestias laudantium iste aut repellendus. Quidem corporis placeat consequatur incidunt dolorum id! Optio ab error sapiente asperiores consectetur quos, enim culpa voluptates tenetur et similique blanditiis aut debitis ea. Repellendus itaque asperiores tempore. Unde quae, inventore quibusdam reiciendis consequuntur facere magnam deserunt repellat possimus iure fugit in numquam, quam similique ea cumque voluptatibus accusantium atque optio at ullam velit quis, perspiciatis doloribus! Suscipit animi libero ducimus explicabo hic error eveniet. Sapiente, ex quis!</p>
 
-                <img src="img/DSC_8181.jpg" alt="Club Ciclista Ballester posando">
+                <img src="img/DSC_9751.jpg" alt="Club Ciclista Ballester posando">
 
                 <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Et tempora quas temporibus, neque libero vitae nam! Hic similique voluptatum error molestiae est magnam numquam officia eos officiis, tempora inventore unde omnis molestias corrupti, labore consequatur dolorum debitis iste culpa, odit voluptatem non libero! Nam repudiandae assumenda enim obcaecati minus sint adipisci commodi, ex numquam debitis libero esse aperiam laborum autem accusantium ad. Exercitationem, repudiandae doloribus est quae blanditiis soluta nam et distinctio incidunt aut illo veniam atque sapiente totam eum vel odio, iusto velit. Minus doloribus sint illo officia aliquid vel. Non doloremque odit, fugiat error blanditiis soluta nostrum veniam?</p>
 

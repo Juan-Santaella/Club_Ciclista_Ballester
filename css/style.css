@@ -159,7 +159,6 @@
 
 /*************  SLIDER  *************/
 
-
 .slideshow{
     width: 100%;
     height: 60vh;
@@ -198,29 +197,19 @@
     animation-delay: 20s;
 }
 
-.slideshow-item:nth-child(4),
-.slideshow-item:nth-child(4) img{
-    animation-delay: 20s;
-}
-
-.slideshow-item:nth-child(5),
-.slideshow-item:nth-child(5) img{
-    animation-delay: 20s;
-}
-
 .slideshow-item-text{
-    max-width: 40%;
+    max-width: 50%;
     position: absolute;
-    top: 50%;
+    top: 28%;
     left: 0;
     transform: translateY(-50%);
-    background-color: rgba(0,0,0,.7);
+    background-color: rgba(0,0,0,.8);
     color:#fff;
-    padding: 5rem;
+    padding: 5rem 4rem;
 }
 
 .slideshow-item-text h5{
-    font-size: 25px;
+    font-size: 1.5rem;
     font-family: 'Open Sans',sans-serif;
     text-transform: uppercase;
     letter-spacing: 3px;
@@ -228,10 +217,14 @@
 }
 
 .slideshow-item-text p{
-    font-size: 20px;
+    font-size: 1rem;
     font-family: 'Open Sans',sans-serif;
     letter-spacing: 1px;
     font-weight: 300;
+}
+
+.slideshow-item-text span{
+    color: #b71c1c;
 }
 
 /**** Animaciones ****/
@@ -254,6 +247,7 @@
 
 
 /****************************************   RESPONSIVE DESIGN  ***************************************/
+
 
 @media screen and (max-width: 1000px){
     .slideshow-item-text{
@@ -283,7 +277,6 @@
         font-size: 1.4rem;
     }
 }
-
 
 
 /************** PORTADAS ****************/
@@ -338,13 +331,35 @@
     height: 650px;
     position: relative;             /*Desplazará todo el contenido que esté debajo*/
     margin-top: 5px;                      /*Continúa donde acaba el nav*/
-    background-image: url(../img/DSC_9662.jpg);
+    background-image: url(../img/DSC_8859.jpg);
     background-position: center;    /*Centra la imagen por todos lados*/
     background-size: cover;         /*Cubrirá toda la portada*/
     background-repeat: no-repeat;   /*No se va a repetir la imagen*/
 }
 
 .container-cover-escuela:before{
+    content: '';
+    width: 100%;
+    height: 100%;
+    background: rgba(26, 35, 126, .6);
+    position: absolute;             /*Para que se vea la capa*/
+    top: 0;
+    left: 0;
+}
+
+/*Portada de Escuela*/
+.container-cover-galeria{
+    width: 100%;
+    height: 650px;
+    position: relative;             /*Desplazará todo el contenido que esté debajo*/
+    margin-top: 5px;                      /*Continúa donde acaba el nav*/
+    background-image: url(../img/DSC_9147.jpg);
+    background-position: center;    /*Centra la imagen por todos lados*/
+    background-size: cover;         /*Cubrirá toda la portada*/
+    background-repeat: no-repeat;   /*No se va a repetir la imagen*/
+}
+
+.container-cover-galeria:before{
     content: '';
     width: 100%;
     height: 100%;
@@ -449,8 +464,7 @@ article img{
     grid-template-columns: repeat(3,1fr);      /*Definimos 3 columnas, y cada una de ellas ocupará una fracción*/
     gap: 50px;   /*Espacio definido entre cada columna*/
     max-width: 1000px;      /*Definimos que ocupe toda la pantalla*/
-    margin: auto;           /*Alineamos las columnas al centro del contenedor*/
-    
+    margin: auto;           /*Alineamos las columnas al centro del contenedor */
 }
 
 /*Agregamos las imágenes a las publicaciones*/
@@ -561,6 +575,7 @@ article img{
 @media(max-width:840px){
     .content{
         grid-template-columns: repeat(2, 1fr);  /*Con el responsive design se pasan a 2 columnas que ocupan una fracción*/
+        
     }
 }
 
@@ -580,18 +595,19 @@ article img{
     max-width: 1200px;
     height: 430px;
     /**********************************/
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
+    
+    /* justify-content: center;
+    flex-wrap: wrap; */
 
     /*Definimos e igualamos la estructura de las columnas de los posts
     display: grid;
     grid-template-columns: repeat(3,1fr);      /*Definimos 3 columnas, y cada una de ellas ocupará una fracción
-    gap: 50px;   /*Espacio definido entre cada columna*/
-    /*max-width: 1000px;      /*Definimos que ocupe toda la pantalla*/
-    /*margin: auto;           /*Alineamos las columnas al centro del contenedor*/
+    justify-content: center;
+    gap: 50px;   /*Espacio definido entre cada columna
+    max-width: 1000px;      /*Definimos que ocupe toda la pantalla
+    margin: auto;           /*Alineamos las columnas al centro del contenedor*/
 
-
+    display: flex;
     flex-wrap: wrap;
     justify-content: center;
     margin-top: 75px;
@@ -600,7 +616,7 @@ article img{
     margin-right: auto;
     letter-spacing: 0.03em;
     line-height: 1.6;
-    position: relative;
+    position: relative; 
 }
 
 /*Atributos de las tarjetas*/
@@ -647,7 +663,6 @@ article img{
 }
 
 /***********  RESPONSIVE DESIGN  **************/
-
 
 
 /*Atributos de los enlaces de cada tarjeta
@@ -807,6 +822,9 @@ footer{
     background-color: #eeeeee;
     background-size: cover;
     /*color: #fff;*/
+    position: relative;
+    display: block;
+    top: 15px;
 }
 
 /*Atributos del contenedor del footer*/
@@ -816,7 +834,7 @@ footer{
     justify-content: space-between;  /*Para que las columnas ocupen el espacio completo del foooter*/ 
     max-width: 1200px;
     margin: auto;           /*Se centra el contenedor del footer*/
-    margin-top: 5px;
+    /* margin-top: 5px; */
 }
 
 /*Atributos de las columnas de las diferentes secciones*/
@@ -1385,6 +1403,52 @@ main{
 /*Atributos del efecto hover al pasar el cursor del ratón por encima*/
 .body__card__back input:hover{
     box-shadow: 1px 1px 30px -5px #000;
+}
+
+
+/***************************************  GALERÍA DE FOTOGRAFÍAS CON LIGHTBOX  *************************************/
+
+/* .titulo{
+    font-size: 55px;
+    text-transform: uppercase;
+    letter-spacing: 7px;
+} */
+
+.galeria img{
+    box-shadow: 0 8px 10px -4px rgba(0,0,0,.6);
+    border-radius: 15px;
+}
+
+.materialbox-caption{
+    bottom: 30px;
+    right: 0;
+    width: 40%;
+    height: auto;
+    padding: 10px;
+    margin: auto;
+    background: #000;
+    box-shadow: 5px 5px #fff;
+    font-size: 20px;
+    color: #fff;
+    line-height: 28px;
+}
+
+.galeria .col{
+    margin-bottom: 20px;
+}
+
+/*Mediaquerys para adaptar los captions en Responsive-Design*/
+
+@media screen and (max-width: 600px){
+    .materialbox-caption{
+        width: 90%;
+    }
+}
+
+@media screen and (max-width: 992px){
+    .materialbox-caption{
+        width: 70%;
+    }
 }
 
 

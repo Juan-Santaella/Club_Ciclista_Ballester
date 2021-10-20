@@ -41,7 +41,7 @@
                         <li class="menu-selected"><a href="index.php" class="text-menu-selected"><i class="fas fa-home"></i> Inicio</a></li>
                         <li><a href="club.php"><i class="fas fa-biking"></i> Club</a></li>
                         <li><a href="escuela.php"><i class="fas fa-chalkboard-teacher"></i> Escuela</a></li>
-                        <li><a href="#"><i class="fas fa-images"></i> Galería</a></li>
+                        <li><a href="galeria.php"><i class="fas fa-images"></i> Galería</a></li>
                         <li><a href="contacto.php"><i class="fas fa-envelope"></i> Contáctanos</a></li>
                         <li><a href="login-reg.php"><i class="fas fa-lock"></i> Entrar</a></li>
                     </ul>
@@ -79,8 +79,8 @@
         <div class="slideshow-item">
             <img src="img/DSC_8181.jpg" alt="Club Ballester posando">
             <div class="slideshow-item-text">
-                <h5>Club Ciclista Ballester</h5>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad excepturi consequatur unde accusantium magnam alias! Praesentium, iusto, facere libero itaque commodi ipsam hic magni nemo temporibus molestiae laborum nam. Doloremque temporibus itaque velit voluptas! Nulla modi praesentium cumque vel aliquid?</p>
+                <h5>Club Ciclista <span>Ballester</span></h5>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Tempora, neque.</p>
             </div>
         </div>
 
@@ -88,35 +88,17 @@
         <div class="slideshow-item">
             <img src="img/DSC_7259.jpg" alt="Circuito Punta Larga">
             <div class="slideshow-item-text">
-                <h5>Circuito de MTB de Punta Larga, Candelaria</h5>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad excepturi consequatur unde accusantium magnam alias! Praesentium, iusto, facere libero itaque commodi ipsam hic magni nemo temporibus molestiae laborum nam. Doloremque temporibus itaque velit voluptas! Nulla modi praesentium cumque vel aliquid?</p>
+                <h5><span>Circuito</span> de MTB de Punta Larga, Candelaria</h5>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Deleniti, corrupti!</p>
             </div>
         </div>
 
         <!--Slide 3-->
         <div class="slideshow-item">
-            <img src="img/DSC_8266.jpg" alt="Club Ballester posando">
+            <img src="img/DSC_9662.jpg" alt="Club Ballester posando">
             <div class="slideshow-item-text">
-                <h5>Club Ciclista Ballester</h5>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad excepturi consequatur unde accusantium magnam alias! Praesentium, iusto, facere libero itaque commodi ipsam hic magni nemo temporibus molestiae laborum nam. Doloremque temporibus itaque velit voluptas! Nulla modi praesentium cumque vel aliquid?</p>
-            </div>
-        </div>
-
-        <!--Slide 4-->
-        <div class="slideshow-item">
-            <img src="img/DSC_8266.jpg" alt="Club Ballester posando">
-            <div class="slideshow-item-text">
-                <h5>Club Ciclista Ballester</h5>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad excepturi consequatur unde accusantium magnam alias! Praesentium, iusto, facere libero itaque commodi ipsam hic magni nemo temporibus molestiae laborum nam. Doloremque temporibus itaque velit voluptas! Nulla modi praesentium cumque vel aliquid?</p>
-            </div>
-        </div>
-
-        <!--Slide 5-->
-        <div class="slideshow-item">
-            <img src="img/DSC_8266.jpg" alt="Club Ballester posando">
-            <div class="slideshow-item-text">
-                <h5>Club Ciclista Ballester</h5>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad excepturi consequatur unde accusantium magnam alias! Praesentium, iusto, facere libero itaque commodi ipsam hic magni nemo temporibus molestiae laborum nam. Doloremque temporibus itaque velit voluptas! Nulla modi praesentium cumque vel aliquid?</p>
+                <h5><span>Escuela</span> de Ciclismo</h5>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Perferendis, officiis.</p>
             </div>
         </div>
 
@@ -167,55 +149,6 @@
             </article>
         </div>
     </section>
-
-    <!--Vídeos de YouTube-->
-
-    <!--section class="post-list">
-        <div class="content">
-
-            Video 1
-            <article class="post">
-                <div class="post-header">
-                    <iframe class="video" src="https://www.youtube.com/embed/RgyYkH8EFAw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay;  clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                </div>
-                <div class="post-body">
-                    <span>14 septiembre, 2021 | Diseño Web</span>
-                    <h2>Tutorial HTML</h2>
-                    <p class="descripcion">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam doloribus iure quae numquam inventore excepturi quas, aliquam exercitationem repellat, reprehenderit sit temporibus odio saepe cum.</p>
-                    <a href="#" class="post-link">Leer más...</a>
-                </div>
-            </article>
-
-            <!-Video 2
-            <article class="post">
-                <div class="post-header">
-                    <iframe class="video" src="https://www.youtube.com/embed/RgyYkH8EFAw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay;  clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                </div>
-                <div class="post-body">
-                    <span>14 septiembre, 2021 | Diseño Web</span>
-                    <h2>Tutorial HTML</h2>
-                    <p class="descripcion">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam doloribus iure quae numquam inventore excepturi quas, aliquam exercitationem repellat, reprehenderit sit temporibus odio saepe cum.</p>
-                    <a href="#" class="post-link">Leer más...</a>
-                </div>
-            </article>
-
-            Video 3
-            <article class="post">
-                <div class="post-header">
-                    <iframe class="video" src="https://www.youtube.com/embed/RgyYkH8EFAw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay;  clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                </div>
-                <div class="post-body">
-                    <span>14 septiembre, 2021 | Diseño Web</span>
-                    <h2>Tutorial HTML</h2>
-                    <p class="descripcion">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam doloribus iure quae numquam inventore excepturi quas, aliquam exercitationem repellat, reprehenderit sit temporibus odio saepe cum.</p>
-                    <a href="#" class="post-link">Leer más...</a> 
-                </div>
-            </article>
-        </div>
-    </section>-->
-
-
-
 
 
     <!--Videos de YouTube-->
@@ -269,7 +202,6 @@
 
     <!--Enlace a los scripts de JavaScript-->
     <script src="js/script.js"></script>
-    <script src="js/js-slider.js"></script>
 
 </body>
 </html>
