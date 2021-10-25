@@ -92,7 +92,7 @@
             <!--Contenedor de los formularios que vamos a utilizar (login y register)-->
             <div class="contenedor__login-register">
                 <!--Formulario de login-->
-                <form action="php/login_usuario_bd.php" method="POST" class="formulario__login">
+                <form action="login-register/PHP/login_usuario_bd.php" method="POST" class="formulario__login">
                     <h2>Iniciar Sesión</h2>
                     <input type="text" name="usuario" placeholder="Usuario">
                     <input type="password" name="contrasena" placeholder="Contraseña" required>
@@ -100,7 +100,7 @@
                     <button>Entrar</button>
                 </form>
                 <!--Formulario de register-->
-                <form action="php/registro_usuario_bd.php" method="POST" class="formulario__register">
+                <form action="login-register/PHP/registro_usuario_bd.php" method="POST" class="formulario__register">
                     <h2>Registrarse</h2>
                     <input type="text" name="numero_socio" placeholder="Nº Socio" required>
                     <input type="text" name="usuario" placeholder="Usuario" required>
