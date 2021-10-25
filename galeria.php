@@ -11,12 +11,11 @@
 
     <script src="https://kit.fontawesome.com/4e2bb02eb5.js" crossorigin="anonymous"></script>
 
-    <!-- MATERIALIZE CSS -->
-    <!-- Compiled and minified CSS -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
-
-
     <link rel="stylesheet" href="css/style.css">    <!--*** LOS ESTILOS SIEMPRE VAN DESPUÉS DE LOS ICONOS ***-->
+
+    <!--Google Fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 
     <!--meta etiqueta que va a convertir a la página en RESPONSIVE-->
     <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
@@ -72,120 +71,208 @@
         </div>
     </div>
 
-    <div class="container">
+    <!-- ************* Enunciado galería de imágenes **************** -->
 
-        <!--Definimos el título
-        <div class="row">
-            
-            <div class="col s12 center-align">              La columna va a tener tamaño small de 12 columnas, (máximo, todo el espacio) y todo el texto centrado
-                <h1 class="titulo">Lightbox</h1>
-            </div>
-        </div>-->
-
-        <!--Definimos la galería-->
-        <div class="row galeria">
-
-            <!--s12 TAMAÑO PEQUEÑO 12 COLUMNAS, m4 TAMAÑO MEDIO 4 COLUMNAS, l3 TAMAÑO GRANDE 3 COLUMNAS, Responsive, (pequeño, mediano, grande, largo), máximo 12 columnas, por tanto, pantalla pequeña tendrá cada elemento 12 columnas, 1 elemento por línea, mediana 4 columnas, 3 elementos por línea, larga 3 columnas, 4 elementos por línea-->
-
-
-            <!--Primera fila-->
-            <div class="col s12 m4 l3">                           
-                <div class="material-placeholder">                
-                    <img src="img/DSC_5235.jpg" class="responsive-img materialboxed" alt="Imagen 1" data-caption="Lorem ipsum dolor sit amet.">           
-                </div>                                            
-            </div>
-
-            <div class="col s12 m4 l3">                           
-                <div class="material-placeholder">                
-                    <img src="img/DSC_5235.jpg" class="responsive-img materialboxed" alt="Imagen 1" data-caption="Lorem ipsum dolor sit amet.">           
-                </div>                                            
-            </div>
-
-            <div class="col s12 m4 l3">                           
-                <div class="material-placeholder">                
-                    <img src="img/DSC_5235.jpg" class="responsive-img materialboxed" alt="Imagen 1" data-caption="Lorem ipsum dolor sit amet.">           
-                </div>                                            
-            </div>
-
-            <div class="col s12 m4 l3">                           
-                <div class="material-placeholder">                
-                    <img src="img/DSC_5235.jpg" class="responsive-img materialboxed" alt="Imagen 1" data-caption="Lorem ipsum dolor sit amet.">           
-                </div>                                            
-            </div>
-
-
-            <!--Segunda fila-->
-            <div class="col s12 m4 l3">                           
-                <div class="material-placeholder">                
-                    <img src="img/DSC_5235.jpg" class="responsive-img materialboxed" alt="Imagen 1" data-caption="Lorem ipsum dolor sit amet.">           
-                </div>                                            
-            </div>
-
-            <div class="col s12 m4 l3">                           
-                <div class="material-placeholder">                
-                    <img src="img/DSC_5235.jpg" class="responsive-img materialboxed" alt="Imagen 1" data-caption="Lorem ipsum dolor sit amet.">           
-                </div>                                            
-            </div>
-
-            <div class="col s12 m4 l3">                           
-                <div class="material-placeholder">                
-                    <img src="img/DSC_5235.jpg" class="responsive-img materialboxed" alt="Imagen 1" data-caption="Lorem ipsum dolor sit amet.">           
-                </div>                                            
-            </div>
-
-            <div class="col s12 m4 l3">                           
-                <div class="material-placeholder">                
-                    <img src="img/DSC_5235.jpg" class="responsive-img materialboxed" alt="Imagen 1" data-caption="Lorem ipsum dolor sit amet.">           
-                </div>                                            
-            </div>
-
-
-            <!--Tercera fila-->
-            <div class="col s12 m4 l3">                           
-                <div class="material-placeholder">                
-                    <img src="img/DSC_5235.jpg" class="responsive-img materialboxed" alt="Imagen 1" data-caption="Lorem ipsum dolor sit amet.">           
-                </div>                                            
-            </div>
-
-            <div class="col s12 m4 l3">                           
-                <div class="material-placeholder">                
-                    <img src="img/DSC_5235.jpg" class="responsive-img materialboxed" alt="Imagen 1" data-caption="Lorem ipsum dolor sit amet.">           
-                </div>                                            
-            </div>
-
-            <div class="col s12 m4 l3">                           
-                <div class="material-placeholder">                
-                    <img src="img/DSC_5235.jpg" class="responsive-img materialboxed" alt="Imagen 1" data-caption="Lorem ipsum dolor sit amet.">           
-                </div>                                            
-            </div>
-
-            <div class="col s12 m4 l3">                           
-                <div class="material-placeholder">                
-                    <img src="img/DSC_5235.jpg" class="responsive-img materialboxed" alt="Imagen 1" data-caption="Lorem ipsum dolor sit amet.">           
-                </div>                                            
-            </div>
-
-        </div>
+    <div class="enunciado">
+        <h2>Galería de <b>Imágenes</b></h2>
     </div>
+
+
+    <!--Galería de imágenes con Lightbox-->
+    <section class="galeria">
+        <a href="#image1"><img src="img/DSC_9130.jpg" alt=""></a>
+        <a href="#image2"><img src="img/DSC_9147.jpg" alt=""></a>
+        <a href="#image3"><img src="img/DSC_9162.jpg" alt=""></a>
+        <a href="#image4"><img src="img/DSC_9349.jpg" alt=""></a>
+        <a href="#image5"><img src="img/DSC_9662.jpg" alt=""></a>
+        <a href="#image6"><img src="img/DSC_9751.jpg" alt=""></a>
+        <a href="#image7"><img src="img/DSC_5235.jpg" alt=""></a>
+        <a href="#image8"><img src="img/DSC_7259.jpg" alt=""></a>
+        <a href="#image9"><img src="img/DSC_7264.jpg" alt=""></a>
+        <a href="#image10"><img src="img/DSC_8181.jpg" alt=""></a>
+    </section>
+    <!--Configuramos el light-box para cada imagen-->
+    <article class="light-box" id="image1">
+        <a href="#image10" class="next"><i class="fas fa-arrow-left"></i></a>
+        <img src="img/DSC_9130.jpg" alt="">
+        <a href="#image2" class="next"><i class="fas fa-arrow-right"></i></a>
+        <a href="#" class="close">X</a>
+    </article>
+    <article class="light-box" id="image2">
+        <a href="#image1" class="next"><i class="fas fa-arrow-left"></i></a>
+        <img src="img/DSC_9147.jpg" alt="">
+        <a href="#image3" class="next"><i class="fas fa-arrow-right"></i></a>
+        <a href="#" class="close">X</a>
+    </article>
+    <article class="light-box" id="image3">
+        <a href="#image2" class="next"><i class="fas fa-arrow-left"></i></a>
+        <img src="img/DSC_9162.jpg" alt="">
+        <a href="#image4" class="next"><i class="fas fa-arrow-right"></i></a>
+        <a href="#" class="close">X</a>
+    </article>
+    <article class="light-box" id="image4">
+        <a href="#image3" class="next"><i class="fas fa-arrow-left"></i></a>
+        <img src="img/DSC_9349.jpg" alt="">
+        <a href="#image5" class="next"><i class="fas fa-arrow-right"></i></a>
+        <a href="#" class="close">X</a>
+    </article>
+    <article class="light-box" id="image5">
+        <a href="#image4" class="next"><i class="fas fa-arrow-left"></i></a>
+        <img src="img/DSC_9662.jpg" alt="">
+        <a href="#image6" class="next"><i class="fas fa-arrow-right"></i></a>
+        <a href="#" class="close">X</a>
+    </article>
+    <article class="light-box" id="image6">
+        <a href="#image5" class="next"><i class="fas fa-arrow-left"></i></a>
+        <img src="img/DSC_9751.jpg" alt="">
+        <a href="#image7" class="next"><i class="fas fa-arrow-right"></i></a>
+        <a href="#" class="close">X</a>
+    </article>
+    <article class="light-box" id="image7">
+        <a href="#image6" class="next"><i class="fas fa-arrow-left"></i></a>
+        <img src="img/DSC_5235.jpg" alt="">
+        <a href="#image8" class="next"><i class="fas fa-arrow-right"></i></a>
+        <a href="#" class="close">X</a>
+    </article>
+    <article class="light-box" id="image8">
+        <a href="#image7" class="next"><i class="fas fa-arrow-left"></i></a>
+        <img src="img/DSC_7259.jpg" alt="">
+        <a href="#image9" class="next"><i class="fas fa-arrow-right"></i></a>
+        <a href="#" class="close">X</a>
+    </article>
+    <article class="light-box" id="image9">
+        <a href="#image8" class="next"><i class="fas fa-arrow-left"></i></a>
+        <img src="img/DSC_7264.jpg" alt="">
+        <a href="#image10" class="next"><i class="fas fa-arrow-right"></i></a>
+        <a href="#" class="close">X</a>
+    </article>
+    <article class="light-box" id="image10">
+        <a href="#image9" class="next"><i class="fas fa-arrow-left"></i></a>
+        <img src="img/DSC_8181.jpg" alt="">
+        <a href="#image1" class="next"><i class="fas fa-arrow-right"></i></a>
+        <a href="#" class="close">X</a>
+    </article>
+
+    <!-- ************* Enunciado galería de vídeos **************** -->
+
+    <div class="enunciado">
+        <h2>Galería de <b>Vídeos</b></h2>
+    </div>
+
+    <!--  GALERÍA DE VÍDEOS DE YOUTUBE  -->
+
+    <!--Galería de imágenes con Lightbox-->
+    <section class="galeria">
+        
+        <!--Primer vídeo-->
+        <iframe src="https://www.youtube.com/embed/f7pLXrH6yJs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write;encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+        <!--Segundo vídeo-->
+        <iframe src="https://www.youtube.com/embed/RgyYkH8EFAw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay;   clipboard-write;encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+         <!--Tercer vídeo-->
+        <iframe src="https://www.youtube.com/embed/L56CYYguaEw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay;   clipboard-writeencrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+         <!--Cuarto vídeo-->
+        <iframe src="https://www.youtube.com/embed/f7pLXrH6yJs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-writeencrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+         <!--Quinto vídeo-->
+        <iframe src="https://www.youtube.com/embed/RgyYkH8EFAw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay;   clipboard-write;encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+         <!--Sexto vídeo-->
+        <iframe src="https://www.youtube.com/embed/L56CYYguaEw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay;   clipboard-writeencrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+         <!--Septimo vídeo-->
+        <iframe src="https://www.youtube.com/embed/f7pLXrH6yJs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-writeencrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+         <!--Octavo vídeo-->
+        <iframe src="https://www.youtube.com/embed/RgyYkH8EFAw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay;   clipboard-write;encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+         <!--Noveno vídeo-->
+        <iframe src="https://www.youtube.com/embed/L56CYYguaEw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay;   clipboard-writeencrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+        <!--Décimo vídeo-->
+        <iframe src="https://www.youtube.com/embed/f7pLXrH6yJs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write;encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+    </section>
+
+    <!--Configuramos los cuadros contenedores-->
+    <article class="light-box">
+        <a href="#image10" class="next"><i class="fas fa-arrow-left"></i></a>
+        <img src="img/DSC_9130.jpg" alt="">
+        <a href="#image2" class="next"><i class="fas fa-arrow-right"></i></a>
+        <a href="#" class="close">X</a>
+    </article>
+    <article class="light-box" id="video2">
+        <a href="#image1" class="next"><i class="fas fa-arrow-left"></i></a>
+        <img src="img/DSC_9147.jpg" alt="">
+        <a href="#image3" class="next"><i class="fas fa-arrow-right"></i></a>
+        <a href="#" class="close">X</a>
+    </article>
+    <article class="light-box" id="video3">
+        <a href="#image2" class="next"><i class="fas fa-arrow-left"></i></a>
+        <img src="img/DSC_9162.jpg" alt="">
+        <a href="#image4" class="next"><i class="fas fa-arrow-right"></i></a>
+        <a href="#" class="close">X</a>
+    </article>
+    <article class="light-box" id="video4">
+        <a href="#image3" class="next"><i class="fas fa-arrow-left"></i></a>
+        <img src="img/DSC_9349.jpg" alt="">
+        <a href="#image5" class="next"><i class="fas fa-arrow-right"></i></a>
+        <a href="#" class="close">X</a>
+    </article>
+    <article class="light-box" id="video5">
+        <a href="#image4" class="next"><i class="fas fa-arrow-left"></i></a>
+        <img src="img/DSC_9662.jpg" alt="">
+        <a href="#image6" class="next"><i class="fas fa-arrow-right"></i></a>
+        <a href="#" class="close">X</a>
+    </article>
+    <article class="light-box" id="video6">
+        <a href="#image5" class="next"><i class="fas fa-arrow-left"></i></a>
+        <img src="img/DSC_9751.jpg" alt="">
+        <a href="#image7" class="next"><i class="fas fa-arrow-right"></i></a>
+        <a href="#" class="close">X</a>
+    </article>
+    <article class="light-box" id="video7">
+        <a href="#image6" class="next"><i class="fas fa-arrow-left"></i></a>
+        <img src="img/DSC_5235.jpg" alt="">
+        <a href="#image8" class="next"><i class="fas fa-arrow-right"></i></a>
+        <a href="#" class="close">X</a>
+    </article>
+    <article class="light-box" id="video8">
+        <a href="#image7" class="next"><i class="fas fa-arrow-left"></i></a>
+        <img src="img/DSC_7259.jpg" alt="">
+        <a href="#image9" class="next"><i class="fas fa-arrow-right"></i></a>
+        <a href="#" class="close">X</a>
+    </article>
+    <article class="light-box" id="video9">
+        <a href="#image8" class="next"><i class="fas fa-arrow-left"></i></a>
+        <img src="img/DSC_7264.jpg" alt="">
+        <a href="#image10" class="next"><i class="fas fa-arrow-right"></i></a>
+        <a href="#" class="close">X</a>
+    </article>
+    <article class="light-box" id="video10">
+        <a href="#image9" class="next"><i class="fas fa-arrow-left"></i></a>
+        <img src="img/DSC_8181.jpg" alt="">
+        <a href="#image1" class="next"><i class="fas fa-arrow-right"></i></a>
+        <a href="#" class="close">X</a>
+    </article>
+
+
+
 
     <!--Incrustamos el código del botón de scroll_up-->
     <?php
         include "includes/scroll_button.php"
     ?>
-
     <!-- Incrustamos el código del footer-->
     <?php
         include "includes/footer.php";
     ?>
-    </div>
-
-    <!-- MATERIALIZE CSS -->
-    <!-- Compiled and minified JavaScript -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
 
     <!--Enlace a los scripts de JavaScript-->
     <script src="js/script.js"></script>
-    <script src="js/js-lightbox.js"></script>
+    <script src="https://kit.fontawesome.com/4e2bb02eb5.js" crossorigin="anonymous"></script>
 
 </body>
 </html>

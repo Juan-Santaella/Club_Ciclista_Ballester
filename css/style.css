@@ -157,6 +157,22 @@
 }
 
 
+
+/***************************  ENUNCIADOS DE SECCIONES  ***********************/
+
+.enunciado{
+    height: 110px;
+    display: flex;
+    justify-content: center;        /*El contenido se centra de manera horizontal*/
+    align-items: center;            /*El contenido se centra de manera vertical*/
+    background: #eeeeeefa;
+}
+
+.enunciado h2 b{
+    color: #b71c1c;
+}
+
+
 /*************  SLIDER  *************/
 
 .slideshow{
@@ -825,6 +841,7 @@ footer{
     position: relative;
     display: block;
     top: 15px;
+    z-index: 0;
 }
 
 /*Atributos del contenedor del footer*/
@@ -935,6 +952,7 @@ footer{
     border: 4px solid transparent;
     transition: all 300ms ease;
     transform: scale(0);
+    z-index: 1;
 }
 
 #button-up:hover{
@@ -1408,49 +1426,121 @@ main{
 
 /***************************************  GALERÍA DE FOTOGRAFÍAS CON LIGHTBOX  *************************************/
 
-/* .titulo{
-    font-size: 55px;
-    text-transform: uppercase;
-    letter-spacing: 7px;
-} */
+.galeria{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+    width: 95%;
+    margin: auto;
+    gap: 10px;
+    padding: 40px 0;
+    overflow: hidden;
+}
+
+.galeria > a{               /*Aquí se recomienda usar una clase*/
+    display: block;
+    position: relative;
+    overflow: hidden;
+    box-shadow: 0 0 6px rgba(0, 0, 0, .5);
+}
 
 .galeria img{
-    box-shadow: 0 8px 10px -4px rgba(0,0,0,.6);
-    border-radius: 15px;
+    width: 100%;
+    vertical-align: top;
+    height: 300px;
+    object-fit: cover;     /*Ajusta la imagen al elemento img*/
+    transition: transform 0.5s;
 }
 
-.materialbox-caption{
-    bottom: 30px;
-    right: 0;
-    width: 40%;
-    height: auto;
-    padding: 10px;
-    margin: auto;
-    background: #000;
-    box-shadow: 5px 5px #fff;
-    font-size: 20px;
+/*Galería de vídeos de YouTube*/
+.galeria iframe{
+    width: 100%;
+    vertical-align: top;
+    height: 300px;
+    object-fit: cover;     /*Ajusta la imagen al elemento img*/
+    /* transition: transform 0.5s; */
+    /* background-color: #e95950; */
+}
+
+.galeria a:hover img{
+    filter: blur(2px);
+    transform: rotate(10deg) scale(1.3);
+}
+
+/* .galeria a:hover iframe{
+    filter: blur(2px);
+    transform: rotate(10deg) scale(1.3);
+} */
+
+.light-box{
+    position: fixed;
+    top: 0;
+    left: 0;
+    background: rgba(0, 0, 0, .5);
+    transition: transform 1.3s ease-in-out;
+    width: 100%;
+    height: 100vh;
+    z-index: 1000;
+    display: flex;
+    justify-content: center;        /*Alineación horizontal*/
+    align-items: center;            /*Alineación vertical*/
+    transform: scale(0);
+}
+
+.light-box img{
+    width: 75vw;
+    max-height: 70vh;
+    object-fit: cover;
+}
+
+/*Propiedades cuando alguien hace click en la imagen*/
+.light-box:target{
+    transform: scale(1);
+}
+
+/* Propiedades de la X de cerrar */
+.close{
+    display: block;
+    position: absolute;    /*Se va a posicionar respecto al padre .light-box, con position: fixed*/
+    top: 40px;
+    right: 40px;
+    background: #b71c1c;
     color: #fff;
-    line-height: 28px;
+    text-decoration: none;
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    line-height: 40px;
+    border-radius: 50%;
 }
 
-.galeria .col{
-    margin-bottom: 20px;
+/* Propiedades de la flecha next */
+.next{
+    display: block;
+    background: #b71c1c;
+    color: #fff;
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    text-decoration: none;
+    text-align: center;
 }
 
-/*Mediaquerys para adaptar los captions en Responsive-Design*/
 
-@media screen and (max-width: 600px){
-    .materialbox-caption{
-        width: 90%;
+
+/*********************************  RESPONSIVE DESIGN  ********************************/
+
+@media screen and (max-width:400px){
+    .galeria{
+        grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    }
+
+    .close{
+        top: 20px;
+        right: 20px;
     }
 }
 
-@media screen and (max-width: 992px){
-    .materialbox-caption{
-        width: 70%;
-    }
-}
 
 
-
+/********************************  GALERÍA DE VÍDEOS DE YOUTUBE  ***************************/
 
