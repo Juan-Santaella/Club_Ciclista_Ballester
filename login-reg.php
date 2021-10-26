@@ -92,7 +92,7 @@
             <!--Contenedor de los formularios que vamos a utilizar (login y register)-->
             <div class="contenedor__login-register">
                 <!--Formulario de login-->
-                <form action="login-register/PHP/login_usuario_bd.php" method="POST" class="formulario__login">
+                <form action="login-register/php/login_usuario_bd.php" method="POST" class="formulario__login">
                     <h2>Iniciar Sesión</h2>
                     <input type="text" name="usuario" placeholder="Usuario">
                     <input type="password" name="contrasena" placeholder="Contraseña" required>
@@ -108,7 +108,7 @@
                     <input type="text" name="nombre" placeholder="Nombre" required>
                     <input type="text" name="apellidos" placeholder="Apellidos" required>
                     <input type="email" name="correo_elec" placeholder="Correo Electrónico" required>
-                    <input type="text" name="telefono" placeholder="Teléfono">
+                    <input type="text" name="telefono" placeholder="Teléfono" required>
                     <!--<input type="submit" name="submit" value="Registrarse">-->
                     <!--Button tiene por defecto type="submit"-->
                     <button>Registrarse</button>
