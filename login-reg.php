@@ -4,7 +4,7 @@
 
     //Si existe una sesión iniciada, no nos vuelve a mostrar la página de login, sino la de bienvenida directamente
     if(isset($_SESSION['usuario'])){
-        header("location:php/bienvenida.php");
+        header("location:login-register/php/bienvenida.php");
     }
 ?>
 
@@ -100,7 +100,7 @@
                     <button>Entrar</button>
                 </form>
                 <!--Formulario de register-->
-                <form action="login-register/PHP/registro_usuario_bd.php" method="POST" class="formulario__register">
+                <form action="login-register/php/registro_usuario_bd.php" method="POST" class="formulario__register">
                     <h2>Registrarse</h2>
                     <input type="text" name="numero_socio" placeholder="Nº Socio" required>
                     <input type="text" name="usuario" placeholder="Usuario" required>
