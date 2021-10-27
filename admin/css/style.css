@@ -1,0 +1,1546 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;    /*Elimina las líneas de los enlaces*/
+    font-family: 'Open Sans', sans-serif;
+}
+
+.header{
+    position: fixed;        /*El header se mantendrá siempre encima de la página, no ocupa espacio en el html*/
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 80px;
+    background: #fff;
+    box-shadow: 0 4px 25px -22px black;
+    z-index: 2;
+}
+
+/*Barra de redes sociales en el header*/
+.container-social-top{
+    display: flex;
+    width: 100%;
+    justify-content: left;
+    /* margin-top: 20px; */
+    margin: 0;
+    background: #eeeeee;
+}
+
+/*Imagen del logo en el social bar superior*/
+.container-social-top .logo-top{
+    /* text-align: left; */
+    margin-left: 18.35%;
+    margin-right: 5%;
+}
+
+.container-social-top .logo-top img{
+    /* width: 100px; */
+    width: 110px;
+    height: 100%;
+    border-radius: 15%;
+    /* margin-left: 2%; */
+}
+
+.container-social-top .icon-redes-header{
+    font-size: 20px;
+    margin: 20px;
+    /* background: #000; */
+    width: 5px;
+    height: 5px;
+    display: flex;
+    /* justify-content: center;
+    align-items: center; */
+    /* border-radius: 100%; */
+    color: #a2a2a2;
+    /* color: #fff; */
+}
+
+.container-social-top .icon-redes-header:hover{
+    color: #b71c1c;
+}
+
+/*Nav*/
+.header-content{
+    max-width: 1200px;
+    margin: auto;
+    display: flex;  /*Se coloca cada elemento uno al lado del otro*/
+    justify-content: space-between;     /*Cada elemento establece un margen frente a los otros*/
+}
+
+.logo{
+    height: 80px;
+    display: flex;
+    justify-content: center;        /*El contenido se centra de manera horizontal*/
+    align-items: center;            /*El contenido se centra de manera vertical*/
+}
+
+.logo h1 b{
+    color: #b71c1c;
+}
+
+.menu{
+    height: 80px;
+}
+
+.menu nav{
+    height: 100%;
+}
+
+.menu nav ul{
+    height: 100%;
+    display: flex;
+    list-style: none;           /*Eliminamos los puntos de la lista*/
+}
+
+.menu nav ul li{
+    height: 100%;
+    margin: 0px 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.menu-selected:before{         /*Creamos la pseudoclase before*/
+    content: '';                /*Contenido en blanco*/
+    width: 100%;
+    height: 4px;
+    background: #b71c1c;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.menu nav ul li a{
+    color: #777777;
+    font-size: 18px;
+    transition: color 300ms;
+}
+
+.menu nav ul li a:hover{
+    color: #b71c1c;
+}
+
+.menu .text-menu-selected{
+    color: #b71c1c;
+}
+
+/*Ocultamos los iconos del menú horizontal*/
+.menu nav ul li a i{
+    display: none;
+}
+
+/*Hamburguesa del menú responsive*/
+#icon-menu{
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    right: 20px;
+    top: 16px;
+    padding: 10px;
+    font-size: 20px;
+    background: #eeeeeefa;
+    border-radius: 100%;
+    color: #787878;
+    display: none;
+    justify-content: center;        /*trabaja con display:flex, (flexbox)*/
+    align-items: center;            /*trabaja con display:flex, (flexbox)*/
+    cursor: pointer;
+}
+
+
+#icon-menu:hover{
+    opacity: 0.8;
+}
+
+
+
+/***************************  ENUNCIADOS DE SECCIONES  ***********************/
+
+.enunciado{
+    height: 110px;
+    display: flex;
+    justify-content: center;        /*El contenido se centra de manera horizontal*/
+    align-items: center;            /*El contenido se centra de manera vertical*/
+    background: #eeeeeefa;
+}
+
+.enunciado h2 b{
+    color: #b71c1c;
+}
+
+
+/*************  SLIDER  *************/
+
+.slideshow{
+    width: 100%;
+    height: 60vh;
+    position: relative;
+    overflow: hidden;
+}
+
+.slideshow-item{
+    width: inherit;
+    height: inherit;
+    position: absolute;
+    opacity: 0;
+    animation: cycleImages 31s infinite;
+}
+
+.slideshow-item img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    animation: zoom 31s infinite;
+}
+
+/*Tiempo de ejecución de la animación para cada slide y para cada imagen*/
+.slideshow-item:nth-child(1),
+.slideshow-item:nth-child(1) img{
+    animation-delay: 0s;
+}
+
+.slideshow-item:nth-child(2),
+.slideshow-item:nth-child(2) img{
+    animation-delay: 10s;
+}
+
+.slideshow-item:nth-child(3),
+.slideshow-item:nth-child(3) img{
+    animation-delay: 20s;
+}
+
+.slideshow-item-text{
+    max-width: 50%;
+    position: absolute;
+    top: 28%;
+    left: 0;
+    transform: translateY(-50%);
+    background-color: rgba(0,0,0,.8);
+    color:#fff;
+    padding: 5rem 4rem;
+}
+
+.slideshow-item-text h5{
+    font-size: 1.5rem;
+    font-family: 'Open Sans',sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    margin-bottom: 2.5rem;
+}
+
+.slideshow-item-text p{
+    font-size: 1rem;
+    font-family: 'Open Sans',sans-serif;
+    letter-spacing: 1px;
+    font-weight: 300;
+}
+
+.slideshow-item-text span{
+    color: #b71c1c;
+}
+
+/**** Animaciones ****/
+
+@keyframes cycleImages{
+    25%{
+        opacity: 1;
+    }
+    40%{
+        opacity: 0;
+    }
+}
+
+@keyframes zoom {
+    100%{
+        transform: scale(1.3);
+    }
+    
+}
+
+
+/****************************************   RESPONSIVE DESIGN  ***************************************/
+
+
+@media screen and (max-width: 1000px){
+    .slideshow-item-text{
+        max-width: 70%;
+        padding: 5rem 1rem;
+    }  
+
+    .slideshow-item-text h5{
+        font-size: 4rem;
+    }
+}
+
+@media screen and (max-width: 767px){
+    .slideshow-item-text{
+        max-width: 100%;
+        padding: 2rem;
+        top: initial;
+        bottom: 0%;
+        transform: initial;
+    }  
+
+    .slideshow-item-text h5{
+        font-size: 3rem;
+    }
+
+    .slideshow-item-text p{
+        font-size: 1.4rem;
+    }
+}
+
+
+/************** PORTADAS ****************/
+
+/*Portada de Inicio*/
+.container-cover-inicio{
+    width: 100%;
+    height: 650px;
+    position: relative;             /*Desplazará todo el contenido que esté debajo*/
+    margin-top: 5px;                      /*Continúa donde acaba el nav*/
+    background-image: url(../img/DSC_8266.jpg);
+    background-position: center;    /*Centra la imagen por todos lados*/
+    background-size: cover;         /*Cubrirá toda la portada*/
+    background-repeat: no-repeat;   /*No se va a repetir la imagen*/
+}
+
+.container-cover-inicio:before{
+    content: '';
+    width: 100%;
+    height: 100%;
+    background: rgba(26, 35, 126, .6);
+    position: absolute;             /*Para que se vea la capa*/
+    top: 0;
+    left: 0;
+}
+
+/*Portada de Club*/
+.container-cover-club{
+    width: 100%;
+    height: 650px;
+    position: relative;             /*Desplazará todo el contenido que esté debajo*/
+    margin-top: 5px;                      /*Continúa donde acaba el nav*/
+    background-image: url(../img/DSC_8266.jpg);
+    background-position: center;    /*Centra la imagen por todos lados*/
+    background-size: cover;         /*Cubrirá toda la portada*/
+    background-repeat: no-repeat;   /*No se va a repetir la imagen*/
+}
+
+.container-cover-club:before{
+    content: '';
+    width: 100%;
+    height: 100%;
+    background: rgba(26, 35, 126, .6);
+    position: absolute;             /*Para que se vea la capa*/
+    top: 0;
+    left: 0;
+}
+
+/*Portada de Escuela*/
+.container-cover-escuela{
+    width: 100%;
+    height: 650px;
+    position: relative;             /*Desplazará todo el contenido que esté debajo*/
+    margin-top: 5px;                      /*Continúa donde acaba el nav*/
+    background-image: url(../img/DSC_8859.jpg);
+    background-position: center;    /*Centra la imagen por todos lados*/
+    background-size: cover;         /*Cubrirá toda la portada*/
+    background-repeat: no-repeat;   /*No se va a repetir la imagen*/
+}
+
+.container-cover-escuela:before{
+    content: '';
+    width: 100%;
+    height: 100%;
+    background: rgba(26, 35, 126, .6);
+    position: absolute;             /*Para que se vea la capa*/
+    top: 0;
+    left: 0;
+}
+
+/*Portada de Escuela*/
+.container-cover-galeria{
+    width: 100%;
+    height: 650px;
+    position: relative;             /*Desplazará todo el contenido que esté debajo*/
+    margin-top: 5px;                      /*Continúa donde acaba el nav*/
+    background-image: url(../img/DSC_9147.jpg);
+    background-position: center;    /*Centra la imagen por todos lados*/
+    background-size: cover;         /*Cubrirá toda la portada*/
+    background-repeat: no-repeat;   /*No se va a repetir la imagen*/
+}
+
+.container-cover-galeria:before{
+    content: '';
+    width: 100%;
+    height: 100%;
+    background: rgba(26, 35, 126, .6);
+    position: absolute;             /*Para que se vea la capa*/
+    top: 0;
+    left: 0;
+}
+
+.container-info-cover{
+    max-width: 800px;
+    height: 650px;
+    margin: auto;
+    text-align: center;
+    display: flex;
+    flex-direction: column;         /*Los elementos se posicionan uno al lado de otro en vertical, columna*/
+    justify-content: center;
+    align-items: center;
+    position: relative;             /*Con el z-index podemos mostrar el texto por encima del fondo con la posición RELATIVE*/
+    z-index: 1;
+}
+
+.container-info-cover h1{
+    font-size: 60px;
+    font-weight: 500;
+    color: #fff;
+    margin-bottom: 20px;
+}
+
+.container-info-cover p{
+    color:#fff;
+    font-size: 20px;
+    font-weight: 300;
+}
+
+/***** CONTENEDOR DEL CONTENIDO DEL ARTÍCULO *****/
+
+.container-content{
+    width: 1200px;      /*Como el header, (container-header)*/
+    margin: auto;
+    /* margin-top: 40px; */
+    margin-top: 80px;
+    display: flex;      /*Nos permite posicionar los aside en un margen de la página*/
+    justify-content: center;    /*Con el display:flex: nos permite centrar el contenido de cada elemento*/
+}
+
+article{
+    width: 100%;
+    padding: 20px;
+    padding-bottom: 40px;
+    box-shadow: -10px 0 20px -30px #000;
+    border-radius: 6px;
+    position: relative;
+    overflow: hidden;
+}
+
+article:before{
+    content: '';
+    width: 100%;
+    height: 6px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: #b71c1c;
+}
+
+article h1{
+    margin-top: 20px;
+    font-weight: 500;
+    font-size: 40px;
+}
+
+article p{
+    margin-top: 20px;
+    font-size: 18px;
+    color: #3c3c3c;
+}
+
+article img{
+    width: 100%;
+    margin-top: 20px;
+}
+
+
+/**************************  PUBLICACIONES RESPONSIVAS (NOTICIAS)  ***************************************/
+
+/*Damos estilo a la sección principal*/
+.post-list{
+    display: flex;
+    min-height: 100vh;
+    align-items: center;
+    justify-content: center;
+    top: 0px;
+    padding: 30px 15px;
+    background: #eeeeee;
+}
+
+/*Damos estilo a los contenedores que contienen las publicaciones*/
+.content{
+    /*Definimos e igualamos la estructura de las columnas de los posts*/
+    display: grid;
+    grid-template-columns: repeat(3,1fr);      /*Definimos 3 columnas, y cada una de ellas ocupará una fracción*/
+    gap: 50px;   /*Espacio definido entre cada columna*/
+    max-width: 1000px;      /*Definimos que ocupe toda la pantalla*/
+    margin: auto;           /*Alineamos las columnas al centro del contenedor */
+}
+
+/*Agregamos las imágenes a las publicaciones*/
+
+/*Imagen del post 1*/
+.post-img-1{
+    background: url(../img/DSC_8181.jpg);
+    width: 100%;
+    height: 200px;
+    background-size: cover;    /*Toma la foto y la incrusta*/
+    background-position:center;
+    transition: .2s;
+}
+
+/*Imagen del post 2*/
+.post-img-2{
+    background: url(../img/DSC_9147.jpg);
+    width: 100%;
+    height: 200px;
+    background-size: cover;    /*Toma la foto y la incrusta*/
+    background-position:center;
+    transition: .2s;
+}
+
+/*Imagen del post 3*/
+.post-img-3{
+    background: url(../img/DSC_9349.jpg);
+    width: 100%;
+    height: 200px;
+    background-size: cover;    /*Toma la foto y la incrusta*/
+    background-position:center;
+    transition: .2s;
+}
+
+/*Damos estilo a cada uno de los artículos*/
+.post{
+    box-shadow: 0 1px 6px 1px rgba(0,0,0,.1);   /*negro con .1 de transparencia*/
+    overflow: hidden;
+    transition: .2s;
+}
+
+.post:hover{
+    transform: translateY(-4px);    /*Hace subir un poco el contenedor*/
+    box-shadow: 0 1px 14px 2px rgba(0,0,0,.15);     /*Hace la sombra más grande, al subir el contenedor*/
+}
+
+/*Damos estilo al header de los posts*/
+.post-header{
+    width: 100%;    /*Misma anchura que las imágenes*/
+    height: 200px;  /*Misma altura que las imágenes*/
+    overflow: hidden;
+    cursor: pointer;
+}
+
+/*Efecto hover para que se expanda cada imagen*/
+.post:hover .post-img-1,
+.post:hover .post-img-2,
+.post:hover .post-img-3{
+    transform: scale(1.1);
+}
+
+/*Damos estilo al post-body de cada post*/
+.post-body{
+    padding: 15px;
+    text-align: center;
+}
+
+.post-body span{
+    display: inline-block; 
+    color: #999;
+    margin-bottom: 10px;
+}
+
+.post-body h2{
+    margin-bottom: 15px;
+}
+
+.post-body p{
+    line-height: 1.5;
+    margin-bottom: 20px;
+}
+
+/*Damos estilo a los enlaces*/
+.post-body .post-link{
+    display: block;     /*Para que ocupen el margin y el padding*/
+    text-decoration: none;      /*Le quitamos el subrayado al enlace*/
+    padding: 10px;
+    background: #b71c1c;
+    color: #fff;
+    width: 50%;
+    /* margin: auto;   Lo alineamos al centro */
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 5px;
+    border-radius: 20px;
+    box-shadow: 1px 2px 6px 1px rgba(0,0,0,.1);
+    transition: .2s;
+}
+
+.post-body .post-link:hover{
+    background:#b71c1c;
+    box-shadow: 1px 2px 6px 1px rgba(0,0,0,.2);
+    transform: translateY(-2px);
+}
+
+/***********  RESPONSIVE DESIGN  **************/
+
+@media(max-width:840px){
+    .content{
+        grid-template-columns: repeat(2, 1fr);  /*Con el responsive design se pasan a 2 columnas que ocupan una fracción*/
+        
+    }
+}
+
+@media(max-width:600px){
+    .content{
+        grid-template-columns: repeat(1, 1fr);  /*Con el responsive design al llegar a 600px, se pasa a 1 columna que ocupa una fracción*/
+    }
+}
+
+
+/********** VÍDEOS DE YOUTUBE ***************/
+
+
+/*Contenedor general*/
+.container{
+    width: 100%;
+    max-width: 1200px;
+    height: 430px;
+    /**********************************/
+    
+    /* justify-content: center;
+    flex-wrap: wrap; */
+
+    /*Definimos e igualamos la estructura de las columnas de los posts
+    display: grid;
+    grid-template-columns: repeat(3,1fr);      /*Definimos 3 columnas, y cada una de ellas ocupará una fracción
+    justify-content: center;
+    gap: 50px;   /*Espacio definido entre cada columna
+    max-width: 1000px;      /*Definimos que ocupe toda la pantalla
+    margin: auto;           /*Alineamos las columnas al centro del contenedor*/
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 75px;
+    margin-bottom: 90px;
+    margin-left: auto;
+    margin-right: auto;
+    letter-spacing: 0.03em;
+    line-height: 1.6;
+    position: relative; 
+}
+
+/*Atributos de las tarjetas*/
+.container .card{
+    /* width: 330px; */
+    width: 300px;
+    height: 400px;
+    border-radius: 8px;
+    box-shadow: 0 2px 2px rgba(0, 0, 0, 0.2);
+    overflow: hidden;
+    margin: 25px;
+    text-align: center;
+    transition: all 0.25s ease;
+
+}
+
+/*Efectos a activar cuando se pase el ratón por encima de la tarjeta*/
+.container .card:hover{
+    transform: translateY(-15px);
+    box-shadow: 0 12px 16px rgba(0, 0, 0, 0.2);
+}
+
+/*Atributos de las imágenes de las tarjetas*/
+.container .card iframe{
+    width: 300px;
+    height: 220px;
+}
+
+/*Atributos de los enunciados de las tarjetas*/
+.container .card h4{
+    font-weight: bold;
+    font-size: 25px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+/*Atributos de los párrafos de las tarjetas*/
+.container .card p{
+    padding: 0 1rem;
+    font-size: 17px;
+    font-weight: 300;
+    line-height: 1.5;
+    margin-bottom: 20px;
+}
+
+/***********  RESPONSIVE DESIGN  **************/
+
+
+/*Atributos de los enlaces de cada tarjeta
+.container .card a{
+    font-weight: 500;
+    text-decoration: none;
+    color: #FF3300;
+}*/
+
+
+
+
+
+
+
+
+
+
+/*Damos estilo a la sección principal
+.videos-list{
+        display: flex;
+        min-height: 55vh;
+        align-items: center;
+        justify-content: center;
+        margin-top: 15px;
+        /* padding: 30px 15px;
+        background: #eeeeee;
+}
+
+/*Damos estilo a los contenedores que contienen las publicaciones
+.videos-content{
+    /*Definimos e igualamos la estructura de las columnas de los posts
+    display: grid;
+    grid-template-columns: repeat(3,1fr);      /*Definimos 3 columnas, y cada una de ellas ocupará una fracción
+    gap: 50px;   /*Espacio definido entre cada columna
+    max-width: 1000px;      /*Definimos que ocupe toda la pantalla
+    margin: auto;           /*Alineamos las columnas al centro del contenedor
+    
+}*/
+
+/*.video{
+    box-shadow: 0 1px 6px 1px rgba(0,0,0,.1);   /*negro con .1 de transparencia*/
+    /* width: 560px;  
+    width: 350px;
+    /* height: 315px; 
+    height: 227.5px;
+    border-radius: 8px;
+    overflow: hidden;
+    transition: .2s;
+}
+
+.video:hover{
+    transform: translateY(-4px);    /*Hace subir un poco el contenedor
+    box-shadow: 0 1px 14px 2px rgba(0,0,0,.15);     /*Hace la sombra más grande, al subir el contenedor
+}
+
+/* Damos estilo al header de los posts
+.post-header{
+    width: 100%;    /*Misma anchura que las imágenes
+    height: 200px;  /*Misma altura que las imágenes
+    overflow: hidden;
+    cursor: pointer;
+} 
+
+/*Damos estilo al post-body de cada post
+.post-body{
+    padding: 15px;
+    text-align: center;
+}
+
+.post-body span{
+    display: inline-block; 
+    color: #999;
+    margin-bottom: 10px;
+}
+
+.post-body h2{
+    margin-bottom: 15px;
+}
+
+.post-body p{
+    line-height: 1.5;
+    margin-bottom: 20px;
+}*/
+
+
+/***********  RESPONSIVE DESIGN  **************/
+
+/*@media(max-width:840px){
+    .content{
+        grid-template-columns: repeat(2, 1fr);  /*Con el responsive design se pasan a 2 columnas que ocupan una fracción
+    }
+}
+
+@media(max-width:600px){
+    .content{
+        grid-template-columns: repeat(1, 1fr);  /*Con el responsive design al llegar a 600px, se pasa a 1 columna que ocupa una fracción
+    }
+}
+
+
+/******* ASIDE DE LOS ARTÍCULOS RELACIONADOS ********/
+
+.container-aside aside{
+    width: 320px;
+    border-radius: 6px;
+    box-shadow: 0 0 20px -20px #000;
+    border-radius: 6px;
+    overflow: hidden;
+    margin-left: 40px;
+    margin-bottom: 40px;
+    padding-bottom: 20px;
+}
+
+.container-aside img{
+    width: 100%;
+}
+
+.container-aside aside h2{
+    margin-top: 20px;
+    /* margin-left: 27px; */
+    text-align: center;
+    padding: 0px 20px;
+}
+
+/* .container-aside aside h2, */
+.container-aside aside p{
+    margin-top: 20px;
+    padding: 0px 20px;
+}
+
+.container-aside aside button{
+    margin-top: 20px;
+    margin-left: 65px;
+    padding: 10px 50px;
+    font-size: 16px;
+    background: #b71c1c;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+    border-radius: 6px;
+}
+
+.container-aside aside button:hover{
+    opacity: 0.9;
+}
+
+
+
+/****  ATRIBUTOS DEL FOOTER  ****/
+
+footer{
+    width: 100%;
+    height: 15%;
+    padding: 50px 0px;
+    /*background-color: #a70404d8;*/
+    background-color: #eeeeee;
+    background-size: cover;
+    /*color: #fff;*/
+    position: relative;
+    display: block;
+    top: 15px;
+    z-index: 0;
+}
+
+/*Atributos del contenedor del footer*/
+.container__footer{
+    display: flex;          /*Las cajas van a ir en columnas contíguas*/
+    flex-wrap: wrap;        /*Efecto responsive, cuando las columnas no caben una al lado de la otra, por el tamaña de la pantalla, (responsive design)*/
+    justify-content: space-between;  /*Para que las columnas ocupen el espacio completo del foooter*/ 
+    max-width: 1200px;
+    margin: auto;           /*Se centra el contenedor del footer*/
+    /* margin-top: 5px; */
+}
+
+/*Atributos de las columnas de las diferentes secciones*/
+.box__footer{
+    display: flex;
+    flex-direction: column;
+    padding: 40px;
+}
+
+/*Atributos del logo del Club*/
+.box__footer .logo img{
+    width: 180px;
+    /* align-content: left; */
+    margin-left: -47%;
+    border-radius: 5%;
+}
+
+/*Atributos de los términos*/
+.box__footer .terms{
+    max-width: 350px;
+    margin-top: 20px;
+    font-weight: 700;
+    color: #616161;
+    font-size: 18px;
+}
+
+/*Propiedades de todos los títulos "h2" de cada columna*/
+.box__footer h2{
+    margin-bottom: 30px;
+    color: #000;
+    font-weight: bold;
+}
+
+/*Propiedades de todos los links "<a>" de cada columna*/
+
+.box__footer a{
+    margin-top: 10px;
+    color: #616161;
+    font-weight: 600;
+}
+
+.box__footer i{
+    color: #a2a2a2;
+}
+
+/*Efecto al pasar el puntero del ratón sobre los enlaces*/
+.box__footer a:hover{
+    /* opacity: 0.5; */
+    color:#b71c1c;
+}
+
+/*Propiedades de los iconos de las redes sociales y el correo*/
+.box__footer a .fab,.fas{
+    font-size: 20px;
+}
+
+.box__copyright{
+    max-width: 1200px;
+    margin: auto;
+    text-align: center;
+    padding: 0px 40px;
+}
+
+.box__copyright p{
+    margin-top: 20px;
+    /*color: #B3B6B7;*/
+    color: #616161;
+    font-weight: 700;
+}
+
+.box__copyright hr{
+    border: none;
+    height: 1px;
+    /*background-color: #B3B6B7;*/
+    /* color: #616161; */
+    background-color: #616161;
+}
+
+/**** ATRIBUTOS DEL BOTÓN SUBIR PARA EL SCROLL ****/
+
+#button-up{
+    width: 60px;
+    height: 60px;
+    background: #e95950;
+
+    /*posicionamos el icono en el centro*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    color: white;
+    border-radius: 50%;
+    font-size: 20px;
+    position:fixed;
+    bottom: 50px;
+    right: 50px;
+    cursor: pointer;
+    border: 4px solid transparent;
+    transition: all 300ms ease;
+    transform: scale(0);
+    z-index: 1;
+}
+
+#button-up:hover{
+    transform: scale(1.1);
+    border-color: rgba(0,0,0,0.1);
+}
+
+
+/*****   ATRIBUTOS Y PROPIEDADES DE LOS FORMULARIOS DE LOGIN - REGISTER   *******/
+
+
+main{
+    width: 100%;
+    padding: 20px;
+    margin: auto;
+    margin-top: 110px;
+    margin-bottom: 250px;
+}
+
+.container-login{
+    top: 0;
+    width: 100%;
+    height: 812px;
+    position: relative;             /*Desplazará todo el contenido que esté debajo*/
+    margin-top: -5.54%;
+    background-image: url(../img/DSC_7259.jpg);
+    background-position: center;    /*Centra la imagen por todos lados*/
+    background-size: cover;         /*Cubrirá toda la portada*/
+    background-repeat: no-repeat;   /*No se va a repetir la imagen*/
+}
+
+.contenedor__todo{
+    width: 100%;
+    max-width: 800px;
+    margin-top: 7%;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+}
+
+.caja__trasera{
+    width: 100%;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: center;
+    /*Desenfoque de la imagen bajo la cafa trasera*/
+    backdrop-filter: blur(10px);
+    /*Degradado del color de fondo*/
+    background-color: rgba(0,0,0,0.3);
+}
+
+.caja__trasera div{
+    margin: 100px 40px;
+    color: white;
+    transition: all 500ms;
+}
+
+.caja__trasera div p,
+.caja__trasera div button{
+    margin-top: 30px;
+}
+
+.caja__trasera div h3{
+    font-weight: 400;
+    font-size: 26px;
+}
+
+.caja__trasera button{
+    padding: 10px 40px;
+    border: 2px solid #fff;
+    background: transparent;
+    font-size: 14px;
+    font-weight: 600;
+    cursor: pointer;
+    color: white;
+    outline: none;
+    transition: all 300ms;
+}
+
+.caja__trasera button:hover{
+    background: #fff;
+    color:#b71c1c;;
+}
+
+/*Propiedades de los FORMULARIOS*/
+.contenedor__login-register{
+    display: flex;  /*Posicionado vertical*/
+    align-items: center;
+    width: 100%;
+    max-width: 380px;
+    position: relative;
+    top: -185px;
+    left: 10px;
+    transition: left 500ms cubic-bezier(0.175, 0.885, 0.320, 1.275);
+}
+
+.contenedor__login-register form{
+    width: 100%;
+    padding: 80px 20px;
+    background: #fff;
+    /*Posición para poderlo mover*/
+    position: absolute;
+    border-radius: 20px;
+}
+
+.contenedor__login-register form h2{
+    font-size: 30px;
+    text-align: center;
+    margin-bottom: 20px;
+    color: #b71c1c;
+}
+
+.contenedor__login-register form input{
+    width: 100%;
+    margin-top: 20px;
+    padding: 10px;
+    border: none;
+    background: #F2F2F2;
+    font-size: 16px;
+    outline: none;
+}
+
+.contenedor__login-register form button{
+    padding: 10px 40px;
+    margin-top: 40px;
+    border: none;
+    font-size: 14px;
+    background: #b71c1c;;
+    color: white;
+    cursor: pointer;
+    outline: none;
+}
+
+.formulario__login{
+    opacity: 1;
+    display: block;
+}
+
+.formulario__register{
+    /*Aparece el formulario de registro con "display:block"*/
+    display: none;  
+}
+
+
+
+/*****************************  RESPONSIVE DESIGN - ADAPTABLE A DISPOSITIVOS MÓVILES ***************************/
+
+@media screen and (max-width: 1220px){
+
+    .container-social-top,
+    .header-content,
+    .container-content,
+    .container-footer footer{
+        max-width: 1000px;
+        padding: 0 20px;
+    }
+}
+
+
+@media screen and (max-width: 1020px){
+
+    .container-content{
+        width: 100%;
+        flex-direction: column;
+    }
+
+    article{
+        box-shadow: 0 0 0 0;
+    }
+
+    .container-aside{
+        display: flex;
+        justify-content: center;
+    }
+
+    .container-aside aside{
+        max-width: 300px;
+        margin: 10px;
+    }
+
+}
+
+
+@media screen and (max-width: 990px){
+
+    /*Eliminamos la barra de scroll horizontal*/
+    body{
+        overflow-x: hidden;
+    }
+
+    /*Configuramos un desplazamiento del contenido hacia la derecha suave, al mostrar el menú vertical*/
+    .container-all{
+        transition: all 300ms cubic-bezier(1,0,0,1);
+    }
+
+    /*Al sacar el menú vertical, el contenido lo rodamos 300px a la derecha*/
+    .move-container-all{
+        transform: translateX(300px);
+    }
+
+    .menu{
+        width: 0px;
+        height: 100vh;  /*Alto correspondiente a todo el alto de la página*/
+        position: fixed;    /*Posición por encima de todo*/
+        top: 80px;
+        left: 0;
+        background: #fff;
+        overflow: hidden;
+        transform: translateX(-350px);      /*Mantenemos el menú en su posición*/
+        box-shadow: 10px 0 20px -25px #000;
+        transition: all 300ms cubic-bezier(1,0,0,1);
+    }
+
+    /*Mostramos el menú lateral vertical al pulsar la hamburguesa*/
+    .show-lateral{
+        width: 300px;
+        transform: translateX(0px);
+    }
+
+    .menu nav ul{
+        flex-direction: column;     /*Colocamos los enlaces del menú uno debajo del otro*/
+    }
+
+    .menu nav ul li{
+        max-width: 200px;
+        height: 50px;
+        justify-content: flex-start;
+    }
+
+    .menu-selected:before{
+        width: 0;
+    }
+
+    .menu nav ul li a{
+        margin-top: 40px;
+        color:#858585;
+    }
+
+    /*Iconos de font-awesome*/
+    .menu nav ul li a i{
+        width: 20px;
+        display: inline-block;
+        margin-right: 10px;
+        color:#b71c1c
+    }
+
+    /*Ajustamos la posición de los artículos relacionados, (aside)*/
+    .container-aside{
+        flex-wrap: wrap;
+    }
+
+    /*Mostramos la hamburguesa del menú lateral-vertical*/
+    #icon-menu{
+        display: flex;
+        margin-top: 2.8em;
+    }
+
+
+    /**** ATRIBUTOS DEL BOTÓN SUBIR PARA EL SCROLL ****/
+
+    #button-up{
+        width: 50px;
+        height: 50px;
+        background: #e95950;
+        
+        /*posicionamos el icono en el centro*/
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        
+        color: white;
+        border-radius: 50%;
+        font-size: 20px;
+        position:fixed;
+        bottom: 155px;
+        right: 26px;
+        cursor: pointer;
+        border: 4px solid transparent;
+        transition: all 300ms ease;
+        transform: scale(0);
+    }  
+}
+
+
+/**** PROPIEDADES DEL RESPONSIVE DESIGN DE LOS FORMULARIOS DE LOGIN - REGISTER ****/
+
+
+@media screen and (max-width: 850px){
+    main{
+        margin-top: 50px;
+    }
+    
+    .caja__trasera{
+        max-width: 350px;   /*Más estrecha que el formulario*/
+        /*El contenedor padre "contenedor_todo" tiene 800px*/
+        height: 300px;
+        /*Movimiento de la caja en columna*/
+        flex-direction: column;
+        margin: auto;
+    }
+
+    .caja__trasera div{
+        margin: 0px;
+        /*Montar textos unos encima de otros para ocultar*/
+        position: absolute;
+    }
+
+
+/**** RESPONSIVE DESIGN DE LOS FORMULARIOS ****/
+
+    .contenedor__login-register{
+        top: -10px;
+        left: -5px;
+        margin: auto;
+    }
+
+    .contenedor__login-register form{
+        position: relative;
+    }
+} 
+
+
+
+/****** ATRIBUTOS DEL DISEÑO DE LAS CARDS 3D ******/
+
+/*Atributos del contenedor general*/
+.container__card{
+    max-width: 1240px;
+    margin: auto;
+    /* margin-top: 100px; */
+    margin-top: 50px;
+    perspective: 1000px;    /*Cambia la perspectiva de la tarjeta al girar*/
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;        /*Hacemos que los contenedores sean "Responsive Design"*/
+}
+
+/*Atributos del contenedor padre*/
+.card__father{
+    margin: 20px;
+    perspective: 1000px;        /*Corregimos la perspectiva 3D del texto según posicionemos el contenedor, manteniéndola*/
+    -webkit-box-reflect: below 0 linear-gradient(transparent, transparent, rgba(0,0,0,0.2));
+}
+
+/*Atributos del giro de la tarjeta al pasar el puntero del ratón*/
+.card__father:hover .card{
+    transform: rotateY(180deg);
+}
+
+/*Atributos de las tarjetas*/
+.card{
+    /* width: 350px;
+    height: 400px; */
+    /* width: 280px;
+    height: 330px; */
+    width: 160px;
+    height: 210px;
+    position: relative;     /*Se juntan los contenidos en los contenedores padres*/
+    transform-style: preserve-3d;   /*Preservamos la vista en 3d de ambas caras*/
+    transition: all 600ms;          /*Establecemos el tiempo de transición de la perspectiva*/
+}
+
+/*Atributos de la cara frontal de las tarjetas*/
+.card__front{
+    background-size: cover;
+    background-position: center;
+}
+
+/*Atributos de las caras de las tarjetas*/
+.card__front,
+.card__back{
+    width: 100%;
+    height: 100%;
+    position: absolute;     /*Se juntan los contenidos en el contenedor general*/
+    top: 0;
+    left: 0;
+    backface-visibility: hidden;    /*Ocultamos la cara de la tarjeta*/
+    transform-style: preserve-3d;   /*Preservamos la vista en 3d de ambas caras*/
+    border-radius: 20px;
+}
+
+.card__back{
+    transform: rotateY(180deg);  /*Giramos el contenido de la cara trasera de la tarjeta, 180º*/
+    background: #eeeeee;
+}
+
+/*Atributos del contenido de la cara frontal de las tarjetas*/
+.body__card__front{
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    padding: 80px 40px 0px 40px;
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+    /* color: rgba(0, 0, 0, 0.973); */
+    transform: translateZ(60px);            /*Se saca el texto hacia adelante para darle efecto 3D*/
+    /*background: #fff;*/
+    /*transform: translateZ(60px);*/
+}
+
+.body__card__front h1{
+    text-align: center;
+    /* font-size: 20px; */
+    font-size: 15px;
+    font-weight: bold;
+    /* color: #b71c1c; */
+    color: #fff;
+}
+
+.body__card__front p{
+    /* color: rgba(0, 0, 0, 0.973); */
+    margin-top: 30px;
+    font-size: 18px;
+    color: #3c3c3c
+}
+
+/*Atributos del oscurecimiento del color del frontal de la tarjeta
+.bg{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: rgba(0, 0, 0, 0.4);
+    border-radius: 20px;
+}*/
+
+/*Atributos del contenido de la cara posterior de las tarjetas*/
+.body__card__back{
+    padding: 40px;
+    text-align: center;
+    /* color: rgba(235, 252, 4, 0.973); */
+    /* color: rgba(0, 0, 0, 0.973); */
+    transform: translateZ(60px);            /*Se saca el texto hacia adelante para darle efecto 3D*/
+}
+
+.body__card__back h1{
+    text-align: center;
+    font-size: 15px;
+    color: #b71c1c;
+}
+
+/*Atributos del párrafo de la cara posterior de las tarjetas*/
+.body__card__back p{
+    margin-top: 28px;
+    font-size: 17px;
+    color: #3c3c3c
+}
+
+/*Atributos del input de la cara posterior de las tarjetas*/
+.body__card__back input{
+    padding: 12px 10px;
+    margin-top: 60px;
+    font-size: 12px;
+    cursor: pointer;
+    border: none;
+    color: #fff;
+    font-weight: bold;
+    background: #b71c1c;
+    box-shadow: 1px 1px 30px -5px #566573 rgba(0, 0, 0, 0.5);
+    border-radius: 10px;
+    transition: box-shadow 600ms;
+}
+
+/*Atributos del efecto hover al pasar el cursor del ratón por encima*/
+.body__card__back input:hover{
+    box-shadow: 1px 1px 30px -5px #000;
+}
+
+
+/***************************************  GALERÍA DE FOTOGRAFÍAS CON LIGHTBOX  *************************************/
+
+.galeria{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+    width: 95%;
+    margin: auto;
+    gap: 10px;
+    padding: 40px 0;
+    overflow: hidden;
+}
+
+.galeria > a{               /*Aquí se recomienda usar una clase*/
+    display: block;
+    position: relative;
+    overflow: hidden;
+    box-shadow: 0 0 6px rgba(0, 0, 0, .5);
+}
+
+.galeria img{
+    width: 100%;
+    vertical-align: top;
+    height: 300px;
+    object-fit: cover;     /*Ajusta la imagen al elemento img*/
+    transition: transform 0.5s;
+}
+
+/*Galería de vídeos de YouTube*/
+.galeria iframe{
+    width: 100%;
+    vertical-align: top;
+    height: 300px;
+    object-fit: cover;     /*Ajusta la imagen al elemento img*/
+    /* transition: transform 0.5s; */
+    /* background-color: #e95950; */
+}
+
+.galeria a:hover img{
+    filter: blur(2px);
+    transform: rotate(10deg) scale(1.3);
+}
+
+/* .galeria a:hover iframe{
+    filter: blur(2px);
+    transform: rotate(10deg) scale(1.3);
+} */
+
+.light-box{
+    position: fixed;
+    top: 0;
+    left: 0;
+    background: rgba(0, 0, 0, .5);
+    transition: transform 1.3s ease-in-out;
+    width: 100%;
+    height: 100vh;
+    z-index: 1000;
+    display: flex;
+    justify-content: center;        /*Alineación horizontal*/
+    align-items: center;            /*Alineación vertical*/
+    transform: scale(0);
+}
+
+.light-box img{
+    width: 75vw;
+    max-height: 70vh;
+    object-fit: cover;
+}
+
+/*Propiedades cuando alguien hace click en la imagen*/
+.light-box:target{
+    transform: scale(1);
+}
+
+/* Propiedades de la X de cerrar */
+.close{
+    display: block;
+    position: absolute;    /*Se va a posicionar respecto al padre .light-box, con position: fixed*/
+    top: 40px;
+    right: 40px;
+    background: #b71c1c;
+    color: #fff;
+    text-decoration: none;
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    line-height: 40px;
+    border-radius: 50%;
+}
+
+/* Propiedades de la flecha next */
+.next{
+    display: block;
+    background: #b71c1c;
+    color: #fff;
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    text-decoration: none;
+    text-align: center;
+}
+
+
+
+/*********************************  RESPONSIVE DESIGN  ********************************/
+
+@media screen and (max-width:400px){
+    .galeria{
+        grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    }
+
+    .close{
+        top: 20px;
+        right: 20px;
+    }
+}
+
+
+
+/********************************  GALERÍA DE VÍDEOS DE YOUTUBE  ***************************/
+

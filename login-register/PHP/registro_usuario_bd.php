@@ -5,8 +5,10 @@
     $num_socio=htmlspecialchars($_POST["numero_socio"]);
     $usuario=htmlspecialchars($_POST["usuario"]);
     $pwd=htmlspecialchars($_POST["contrasena"]);
+    
     //Almacenamos la contraseña encriptada
-    //$pwd=hash('sha512',$pwd);
+    $pwd=hash('sha512',$pwd);
+
     $nombre=htmlspecialchars($_POST["nombre"]);
     $apellidos=htmlspecialchars($_POST["apellidos"]);
     $email=htmlspecialchars($_POST["correo_elec"]);

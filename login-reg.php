@@ -95,7 +95,7 @@
                 <form action="login-register/php/login_usuario_bd.php" method="POST" class="formulario__login">
                     <h2>Iniciar Sesión</h2>
                     <input type="text" name="usuario" placeholder="Usuario">
-                    <input type="password" name="contrasena" placeholder="Contraseña" required>
+                    <input type="password" minlength="6" maxlength="6" name="contrasena" placeholder="Contraseña" required>
                     <!--<input type="submit" name="submit" value="Entrar">-->
                     <button>Entrar</button>
                 </form>
@@ -104,7 +104,7 @@
                     <h2>Registrarse</h2>
                     <input type="text" name="numero_socio" placeholder="Nº Socio" required>
                     <input type="text" name="usuario" placeholder="Usuario" required>
-                    <input type="password" name="contrasena" placeholder="Contraseña" required>
+                    <input type="password" minlength="6" maxlength="6" name="contrasena" placeholder="Contraseña" required>
                     <input type="text" name="nombre" placeholder="Nombre" required>
                     <input type="text" name="apellidos" placeholder="Apellidos" required>
                     <input type="email" name="correo_elec" placeholder="Correo Electrónico" required>
