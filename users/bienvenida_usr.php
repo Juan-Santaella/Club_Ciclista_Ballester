@@ -67,7 +67,7 @@
 
         <!--SocialBar superior-->
         <?php
-            include "includes/social_up.php";
+            include "includes/social_up_users.php";
         ?>
 
         <div class="header-content">

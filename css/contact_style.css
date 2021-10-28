@@ -4,9 +4,13 @@
     max-width: 1170px;
     margin-left: auto;
     margin-right: auto;
-    margin-bottom: 4em;
+    margin-bottom: 1.5em;
     padding: 1.5em;
 } 
+
+.container-all iframe{
+    margin-top: 15px;
+}
 
 .contact_logo{
     text-align: center;
@@ -100,6 +104,18 @@
 .contact-info ul li{
     padding: .3em;
     
+}
+
+.googlemap{
+    width: 100%;
+}
+
+.map-wrapper{
+    max-width: 1121px;
+    top: 0;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 2em;
 }
 
 /**** RESPONSIVE DESIGN PARA PANTALLAS GRANDES ****/

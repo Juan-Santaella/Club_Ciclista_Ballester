@@ -12,5 +12,11 @@
     <a href="#"><i class="fab fa-twitter-square icon-redes-header"></i></a>
     <a href="https://www.instagram.com/club_ciclista_ballester/" target="none"><i class="fab fa-instagram-square icon-redes-header"></i></a>
     <a href="https://www.youtube.com/results?search_query=club+ciclista+ballester" target="none"><i class="fab fa-youtube-square icon-redes-header"></i></a>
+
+    <div class="user-top">
+        <h3>Bienvenido: <?php echo $_SESSION['usuario']?>  <span>Usuario</span></h3>
+        <a href="cerrar_sesion.php" target="none"><i class="fas fa-power-off icon-start-header"></i><a>
+        <h5> Cerrar sesión</h5>
+    </div>
     
 </div>

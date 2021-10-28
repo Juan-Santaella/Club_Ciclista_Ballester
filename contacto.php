@@ -111,7 +111,12 @@
                 <p>Club Ciclista Ballester</p>
             </div>
         </div>
+    </div>
 
+    <!--/***************************  GOOGLE MAPS  **********************************/-->
+
+    <div class="map-wrapper">
+        <iframe class="googlemap" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3510.7943315897032!2d-16.367802784923413!3d28.365066982524027!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.  1!3m3!1m2!1s0xc402de4482248e3%3A0xdfa16fc3903c1d16!2sClub%20Ciclista%20Ballester!5e0!3m2!1ses!2ses!4v1635422427075!5m2!1ses!2ses" width="600" height="450"    style="border:0;" allowfullscreen="" loading="lazy"></iframe>
     </div>
 
     <!--Incrustamos el código del botón de scroll_up-->
