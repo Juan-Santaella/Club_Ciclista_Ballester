@@ -15,7 +15,7 @@
 
     <div class="user-top">
         <h3>Bienvenido: <?php echo $_SESSION['usuario']?>  <span>Usuario</span></h3>
-        <a href="cerrar_sesion.php" target="none"><i class="fas fa-power-off icon-start-header"></i><a>
+        <a href="cerrar_sesion_usr.php"><i class="fas fa-power-off icon-start-header"></i></a>
         <h5> Cerrar sesión</h5>
     </div>
     

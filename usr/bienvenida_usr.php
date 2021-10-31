@@ -50,11 +50,11 @@
     <title> Club Ciclista Ballester </title>
 
     <!--Icono en el title-->
-    <link rel="icon" type="image/png" href="img/logo.png">
+    <link rel="icon" type="image/png" href="img_usr/logo.png">
 
     <script src="https://kit.fontawesome.com/4e2bb02eb5.js" crossorigin="anonymous"></script>
 
-    <link rel="stylesheet" href="css/style.css">    <!--*** LOS ESTILOS SIEMPRE VAN DESPUÉS DE LOS ICONOS ***-->
+    <link rel="stylesheet" href="css_usr/style_usr.css">    <!--*** LOS ESTILOS SIEMPRE VAN DESPUÉS DE LOS ICONOS ***-->
 
     <!--meta etiqueta que va a convertir a la página en RESPONSIVE-->
     <meta name="viewport" content= initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
@@ -67,7 +67,7 @@
 
         <!--SocialBar superior-->
         <?php
-            include "includes/social_up_users.php";
+            include "includes_usr/social_up_usr.php";
         ?>
 
         <div class="header-content">
@@ -80,12 +80,12 @@
             <div class="menu" id="show-menu">
                 <nav>
                     <ul>
-                        <li class="menu-selected"><a href="index.php" class="text-menu-selected"><i class="fas fa-home"></i> Inicio</a></li>
-                        <li><a href="club.php"><i class="fas fa-biking"></i> Club</a></li>
-                        <li><a href="escuela.php"><i class="fas fa-chalkboard-teacher"></i> Escuela</a></li>
-                        <li><a href="galeria.php"><i class="fas fa-images"></i> Galería</a></li>
-                        <li><a href="contacto.php"><i class="fas fa-envelope"></i> Contáctanos</a></li>
-                        <li><a href="login-reg.php"><i class="fas fa-lock"></i> Entrar</a></li>
+                        <li class="menu-selected"><a href="../index.php" class="text-menu-selected"><i class="fas fa-home"></i> Inicio</a></li>
+                        <li><a href="../club.php"><i class="fas fa-biking"></i> Club</a></li>
+                        <li><a href="../escuela.php"><i class="fas fa-chalkboard-teacher"></i> Escuela</a></li>
+                        <li><a href="../galeria.php"><i class="fas fa-images"></i> Galería</a></li>
+                        <li><a href="../contacto.php"><i class="fas fa-envelope"></i> Contáctanos</a></li>
+                        <li><a href="../login-reg.php"><i class="fas fa-lock"></i> Entrar</a></li>
                     </ul>
                 </nav>
             </div>
@@ -114,7 +114,7 @@
 
     <h1>Bienvenido al Club Ciclista Ballester</h1>
     <h2>Usuario : Socio</h2>
-    <a href="cerrar_sesion.php">Cerrar sesión</a>
+    <a href="cerrar_sesion_usr.php">Cerrar sesión</a>
 
 
     <!-------------------------  SLIDESHOW  -
@@ -224,30 +224,23 @@
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda, at quibusdam!</p>
         </div>
 
-    <div class="div_espaciador">
-            </br>
-            </br>
-            </br>
-            </br>
-    </div>
-
     </div>
 
 
 
     <!--Incrustamos el código del botón de scroll_up-->
     <?php
-        include "includes/scroll_button.php"
+        include "includes_usr/scroll_button.php"
     ?>
 
     <!-- Incrustamos el código del footer-->
     <?php
-        include "includes/footer.php";
+        include "includes_usr/footer_usr.php";
     ?>
     </div>
 
     <!--Enlace a los scripts de JavaScript-->
-    <script src="js/script.js"></script>
+    <script src="js_usr/script_usr.js"></script>
 
 </body>
 </html>

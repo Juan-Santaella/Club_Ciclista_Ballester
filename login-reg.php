@@ -2,9 +2,16 @@
     /**** VERIFICAMOS SI TENEMOS YA INICIADA SESIÓN ****/
     session_start();
 
+    //include'conexion_bd.php';
+
     //Si existe una sesión iniciada, no nos vuelve a mostrar la página de login, sino la de bienvenida directamente
     if(isset($_SESSION['usuario'])){
-        header("location:login-register/php/bienvenida.php");
+
+        if($_SESSION['rol_user'] == "usuario"){
+            header("location:usr/bienvenida_usr.php");
+        }else{
+            header("location:adm/bienvenida_adm.php");
+        }
     }
 ?>
 
