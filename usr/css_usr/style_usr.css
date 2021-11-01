@@ -24,7 +24,6 @@
     display: flex;
     width: 100%;
     justify-content: left;
-    /* margin-top: 20px; */
     margin: 0;
     background: #eeeeee;
 }
@@ -37,7 +36,7 @@
 }
 
 .container-social-top .logo-top img{
-    width: 100px;
+    /* width: 100px; */
     width: 110px;
     height: 100%;
     border-radius: 15%;
@@ -55,6 +54,44 @@
 
 .container-social-top .icon-redes-header:hover{
     color: #b71c1c;
+}
+
+.container-social-top .usuario_usr{
+    display: flex;
+    width: 100%;
+    max-width: 29.87%;
+    justify-content: right;
+    margin: 18px 19px;
+}
+
+.container-social-top .usuario_usr span{
+    margin-left: 2em;
+    margin-right: 1em;
+    color: #b71c1c;
+}
+
+.container-social-top .icon-start-header{
+    font-size: 20px;
+    margin: 22px 19px 18px 71px;
+    width: 5px;
+    height: 5px;
+    /* display: flex; */
+    color:#455a64;
+}
+
+.container-social-top .icon-start-header:hover{
+    color: #b71c1c;
+}
+
+.container-social-top h3{
+    color: #777777;
+}
+
+.container-social-top h5{
+    width: 15em;
+    margin: 23px 19px 19px 5px;
+    color: #777777;
+
 }
 
 /*Nav*/
@@ -298,7 +335,7 @@
     height: 650px;
     position: relative;             /*Desplazará todo el contenido que esté debajo*/
     margin-top: 5px;                      /*Continúa donde acaba el nav*/
-    background-image: url(../img/DSC_8266.jpg);
+    background-image: url(../img_usr/DSC_8266.jpg);
     background-position: center;    /*Centra la imagen por todos lados*/
     background-size: cover;         /*Cubrirá toda la portada*/
     background-repeat: no-repeat;   /*No se va a repetir la imagen*/
@@ -1103,6 +1140,10 @@ main{
     .container-footer footer{
         max-width: 1000px;
         padding: 0 20px;
+    }
+
+    .container-social-top h5{
+        display: none;
     }
 }
 

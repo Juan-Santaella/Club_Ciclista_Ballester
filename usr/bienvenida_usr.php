@@ -112,9 +112,9 @@
         </div>
     </div>
 
-    <h1>Bienvenido al Club Ciclista Ballester</h1>
+    <!-- <h1>Bienvenido al Club Ciclista Ballester</h1>
     <h2>Usuario : Socio</h2>
-    <a href="cerrar_sesion_usr.php">Cerrar sesión</a>
+    <a href="cerrar_sesion_usr.php">Cerrar sesión</a> -->
 
 
     <!-------------------------  SLIDESHOW  -
