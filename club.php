@@ -342,31 +342,6 @@
         </div>
     </div>
 
-    <!-- Footer -->
-    <!-- <div class="container-footer">
-        <footer>
-            <div class="logo-footer">
-                <img src="img/logo.png" alt="Logo Club Ciclista Ballester">
-            </div>
-
-            <div class="redes-footer">
-                    <a href="#"><i class="fab fa-facebook-f icon-redes-footer"></i></a>
-                    <a href="#"><i class="fab fa-twitter icon-redes-footer"></i></a>
-                    <a href="#"><i class="fab fa-instagram icon-redes-footer"></i></a>
-                    <a href="#"><i class="fab fa-youtube icon-redes-footer"></i></a>
-            </div>
-
-            <hr>
-            <h4>&copy; 2021 Juan Santaella - Todos los derechos reservados</h4>
-
-        </footer>
-    </div> -->
-
-    <!--div id="button-up">
-        <i class="fas fa-chevron-up"></i>
-    </div>-->
-
-
     <!--Incrustamos el código del botón de scroll_up-->
     <?php
         include "includes/scroll_button.php"

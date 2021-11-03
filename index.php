@@ -150,8 +150,17 @@
         </div>
     </section>
 
+    <!-- Imágenes equipación del Club -->
 
-    <!--Videos de YouTube-->
+    <div class="container-equipacion">
+        <div class="foto-equipacion">
+            <img src="img/maillot_corto_ballester.jpeg" alt="maillot corto Ballester">
+            <img src="img/maillot_largo_ballester.jpeg" alt="maillot largo Ballester">
+            <img src="img/chaquetilla_ballester.jpeg" alt="chaquetilla Ballester">
+        </div>
+    </div>
+
+    <!-- Videos de YouTube -->
 
     <!--Contenedor-->
     <div class="container">
@@ -178,16 +187,17 @@
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda, at quibusdam!</p>
         </div>
 
-    <div class="div_espaciador">
-            </br>
-            </br>
-            </br>
-            </br>
     </div>
 
+    <!-- Carteles de pruebas y anuncios -->
+
+    <div class="container-carteles">
+        <div class="post-carteles">
+            <img src="img/carteles/loro_parque.jpg" alt="prueba Loro Parque">
+            <img src="img/carteles/liga_infantil_ptl.jpg" alt="liga infantil Punta Larga">
+            <img src="img/carteles/tour.jpg" alt="tour 2022">
+        </div>
     </div>
-
-
 
     <!--Incrustamos el código del botón de scroll_up-->
     <?php
