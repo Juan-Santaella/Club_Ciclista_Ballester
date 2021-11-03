@@ -36,7 +36,6 @@
 }
 
 .container-social-top .logo-top img{
-    /* width: 100px; */
     width: 110px;
     height: 100%;
     border-radius: 15%;
@@ -45,7 +44,7 @@
 
 .container-social-top .icon-redes-header{
     font-size: 20px;
-    margin: 20px;
+    margin: 20px 20px 0px 20px;
     width: 5px;
     height: 5px;
     display: flex;
@@ -56,26 +55,33 @@
     color: #b71c1c;
 }
 
-.container-social-top .usuario_usr{
+
+/***** Bienvenida al usuario, tipo de usuario y cierre de sesión *****/
+
+.container-social-top .container_usr{
     display: flex;
     width: 100%;
-    max-width: 29.87%;
+    max-width: 100%;
     justify-content: right;
-    margin: 18px 19px;
+    top: 0;
+    color: #a2a2a2;
 }
 
-.container-social-top .usuario_usr span{
-    margin-left: 2em;
-    margin-right: 1em;
-    color: #b71c1c;
+.container-social-top .usr_name{
+    margin: 21px 0px 0px 15px;
+    color: #777777;
+}
+
+.container-social-top .usr_kind{
+    margin: 21px 65px 0px 30px;
+    color: #b71c1c;;
 }
 
 .container-social-top .icon-start-header{
-    font-size: 20px;
-    margin: 22px 19px 18px 71px;
+    font-size: 18px;
+    margin: 22px 0px 0px 0px;
     width: 5px;
     height: 5px;
-    /* display: flex; */
     color:#455a64;
 }
 
@@ -83,15 +89,10 @@
     color: #b71c1c;
 }
 
-.container-social-top h3{
-    color: #777777;
-}
-
 .container-social-top h5{
-    width: 15em;
-    margin: 23px 19px 19px 5px;
+    width: 14.88em;
+    margin: 22px 262px 0px 18px;
     color: #777777;
-
 }
 
 /*Nav*/
@@ -335,7 +336,7 @@
     height: 650px;
     position: relative;             /*Desplazará todo el contenido que esté debajo*/
     margin-top: 5px;                      /*Continúa donde acaba el nav*/
-    background-image: url(../img_usr/DSC_8266.jpg);
+    background-image: url(../img_usr/DSC_9147.jpg);
     background-position: center;    /*Centra la imagen por todos lados*/
     background-size: cover;         /*Cubrirá toda la portada*/
     background-repeat: no-repeat;   /*No se va a repetir la imagen*/
@@ -1132,21 +1133,67 @@ main{
 
 /*****************************  RESPONSIVE DESIGN - ADAPTABLE A DISPOSITIVOS MÓVILES ***************************/
 
-@media screen and (max-width: 1220px){
+@media screen and (max-width: 1348px){
 
-    .container-social-top,
-    .header-content,
-    .container-content,
-    .container-footer footer{
-        max-width: 1000px;
-        padding: 0 20px;
+    .container-social-top .container_usr{
+        font-size: 15px;
     }
-
-    .container-social-top h5{
-        display: none;
+    
+    .container-social-top .usr_kind{
+        margin: 21px 25px 0px 10px;
+        color: #b71c1c;;
+    } 
+    
+    .container-social-top .icon-start-header{
+        font-size: 15px;
     }
 }
 
+@media screen and (max-width: 1243px){
+
+    .container-social-top .container_usr{
+        font-size: 13px;
+    }
+}
+
+
+
+@media screen and (max-width: 1220px){
+
+    .container-social-top,
+    .container_usr,
+    .header-content,
+    .container-content,
+    .container-footer footer{
+        padding: 0 20px;
+    }
+
+    .container-social-top .container_usr{
+        font-size: 13px;
+        width: 100%;
+        max-width: 100%;
+    }
+
+    .container-social-top h5{
+        width: 22em;
+        margin: 22px 0px 0px 18px;
+        color: #777777;
+    }  
+}
+
+@media screen and (max-width: 1031px){
+    
+    .container-social-top .usr_kind{
+        margin: 21px 12px 0px 10px;
+        /* color: #b71c1c;; */
+    } 
+    
+     .container-social-top h5{
+        /* width: 22em; */
+        margin: 22px 0px 0px 12px;
+        /* color: #777777; */
+    }  
+}
 
 @media screen and (max-width: 1020px){
 
@@ -1168,6 +1215,18 @@ main{
         max-width: 300px;
         margin: 10px;
     }
+
+    .container-social-top .usr_kind{
+        margin: 21px 12px 0px 10px;
+    } 
+
+    .container-social-top .icon-start-header{
+        margin: 22px 155px 0px 0px;
+    }
+
+    .container-social-top h5{
+        display: none;
+    } 
 
 }
 
@@ -1273,6 +1332,19 @@ main{
 }
 
 
+@media screen and (max-width: 885px){
+
+    .container-social-top .usr_name{
+        margin: 21px 0px 0px 0px;
+    }
+    
+    .container-social-top .icon-start-header{
+        margin: 22px 125px 0px 0px;
+    }
+
+}
+
+
 /**** PROPIEDADES DEL RESPONSIVE DESIGN DE LOS FORMULARIOS DE LOGIN - REGISTER ****/
 
 
@@ -1308,6 +1380,18 @@ main{
     .contenedor__login-register form{
         position: relative;
     }
+
+    .container-social-top .container_usr{
+        font-size: 11px;
+    }
+
+    .container-social-top .icon-start-header{
+        margin: 22px 70px 0px 5px;
+    }
+
+    .container-social-top .usr_kind{
+        display: none;
+    } 
 } 
 
 

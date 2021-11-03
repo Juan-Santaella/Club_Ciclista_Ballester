@@ -85,7 +85,7 @@
                         <li><a href="../escuela.php"><i class="fas fa-chalkboard-teacher"></i> Escuela</a></li>
                         <li><a href="../galeria.php"><i class="fas fa-images"></i> Galería</a></li>
                         <li><a href="../contacto.php"><i class="fas fa-envelope"></i> Contáctanos</a></li>
-                        <li><a href="../login-reg.php"><i class="fas fa-lock"></i> Entrar</a></li>
+                        <!-- <li><a href="../login-reg.php"><i class="fas fa-lock"></i> Entrar</a></li> -->
                     </ul>
                 </nav>
             </div>
@@ -107,14 +107,10 @@
     
     <div class="container-cover-inicio">
         <div class="container-info-cover">
-            <h1>¡Pedalea con nosotros!</h1>  
+            <h1>¡Bienvenidos al Club!</h1>  
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus quae ducimus mollitia velit beatae nesciunt!</p>
         </div>
     </div>
-
-    <!-- <h1>Bienvenido al Club Ciclista Ballester</h1>
-    <h2>Usuario : Socio</h2>
-    <a href="cerrar_sesion_usr.php">Cerrar sesión</a> -->
 
 
     <!-------------------------  SLIDESHOW  -
