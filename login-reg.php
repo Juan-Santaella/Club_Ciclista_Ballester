@@ -1,18 +1,5 @@
 <?php
-    /**** VERIFICAMOS SI TENEMOS YA INICIADA SESIÓN ****/
     session_start();
-
-    //include'conexion_bd.php';
-
-    //Si existe una sesión iniciada, no nos vuelve a mostrar la página de login, sino la de bienvenida directamente
-    if(isset($_SESSION['usuario'])){
-
-        if($_SESSION['rol_user'] == "usuario"){
-            header("location:usr/bienvenida_usr.php");
-        }else{
-            header("location:adm/bienvenida_adm.php");
-        }
-    }
 ?>
 
 <!DOCTYPE html>
@@ -42,7 +29,17 @@
 
         <!--SocialBar superior-->
         <?php
-            include "includes/social_up.php";
+            //Si existe una sesión iniciada, no nos vuelve a mostrar la página de login, sino la de bienvenida directamente
+            if(isset($_SESSION['usuario'])){
+                if($_SESSION['rol_user'] == "usuario"){
+                    header("location:usr/bienvenida_usr.php");
+                }else{
+                    header("location:adm/bienvenida_adm.php");
+                }
+            }else{
+                session_destroy();
+                include "includes/social_up.php";
+            }
         ?>
 
         <div class="header-content">
@@ -116,8 +113,6 @@
                     <input type="text" name="apellidos" placeholder="Apellidos" required>
                     <input type="email" name="correo_elec" placeholder="Correo Electrónico" required>
                     <input type="text" name="telefono" placeholder="Teléfono" required>
-                    <!--<input type="submit" name="submit" value="Registrarse">-->
-                    <!--Button tiene por defecto type="submit"-->
                     <button>Registrarse</button>
                 </form>
             </div>

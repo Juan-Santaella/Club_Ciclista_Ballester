@@ -62,6 +62,46 @@
     color: #b71c1c;
 }
 
+/***** Bienvenida al usuario, tipo de usuario y cierre de sesión *****/
+
+.container-social-top .container_usr{
+    display: flex;
+    width: 100%;
+    max-width: 100%;
+    justify-content: right;
+    top: 0;
+    color: #a2a2a2;
+}
+
+.container-social-top .usr_name{
+    margin: 21px 0px 0px 15px;
+    color: #777777;
+}
+
+.container-social-top .usr_kind{
+    margin: 21px 65px 0px 30px;
+    color: #b71c1c;
+    text-transform: capitalize;
+}
+
+.container-social-top .icon-start-header{
+    font-size: 18px;
+    margin: 22px 0px 0px 0px;
+    width: 5px;
+    height: 5px;
+    color:#455a64;
+}
+
+.container-social-top .icon-start-header:hover{
+    color: #b71c1c;
+}
+
+.container-social-top h5{
+    width: 14.88em;
+    margin: 22px 262px 0px 18px;
+    color: #777777;
+}
+
 /*Nav*/
 .header-content{
     max-width: 1200px;
@@ -630,8 +670,7 @@ article img{
     width: 15em;
     height: 15em;
     margin: 25px;
-    transition: all 1s;
-    z-index: 1;
+    transition: all 800ms;
 }
 
 .post-carteles img:hover{
