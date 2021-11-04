@@ -61,16 +61,6 @@
 
     <div class="container-all" id="move-content">
 
-    <!--Portada-->
-    
-    <!-- <div class="container-cover-inicio">
-        <div class="container-info-cover">
-            <h1>¡Pedalea con nosotros!</h1>  
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus quae ducimus mollitia velit beatae nesciunt!</p>
-        </div>
-    </div> -->
-
-
     <!-------------------------  SLIDESHOW  --------------------------->
 
     <div class="slideshow">
@@ -196,6 +186,27 @@
             <img src="img/carteles/loro_parque.jpg" alt="prueba Loro Parque">
             <img src="img/carteles/liga_infantil_ptl.jpg" alt="liga infantil Punta Larga">
             <img src="img/carteles/tour.jpg" alt="tour 2022">
+        </div>
+    </div>
+
+    <!-- Sponsors -->
+
+    <div class="container-sponsors">
+        <div class="img-sponsors">
+            <a href="https://www.candelaria.es" target="_blank"><img id="grow1" src="img/sponsors/ayto_candelaria.jpg" alt="Ayuntamiento Candelaria"></a>
+            <a href="https://deportestenerife.es" target="_blank"><img src="img/sponsors/dxt.png" alt="Cabildo Tenerife"></a>
+            <a href="https://ciclismocanario.es › index.php › canarias" target="_blank"><img src="img/sponsors/fed_canaria.png" alt="Federacion Ciclismo"></a>
+            <a href="https://aguasdefirgas.com" target="_blank"><img src="img/sponsors/firgas.png" alt="Firgas"></a>
+            <a href="https://libbys.es" target="_blank"><img src="img/sponsors/libbys.png" alt="Libby´s"></a>
+            <a href="https://dulcesol.com" target="_blank"><img src="img/sponsors/dulcesol.png" alt="Dulcesol"></a>
+        </div>
+
+        <div class="img-sponsors">
+            <a href="https://www.facebook.com/aperitivoscumba/" target="_blank"><img src="img/sponsors/cumba.png" alt="Cumba"></a>
+            <a href="https://www.instagram.com/construccionesmetrika/" target="_blank"><img src="img/sponsors/metrika.png" alt="Metrika"></a>
+            <a href="https://www.facebook.com/ReactiviteCentroDeFisioterapia/" target="_blank"><img id="grow2" src="img/sponsors/reactivite.png" alt="Réactivité"></a>
+            <a href="https://www.elpaso2000.com" target="_blank"><img src="img/sponsors/paso2000.png" alt="Paso2000"></a>
+            <a href="https://www.archipielagoeventos.es" target="_blank"><img src="img/sponsors/archipielago.png" alt="Archipiélago"></a>
         </div>
     </div>
 

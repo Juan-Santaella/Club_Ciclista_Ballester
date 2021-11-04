@@ -86,7 +86,7 @@
         <a href="#image4"><img src="img/DSC_9349.jpg" alt=""></a>
         <a href="#image5"><img src="img/DSC_9662.jpg" alt=""></a>
         <a href="#image6"><img src="img/DSC_9751.jpg" alt=""></a>
-        <a href="#image7"><img src="img/DSC_5235.jpg" alt=""></a>
+        <a href="#image7"><img src="img/DSC_7372.jpg" alt=""></a>
         <a href="#image8"><img src="img/DSC_7259.jpg" alt=""></a>
         <a href="#image9"><img src="img/DSC_7264.jpg" alt=""></a>
         <a href="#image10"><img src="img/DSC_8181.jpg" alt=""></a>
@@ -130,7 +130,7 @@
     </article>
     <article class="light-box" id="image7">
         <a href="#image6" class="next"><i class="fas fa-arrow-left"></i></a>
-        <img src="img/DSC_5235.jpg" alt="">
+        <img src="img/DSC_7372.jpg" alt="">
         <a href="#image8" class="next"><i class="fas fa-arrow-right"></i></a>
         <a href="#" class="close">X</a>
     </article>
