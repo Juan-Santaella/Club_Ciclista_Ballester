@@ -33,11 +33,6 @@
                     $_SESSION['contrasena']=$pwd;
                     $_SESSION['rol_user']=$row["ROL_USER"];
 
-                    /*Almacenamos el nombre, apellidos y rol del usuario
-                    $_SESSION['nombre'] = mysqli_query($conexion,"SELECT nombre FROM socios WHERE usuario='$usuario' AND contrasena='$pwd'");
-                    $_SESSION['apellidos'] = mysqli_query($conexion,"SELECT apellidos FROM socios WHERE usuario='$usuario' AND contrasena='$pwd'");
-                    $_SESSION['rol_user'] = $row["ROL_USER"];*/
-
                     header("location: ../../adm/bienvenida_adm.php");
                     exit();
 
@@ -47,12 +42,6 @@
                     $_SESSION['usuario']=$usuario;
                     $_SESSION['contrasena']=$pwd;
                     $_SESSION['rol_user']=$row["ROL_USER"];
-
-
-                   /*Almacenamos el nombre, apellidos y rol del usuario
-                   $_SESSION['nombre'] = mysqli_query($conexion,"SELECT nombre FROM socios WHERE usuario='$usuario' AND contrasena='$pwd'");
-                   $_SESSION['apellidos'] = mysqli_query($conexion,"SELECT apellidos FROM socios WHERE usuario='$usuario' AND contrasena='$pwd'");
-                   $_SESSION['rol_user'] = $row["ROL_USER"];*/
 
                     header("location: ../../usr/bienvenida_usr.php");
                     exit();

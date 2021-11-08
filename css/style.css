@@ -303,7 +303,7 @@
     }  
 
     .slideshow-item-text h5{
-        font-size: 4rem;
+        font-size: 1.8rem;
     }
 }
 
@@ -317,11 +317,11 @@
     }  
 
     .slideshow-item-text h5{
-        font-size: 3rem;
+        font-size: 1.8rem;
     }
 
     .slideshow-item-text p{
-        font-size: 1.4rem;
+        font-size: 1.3rem;
     }
 }
 
@@ -429,6 +429,59 @@
     z-index: 1;
 }
 
+
+/****************  SECCIÓN DE ADMINISTRADOR  ********************/
+
+/*Portada del Área Técnica*/
+.container-cover-tecnica-inicio{
+    width: 100%;
+    height: 650px;
+    position: relative;             /*Desplazará todo el contenido que esté debajo*/
+    margin-top: 5px;                      /*Continúa donde acaba el nav*/
+    background-image: url(../img/adm/DSC_7372.jpg);
+    background-position: center;    /*Centra la imagen por todos lados*/
+    background-size: cover;         /*Cubrirá toda la portada*/
+    background-repeat: no-repeat;   /*No se va a repetir la imagen*/
+}
+
+.container-cover-tecnica-inicio:before{
+    content: '';
+    width: 100%;
+    height: 100%;
+    background: rgba(26, 35, 126, .6);
+    position: absolute;             /*Para que se vea la capa*/
+    top: 0;
+    left: 0;
+}
+
+/********************  SECCIÓN DE USUARIO  ***************************/
+
+/*Portada del Área de Usuario*/
+.container-cover-user-inicio{
+    width: 100%;
+    height: 650px;
+    position: relative;             /*Desplazará todo el contenido que esté debajo*/
+    margin-top: 5px;                      /*Continúa donde acaba el nav*/
+    background-image: url(../img/usr/DSC_1249.jpg);
+    background-position: center;    /*Centra la imagen por todos lados*/
+    background-size: cover;         /*Cubrirá toda la portada*/
+    background-repeat: no-repeat;   /*No se va a repetir la imagen*/
+}
+
+.container-cover-user-inicio:before{
+    content: '';
+    width: 100%;
+    height: 100%;
+    background: rgba(26, 35, 126, .6);
+    position: absolute;             /*Para que se vea la capa*/
+    top: 0;
+    left: 0;
+}
+
+
+
+/********************  PROPIEDADES GENERALES DEL TEXTO DE LAS PORTADAS  ***************************/
+
 .container-info-cover h1{
     font-size: 60px;
     font-weight: 500;
@@ -441,6 +494,9 @@
     font-size: 20px;
     font-weight: 300;
 }
+
+
+/************************  ARTÍCULO  ****************************/
 
 /***** CONTENEDOR DEL CONTENIDO DEL ARTÍCULO *****/
 
@@ -620,8 +676,8 @@ article img{
 
 @media(max-width:840px){
     .content{
-        grid-template-columns: repeat(2, 1fr);  /*Con el responsive design se pasan a 2 columnas que ocupan una fracción*/
-        
+        grid-template-columns: repeat(1, 1fr);  /*Con el responsive design se pasan a 2 columnas que ocupan una fracción*/
+        max-width: 400px;
     }
 }
 
@@ -638,6 +694,7 @@ article img{
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    align-items: center;
     padding: 80px;
 }
 
@@ -646,6 +703,19 @@ article img{
     height: 15em;
     margin: 20px;
 }
+
+/******************  RESPONSIVE DESIGN DE LA SECCIÓN DE EQUIPACIÓN  *******************/
+
+@media screen and (max-width: 840px){
+    .container-equipacion{
+        max-width: 150px;
+        align-items: center;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
+
 
 
 /***************  CARTELES DE PRUEBAS Y ANUNCIOS  *********************/
@@ -671,6 +741,29 @@ article img{
 .post-carteles img:hover{
     transform: scale(2.50);
 }
+
+
+/******************  RESPONSIVE DESIGN DE LA SECCIÓN DE CARTELES  *******************/
+
+@media screen and (max-width: 1135px){
+    .container-carteles{
+        max-width: 450px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
+@media screen and (max-width: 809px){
+    .container-carteles{
+        max-width: 350px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
+
+
+
 
 /***************  SPONSORS  *********************/
 
@@ -700,6 +793,17 @@ article img{
 #grow2{
     width: 80px;
     height: 75px;
+}
+
+
+/*****************  RESPONSIVE DESIGN DE LA SECCIÓN DE SPONSORS  ********************/
+
+@media screen and (max-width: 791px){
+    .container-sponsors{
+        max-width: 500px;
+        margin-left: auto;
+        margin-right: auto;
+    }
 }
 
 /********** VÍDEOS DE YOUTUBE ***************/

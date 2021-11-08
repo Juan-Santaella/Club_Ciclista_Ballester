@@ -17,29 +17,6 @@
     }
 ?>
 
-<!--<!DOCTYPE html>
-<html lang="es">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="author" content="Juan Santaella">
-    <title>Área Privada - Club Ballester</title>
-</head>
-<body>
-    <h1>Bienvenido al Club Ciclista Ballester</h1>
-    <h2>Usuario : Socio</h2>
-    <a href="cerrar_sesion.php">Cerrar sesión</a>
-</body>
-</html>-->
-
-
-
-
-
-
-
-
 <!DOCTYPE html>
 <html lang="es">
 <head>
@@ -50,11 +27,11 @@
     <title> Club Ciclista Ballester </title>
 
     <!--Icono en el title-->
-    <link rel="icon" type="image/png" href="img_usr/logo.png">
+    <link rel="icon" type="image/png" href="../img/logo.png">
 
     <script src="https://kit.fontawesome.com/4e2bb02eb5.js" crossorigin="anonymous"></script>
 
-    <link rel="stylesheet" href="css_usr/style_usr.css">    <!--*** LOS ESTILOS SIEMPRE VAN DESPUÉS DE LOS ICONOS ***-->
+    <link rel="stylesheet" href="../css/style.css">    <!--*** LOS ESTILOS SIEMPRE VAN DESPUÉS DE LOS ICONOS ***-->
 
     <!--meta etiqueta que va a convertir a la página en RESPONSIVE-->
     <meta name="viewport" content= initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
@@ -67,7 +44,7 @@
 
         <!--SocialBar superior-->
         <?php
-            include "includes_usr/social_up_usr.php";
+            include "../includes/social_up_adm_usr.php";
         ?>
 
         <div class="header-content">
@@ -105,46 +82,13 @@
 
     <!--Portada-->
     
-    <div class="container-cover-inicio">
+    <div class="container-cover-user-inicio">
         <div class="container-info-cover">
             <h1>¡Bienvenidos al Club!</h1>  
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus quae ducimus mollitia velit beatae nesciunt!</p>
         </div>
     </div>
 
-
-    <!-------------------------  SLIDESHOW  -
-
-    <div class="slideshow">
-
-        <!--Slide 1
-        <div class="slideshow-item">
-            <img src="img/DSC_8181.jpg" alt="Club Ballester posando">
-            <div class="slideshow-item-text">
-                <h5>Club Ciclista <span>Ballester</span></h5>
-                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Tempora, neque.</p>
-            </div>
-        </div>
-
-        <!--Slide 2
-        <div class="slideshow-item">
-            <img src="img/DSC_7259.jpg" alt="Circuito Punta Larga">
-            <div class="slideshow-item-text">
-                <h5><span>Circuito</span> de MTB de Punta Larga, Candelaria</h5>
-                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Deleniti, corrupti!</p>
-            </div>
-        </div>
-
-        <!--Slide 3
-        <div class="slideshow-item">
-            <img src="img/DSC_9662.jpg" alt="Club Ballester posando">
-            <div class="slideshow-item-text">
-                <h5><span>Escuela</span> de Ciclismo</h5>
-                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Perferendis, officiis.</p>
-            </div>
-        </div>
-
-    </div>-->
 
     <!-- Publicaciones Responsivas (Noticias) -->
 
@@ -226,17 +170,17 @@
 
     <!--Incrustamos el código del botón de scroll_up-->
     <?php
-        include "includes_usr/scroll_button.php"
+        include "../includes/scroll_button.php"
     ?>
 
     <!-- Incrustamos el código del footer-->
     <?php
-        include "includes_usr/footer_usr.php";
+        include "../includes/footer_adm_usr.php";
     ?>
     </div>
 
     <!--Enlace a los scripts de JavaScript-->
-    <script src="js_usr/script_usr.js"></script>
+    <script src="../js/script.js"></script>
 
 </body>
 </html>

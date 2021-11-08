@@ -6,7 +6,7 @@
             <!--Caja del logo y Términos-->
             <div class="box__footer">
                <div class="logo">
-                    <a href="index.php"><img src="img/logo.png" alt="Club Ciclista Ballester"></a>
+                    <a href="../index.php"><img src="../img/logo.png" alt="Club Ciclista Ballester"></a>
                </div>
                <div class="terms">
                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Fugiat sequi obcaecati ex sunt fuga corporis, ipsum vitae asperiores tempora expedita nemo laboriosam iusto natus ipsam autem dolor aliquid similique. Veritatis!</p>
@@ -24,10 +24,10 @@
             <!--Caja de información general-->
             <div class="box__footer">
                 <h2>Información</h2>
-                <a href="#">Política de Privacidad></a>
-                <a href="#">Aviso Legal></a>
-                <a href="#">Mapa web></a>
-                <!-- <a href="#">Galería></a> -->
+                <a href="#">Calendario></a>
+                <a href="#">Eventos></a>
+                <a href="#">Equipaciones></a>
+                <a href="#">Galería></a>
             </div>
 
             <!--Caja de Redes Sociales-->
