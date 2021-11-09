@@ -1179,9 +1179,20 @@ main{
 
 /*****************************  RESPONSIVE DESIGN - ADAPTABLE A DISPOSITIVOS MÓVILES ***************************/
 
+@media screen and (max-width: 1365px){
+
+    .container-social-top .usr_name{
+        margin: 21px 0px 0px 25px;
+    }
+    .container-social-top .usr_kind{
+        margin: 21px 35px 0px 20px;
+    }
+}
+
+
 @media screen and (max-width: 1220px){
 
-    .container-social-top,
+    /* .container-social-top, */
     .header-content,
     .container-content,
     .container-footer footer{
@@ -1189,7 +1200,6 @@ main{
         padding: 0 20px;
     }
 }
-
 
 @media screen and (max-width: 1020px){
 
@@ -1211,7 +1221,6 @@ main{
         max-width: 300px;
         margin: 10px;
     }
-
 }
 
 
@@ -1220,6 +1229,23 @@ main{
     /*Eliminamos la barra de scroll horizontal*/
     body{
         overflow-x: hidden;
+    }
+
+    .container-social-top .logo-top{
+        margin-left: 4.7%;
+    }
+
+    .container-social-top .usr_kind{
+        margin: 21px 20px 0px 10px;
+    }
+
+    .container-social-top .icon-start-header{
+        /* font-size: 18px; */
+        margin: 22px 55px 0px 0px;
+    }
+    
+    .container-social-top h5{
+        display: none;
     }
 
     /*Configuramos un desplazamiento del contenido hacia la derecha suave, al mostrar el menú vertical*/

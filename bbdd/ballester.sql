@@ -1,11 +1,11 @@
 -- phpMyAdmin SQL Dump
--- version 5.1.0
+-- version 5.1.1
 -- https://www.phpmyadmin.net/
 --
 -- Servidor: 127.0.0.1
--- Tiempo de generación: 19-07-2021 a las 21:47:04
--- Versión del servidor: 10.4.19-MariaDB
--- Versión de PHP: 8.0.6
+-- Tiempo de generación: 09-11-2021 a las 11:44:46
+-- Versión del servidor: 10.4.20-MariaDB
+-- Versión de PHP: 8.0.9
 
 SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
 START TRANSACTION;
@@ -31,13 +31,13 @@ USE `ballester`;
 
 CREATE TABLE `socios` (
   `NUMERO_SOCIO` varchar(6) COLLATE utf8mb4_spanish_ci NOT NULL,
-  `USUARIO` varchar(10) COLLATE utf8mb4_spanish_ci NOT NULL,
-  `CONTRASENA` varchar(15) COLLATE utf8mb4_spanish_ci NOT NULL,
+  `USUARIO` varchar(20) COLLATE utf8mb4_spanish_ci NOT NULL,
+  `CONTRASENA` varchar(255) COLLATE utf8mb4_spanish_ci NOT NULL,
   `NOMBRE` varchar(40) COLLATE utf8mb4_spanish_ci NOT NULL,
   `APELLIDOS` varchar(40) COLLATE utf8mb4_spanish_ci NOT NULL,
   `CORREO_ELEC` varchar(40) COLLATE utf8mb4_spanish_ci NOT NULL,
   `TELEFONO` varchar(15) COLLATE utf8mb4_spanish_ci NOT NULL,
-  `ROL_USER` varchar(15) COLLATE utf8mb4_spanish_ci NOT NULL DEFAULT 'socio'
+  `ROL_USER` varchar(15) COLLATE utf8mb4_spanish_ci NOT NULL DEFAULT 'usuario'
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_spanish_ci;
 
 --
@@ -45,17 +45,8 @@ CREATE TABLE `socios` (
 --
 
 INSERT INTO `socios` (`NUMERO_SOCIO`, `USUARIO`, `CONTRASENA`, `NOMBRE`, `APELLIDOS`, `CORREO_ELEC`, `TELEFONO`, `ROL_USER`) VALUES
-('1', '1', '1', '1', '1', '1@gmail.com', '1', 'socio'),
-('12', '12', '12', '12', '12', '1@gmail.com', '12', 'socio'),
-('15', 'Juan', '1234', 'Juan', 'Santaella', 'juan@gmail.com', '123456', 'socio'),
-('2', '2', '2', '2', '2', '1@gmail.com', '2', 'socio'),
-('4', '4', '4', '4', '4', '1@gmail.com', '4', 'socio'),
-('45', '45', '45', '45', '45', '1@gmail.com', '45', 'socio'),
-('56', '56', '56', '56', '56', '1@gmail.com', '56', 'socio'),
-('8', '8', '8', '8', '8', '1@gmail.com', '8', 'socio'),
-('82', '82', '82', '82', '82', '1@gmail.com', '82', 'socio'),
-('89', '89', '89', '89', '89', '1@gmail.com', '89', 'socio'),
-('9', '9', '9', '9', '9', '1@gmail.com', '9', 'socio');
+('1', 'Juan', 'ba3253876aed6bc22d4a6ff53d8406c6ad864195ed144ab5c87621b6c233b548baeae6956df346ec8c17f5ea10f35ee3cbc514797ed7ddd3145464e2a0bab413', 'Juan', 'Santaella', 'juan@gmail.com', '619619619l', 'usuario'),
+('2', 'Antonio', 'ba3253876aed6bc22d4a6ff53d8406c6ad864195ed144ab5c87621b6c233b548baeae6956df346ec8c17f5ea10f35ee3cbc514797ed7ddd3145464e2a0bab413', 'Antonio', 'Sánchez', 'antonio@gmail.com', '123456789', 'administrador');
 
 --
 -- Índices para tablas volcadas

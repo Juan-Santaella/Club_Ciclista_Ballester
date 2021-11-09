@@ -33,7 +33,7 @@
                     $_SESSION['contrasena']=$pwd;
                     $_SESSION['rol_user']=$row["ROL_USER"];
 
-                    header("location: ../../adm/bienvenida_adm.php");
+                    header("location: ../../bienvenida_adm.php");
                     exit();
 
                 }else{
@@ -43,7 +43,7 @@
                     $_SESSION['contrasena']=$pwd;
                     $_SESSION['rol_user']=$row["ROL_USER"];
 
-                    header("location: ../../usr/bienvenida_usr.php");
+                    header("location: ../../bienvenida_usr.php");
                     exit();
                 }
             }

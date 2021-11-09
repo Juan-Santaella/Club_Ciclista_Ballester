@@ -32,9 +32,9 @@
             //Si existe una sesión iniciada, no nos vuelve a mostrar la página de login, sino la de bienvenida directamente
             if(isset($_SESSION['usuario'])){
                 if($_SESSION['rol_user'] == "usuario"){
-                    header("location:usr/bienvenida_usr.php");
+                    header("location:bienvenida_usr.php");
                 }else{
-                    header("location:adm/bienvenida_adm.php");
+                    header("location:bienvenida_adm.php");
                 }
             }else{
                 session_destroy();

@@ -4,7 +4,7 @@
 <div class="container_usr">
     <p class="usr_name"><?php echo $_SESSION['usuario']?></p>
     <p class="usr_kind"><?php echo $_SESSION['rol_user']?></p>
-    <a href="../includes/cerrar_sesion.php"><i class="fas fa-power-off icon-start-header"></i></a>
+    <a href="includes/cerrar_sesion.php"><i class="fas fa-power-off icon-start-header"></i></a>
     <h5> Cerrar sesión</h5>
 </div>
 

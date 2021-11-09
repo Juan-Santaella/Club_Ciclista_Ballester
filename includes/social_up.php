@@ -1,6 +1,9 @@
 
 <?php
-    session_start();
+    //Si no existe una sesión iniciada, la iniciamos
+    if(!isset($_SESSION['usuario'])){
+        session_start();
+    }
 ?>
 
 <!-- Social bar superior -->
