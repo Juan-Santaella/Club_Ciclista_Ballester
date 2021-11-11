@@ -11,7 +11,7 @@
     <title> Club Ciclista Ballester </title>
 
     <!--Icono en el title-->
-    <link rel="icon" type="image/png" href="img/logo.png">
+    <link rel="shortcut icon" href="img/logo.png" type="image/x-icon">
 
     <script src="https://kit.fontawesome.com/4e2bb02eb5.js" crossorigin="anonymous"></script>
 

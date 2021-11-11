@@ -8,7 +8,7 @@
     <title> Club Ciclista Ballester </title>
 
     <!--Icono en el title-->
-    <link rel="icon" type="image/png" href="img/logo.png">
+    <link rel="shortcut icon" href="img/logo.jpg" type="image/x-icon">
 
     <script src="https://kit.fontawesome.com/4e2bb02eb5.js" crossorigin="anonymous"></script>
 
@@ -19,6 +19,9 @@
 
 </head>
 <body>
+
+    <div id="fb-root"></div>
+    <script async defer crossorigin="anonymous" src="https://connect.facebook.net/es_ES/sdk.js#xfbml=1&version=v12.0" nonce="GrRQRVVS"></script>
 
     <!-- Header - menu -->
     <header>
@@ -147,6 +150,24 @@
             <img src="img/maillot_corto_ballester.jpeg" alt="maillot corto Ballester">
             <img src="img/maillot_largo_ballester.jpeg" alt="maillot largo Ballester">
             <img src="img/chaquetilla_ballester.jpeg" alt="chaquetilla Ballester">
+        </div>
+    </div>
+
+    <!-- Posts de Facebook e Instagram  -->
+
+    <div class="container-social">
+        <div class="container-post">
+
+            <!--Post 1-->
+            
+            <div class="fb-post" data-href="https://www.facebook.com/clubciclistaballester.azucareraespanola/posts/1832084820331634" data-width="320" data-show-text="true"><blockquote cite="https://www.facebookcom/clubciclistaballester.azucareraespanola/posts/1832084820331634" class="fb-xfbml-parse-ignore"><p>El domingo 24 celebramos la III prueba de la Liga Infantil Villa de Candelaria quedando totalmentesatisfechos con las...</p>Publicada por <a href="https://www.facebook.com/clubciclistaballester.azucareraespanola">Antonio Sanchez Barrera</a> en&nbsp;<a href="https://www.facebook.comclubciclistaballester.azucareraespanola/posts/1832084820331634">Martes, 26 de octubre de 2021</a></blockquote></div>
+
+            <!--Post 2-->
+            <iframe width="320" height="561" src="https://www.instagram.com/p/CWB-6HfIv_9/embed" frameborder="0"></iframe>
+
+            <!--Post 3-->
+            <iframe width="320" height="561" src="https://www.instagram.com/p/CUvVG2sIUv_/embed" frameborder="0"></iframe>
+
         </div>
     </div>
 
