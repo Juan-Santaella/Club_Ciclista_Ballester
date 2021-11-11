@@ -93,7 +93,7 @@
                     <div class="card__back">
                         <!--Contenedor del cuerpo de la zona posterior de la tarjeta-->
                         <div class="body__card__back">
-                            <h1>Director Deportivo</h1>
+                            <h1>Presidente</h1>
                             <!-- <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum, veniam voluptas ex aliquam beatae dolore!</p> -->
                             <input type="button" value="Leer más">
                         </div>
@@ -311,8 +311,8 @@
 
             <!--aside 1-->
             <aside>
-                <img src="img/DSC_7372.jpg" alt="ruedas bicicletas">
-                <h2>Título del artículo</h2>
+                <img src="img/act_educativas/DSC_1216.jpg" alt="actividad educativa">
+                <h2>Actividades educativas</h2>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus in nulla perspiciatis deleniti! Dicta consequuntur, fuga adipisci quam magnam molestias. Voluptatibus autem hic dolor perferendis?</p>
 
                 <!--Botón para abrir un artículo-->
@@ -330,6 +330,15 @@
             </aside>
 
             <!--aside 3-->
+            <aside>
+                <img src="img/DSC_7372.jpg" alt="ruedas bicicleta">
+                <h2>Título del artículo</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus in nulla perspiciatis deleniti! Dicta consequuntur, fuga adipisci quam magnam molestias. Voluptatibus autem hic dolor perferendis?</p>
+
+                <!--Botón para abrir un artículo-->
+                <a href=""><button>Leer más</button></a>
+            </aside>
+            <!--aside 4-->
             <aside>
                 <img src="img/DSC_7264.jpg" alt="circuito mountainbike">
                 <h2>Título del artículo</h2>
