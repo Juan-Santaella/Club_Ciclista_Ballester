@@ -394,7 +394,7 @@
     left: 0;
 }
 
-/*Portada de Escuela*/
+/*Portada de Galería*/
 .container-cover-galeria{
     width: 100%;
     height: 650px;
@@ -726,16 +726,16 @@ article img{
 .container-facebook{
     display: flex;
     flex-wrap: wrap;
-    min-height: 100vh;
+    top: 0px;
+    width: 100%;
     align-items: center;
     justify-content: center;
-    padding: 20px 15px;
-    width: 100%;
-    top: 0px;
+    padding-top: 90px;
+    padding-bottom: 75px;   
 }
 
 .fb-post{
-    margin: 20px;
+    margin: 17px;
     border-radius: 5%;
     box-shadow: 0 1px 6px 1px rgba(0,0,0,.1);
     overflow: hidden;
@@ -745,12 +745,11 @@ article img{
 .container-instagram{
     display: flex;
     flex-wrap: wrap;
-    min-height: 100vh;
+    top: 0px;
+    width: 100%;
     align-items: center;
     justify-content: center;
-    /* padding: 0px 15px; */
-    width: 100%;
-    top: 0px;
+    padding-bottom: 130px;
 }
 
 .container-instagram iframe{
@@ -758,7 +757,6 @@ article img{
     border-radius: 5%;
     box-shadow: 0 1px 6px 1px rgba(0,0,0,.1);
     overflow: hidden;
-    padding: 0px 15px;
     transition: all 0.25s ease;
 }
 
@@ -863,6 +861,93 @@ article img{
         margin-right: auto;
     }
 }
+
+
+/********** PUBLICACIÓN DE FICHEROS EN EL PORTAL TÉCNICO ***************/
+
+
+/*Contenedor general*/
+.main-files{
+    padding: 120px;
+}
+
+/*Contenedores de cards*/
+.container-files{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    top: 0;
+    letter-spacing: 0.03em;
+    line-height: 1.6;
+}
+
+/*Atributos de las tarjetas*/
+.container-files .card-files{
+    width: 300px;
+    height: 310px;
+    border-radius: 8px;
+    box-shadow: 0 2px 2px rgba(0, 0, 0, 0.2);
+    overflow: hidden;
+    margin: 25px;
+    text-align: center;
+    transition: all 0.25s ease;
+}
+
+/*Efectos a activar cuando se pase el ratón por encima de la tarjeta*/
+.container-files .card-files:hover{
+    transform: translateY(-15px);
+    box-shadow: 0 12px 16px rgba(0, 0, 0, 0.2);
+}
+
+/*Atributos de las imágenes de las tarjetas*/
+.container-files .card-files img{
+    width: 140px;
+    height: 120px;
+}
+
+/*Atributos de los enunciados de las tarjetas*/
+.container-files .card-files h4{
+    font-weight: bold;
+    /* font-size: 25px; */
+    font-size: 17px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+/*Atributos de los párrafos de las tarjetas*/
+.container-files .card-files p{
+    padding: 0 1rem;
+    /* font-size: 17px; */
+    font-size: 15px;
+    font-weight: 300;
+    line-height: 1.5;
+    margin-bottom: 27px;
+}
+
+/*Atributos de los enlaces de cada tarjeta*/
+.container-files .card-files a{
+    padding: 10px 20px;
+    font-size: 14px;
+    font-weight: 500;
+    text-decoration: none;
+    color: #fff;
+    background: #b71c1c;
+    border-radius: 5px;
+    transition: all 0.25s ease;
+}
+
+.container-files .card-files a:hover{
+    font-size: 18px;
+    font-weight: 600;
+    /* text-decoration: none; */
+    transform: translateY(-15px);
+    background: #FF3300;
+    box-shadow: 0 12px 16px rgba(0, 0, 0, 0.2);
+}
+
+
+
 
 /********** VÍDEOS DE YOUTUBE ***************/
 

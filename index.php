@@ -169,11 +169,9 @@
             <div class="fb-post" data-href="https://www.facebook.com/clubciclistaballester.azucareraespanola/posts/1830742130465903" data-width="320" data-show-text="true"><blockquote cite="https://www.facebook.com/clubciclistaballester.azucareraespanola/posts/1830742130465903" class="fb-xfbml-parse-ignore"><p>Hoy celebramos la III prueba de la Liga Infantil Villa de Candelaria en la cúal disfrutamos del espectáculo que nos...</p>Publicada por <a href="https://www.facebook.com/clubciclistaballester.azucareraespanola">Antonio Sanchez Barrera</a> en&nbsp;<a href="https://www.facebook.com/clubciclistaballester.azucareraespanola/posts/1830742130465903">Domingo, 24 de octubre de 2021</a></blockquote></div>
 
         </div>
-    </div>
-
+    
         <!-- Posts de Instagram  -->
 
-    <div class="container-social">
         <div class="container-instagram">
 
             <!--Post 1-->

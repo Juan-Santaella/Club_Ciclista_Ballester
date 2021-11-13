@@ -91,6 +91,67 @@
         </div>
     </div>
 
+    <!-- Publicación de ficheros -->
+
+    <div class="main-files">
+
+        <!--Contenedor 1-->
+        <div class="container-files">
+
+            <!--Tarjeta 1-->
+            <div class="card-files">
+                <img src="img/iconos/word.png">
+                <h4>Resultados 3ª Punta Larga</h4>
+                <p>Listado de resultados de la 3ª Prueba de la Liga Punta Larga</p>
+                <a href="#">Abrir</a>
+            </div>
+
+            <!--Tarjeta 2-->
+            <div class="card-files">
+                <img src="img/iconos/excel.png">
+                <h4>Resultados 3ª Punta Larga</h4>
+                <p>Listado de resultados de la 3ª Prueba de la Liga Punta Larga</p>
+                <a href="#">Abrir</a>
+            </div>
+
+            <!--Tarjeta 3-->
+            <div class="card-files">
+                <img src="img/iconos/pdf.png">
+                <h4>Resultados 3ª Punta Larga</h4>
+                <p>Listado de resultados de la 3ª Prueba de la Liga Punta Larga</p>
+                <a href="#">Abrir</a>
+            </div>
+        </div>
+
+        <!--Contenedor 2-->
+        <div class="container-files">
+
+            <!--Tarjeta 1-->
+            <div class="card-files">
+                <img src="img/iconos/powerpoint.png">
+                <h4>Resultados 3ª Punta Larga</h4>
+                <p>Listado de resultados de la 3ª Prueba de la Liga Punta Larga</p>
+                <a href="#">Abrir</a>
+            </div>
+
+            <!--Tarjeta 2-->
+            <div class="card-files">
+                <img src="img/iconos/word.png">
+                <h4>Resultados 3ª Punta Larga</h4>
+                <p>Listado de resultados de la 3ª Prueba de la Liga Punta Larga</p>
+                <a href="#">Abrir</a>
+            </div>
+
+            <!--Tarjeta 3-->
+            <div class="card-files">
+                <img src="img/iconos/excel.png">
+                <h4>Resultados 3ª Punta Larga</h4>
+                <p>Listado de resultados de la 3ª Prueba de la Liga Punta Larga</p>
+                <a href="#">Abrir</a>
+            </div>
+        </div>
+    </div>
+
     <!-- Publicaciones Responsivas (Noticias) -->
 
     <section class="post-list">
