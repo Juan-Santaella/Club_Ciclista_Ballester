@@ -104,7 +104,7 @@
                 <p class="fecha-files">15 noviembre 2021</p>
                 <h4>Resultados 3ª Punta Larga</h4>
                 <p>Listado de resultados de la 3ª Prueba de la Liga Punta Larga</p>
-                <a href="visor_word_1.php">Abrir</a>
+                <a href="#">Abrir</a>
             </div>
 
             <!--Tarjeta 2-->
@@ -113,7 +113,7 @@
                 <p class="fecha-files">15 noviembre 2021</p>
                 <h4>Resultados 3ª Punta Larga</h4>
                 <p>Listado de resultados de la 3ª Prueba de la Liga Punta Larga</p>
-                <a href="visor_excel_1.php">Abrir</a>
+                <a href="#">Abrir</a>
             </div>
 
             <!--Tarjeta 3-->
@@ -122,7 +122,7 @@
                 <p class="fecha-files">15 noviembre 2021</p>
                 <h4>Resultados 3ª Punta Larga</h4>
                 <p>Listado de resultados de la 3ª Prueba de la Liga Punta Larga</p>
-                <a href="visor_pdf_1.php">Abrir</a>
+                <a href="#">Abrir</a>
             </div>
 
             <!--Tarjeta 4-->
@@ -131,7 +131,7 @@
                 <p class="fecha-files">15 noviembre 2021</p>
                 <h4>Resultados 3ª Punta Larga</h4>
                 <p>Listado de resultados de la 3ª Prueba de la Liga Punta Larga</p>
-                <a href="visor_word_2.php">Abrir</a>
+                <a href="#">Abrir</a>
             </div>
 
             <!--Tarjeta 5-->
@@ -162,7 +162,7 @@
                 <p class="fecha-files">15 noviembre 2021</p>
                 <h4>Resultados 3ª Punta Larga</h4>
                 <p>Listado de resultados de la 3ª Prueba de la Liga Punta Larga</p>
-                <a href="visor_word_3.php">Abrir</a>
+                <a href="#">Abrir</a>
             </div>
 
             <!--Tarjeta 3-->
@@ -171,7 +171,7 @@
                 <p class="fecha-files">15 noviembre 2021</p>
                 <h4>Resultados 3ª Punta Larga</h4>
                 <p>Listado de resultados de la 3ª Prueba de la Liga Punta Larga</p>
-                <a href="visor_excel_2.php">Abrir</a>
+                <a href="#">Abrir</a>
             </div>
 
             <!--Tarjeta 4-->
@@ -180,7 +180,7 @@
                 <p class="fecha-files">15 noviembre 2021</p>
                 <h4>Resultados 3ª Punta Larga</h4>
                 <p>Listado de resultados de la 3ª Prueba de la Liga Punta Larga</p>
-                <a href="visor_pdf_2.php">Abrir</a>
+                <a href="#">Abrir</a>
             </div>
 
             <!--Tarjeta 5-->
@@ -189,7 +189,7 @@
                 <p class="fecha-files">15 noviembre 2021</p>
                 <h4>Resultados 3ª Punta Larga</h4>
                 <p>Listado de resultados de la 3ª Prueba de la Liga Punta Larga</p>
-                <a href="visor_excel_3.php">Abrir</a>
+                <a href="#">Abrir</a>
             </div>
         </div>
     </div>
