@@ -26,14 +26,14 @@
             while($row = mysqli_fetch_assoc($rol_user)) {       //Guardamos el resultado de la consulta con sus campos en un array asociativo
 
                 //Verificamos el contenido del elemento del array asociativo, preguntando por el rol que contiene, asignado al usuario que se logea
-                if($row["ROL_USER"]=="administrador"){
+                if($row["ROL_USER"]=="administración"){
 
                     //Almacenamos los valores de inicio de sesión del usuario
                     $_SESSION['usuario']=$usuario;
                     $_SESSION['contrasena']=$pwd;
                     $_SESSION['rol_user']=$row["ROL_USER"];
 
-                    header("location: ../../bienvenida_adm.php");
+                    header("location: ../../adm/bienvenida_adm.php");
                     exit();
 
                 }else{
@@ -43,7 +43,7 @@
                     $_SESSION['contrasena']=$pwd;
                     $_SESSION['rol_user']=$row["ROL_USER"];
 
-                    header("location: ../../bienvenida_usr.php");
+                    header("location: ../../usr/bienvenida_usr.php");
                     exit();
                 }
             }
@@ -53,7 +53,7 @@
         echo '
             <script>
                 alert("Usuario no existe, por favor verifique los datos introducidos");
-                window.location="../../login-reg.php";
+                window.location="../../assets/login-reg.php";
             </script>';
         exit();
     }

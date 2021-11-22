@@ -22,7 +22,7 @@
     if(mysqli_num_rows($verificar_socio)>0){
         echo '<script>
                 alert("Error, el socio YA EXISTE, inténtalo de nuevo");
-                window.location="../../login-reg.php";
+                window.location="../../assets/login-reg.php";
              </script>';
 
              /**** CERRAMOS LA CONEXIÓN CON LA BD ****/
@@ -37,7 +37,7 @@
     if(mysqli_num_rows($verificar_num_socio)>0){
         echo '<script>
                 alert("Error, el número de socio YA ESTÁ REGISTRADO, inténtalo de nuevo");
-                window.location="../../login-reg.php";
+                window.location="../../assets/login-reg.php";
              </script>';
 
              /**** CERRAMOS LA CONEXIÓN CON LA BD ****/
@@ -56,13 +56,13 @@
     if(mysqli_query($conexion,$query)){
         echo '<script>
                 alert("Socio almacenado correctamente");
-                window.location="../../login-reg.php";
+                window.location="../../assets/login-reg.php";
              </script>';
     }else{
         echo mysqli_error($conexion);
         echo '<script>
                 alert("Error, inténtalo de nuevo");
-                window.location="../../login-reg.php";
+                window.location="../../assets/login-reg.php";
              </script>';
              
     }

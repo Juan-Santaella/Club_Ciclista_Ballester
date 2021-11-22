@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Servidor: 127.0.0.1
--- Tiempo de generación: 09-11-2021 a las 11:44:46
+-- Tiempo de generación: 22-11-2021 a las 14:34:44
 -- Versión del servidor: 10.4.20-MariaDB
 -- Versión de PHP: 8.0.9
 
@@ -46,7 +46,9 @@ CREATE TABLE `socios` (
 
 INSERT INTO `socios` (`NUMERO_SOCIO`, `USUARIO`, `CONTRASENA`, `NOMBRE`, `APELLIDOS`, `CORREO_ELEC`, `TELEFONO`, `ROL_USER`) VALUES
 ('1', 'Juan', 'ba3253876aed6bc22d4a6ff53d8406c6ad864195ed144ab5c87621b6c233b548baeae6956df346ec8c17f5ea10f35ee3cbc514797ed7ddd3145464e2a0bab413', 'Juan', 'Santaella', 'juan@gmail.com', '619619619l', 'usuario'),
-('2', 'Antonio', 'ba3253876aed6bc22d4a6ff53d8406c6ad864195ed144ab5c87621b6c233b548baeae6956df346ec8c17f5ea10f35ee3cbc514797ed7ddd3145464e2a0bab413', 'Antonio', 'Sánchez', 'antonio@gmail.com', '123456789', 'administrador');
+('2', 'Antonio', 'ba3253876aed6bc22d4a6ff53d8406c6ad864195ed144ab5c87621b6c233b548baeae6956df346ec8c17f5ea10f35ee3cbc514797ed7ddd3145464e2a0bab413', 'Antonio', 'Sánchez', 'antonio@gmail.com', '123456789', 'administración'),
+('3', 'Ana', 'ba3253876aed6bc22d4a6ff53d8406c6ad864195ed144ab5c87621b6c233b548baeae6956df346ec8c17f5ea10f35ee3cbc514797ed7ddd3145464e2a0bab413', 'Ana', 'Mesa', 'ana@gmail.com', '789456123', 'administración'),
+('4', 'Sergio', 'ba3253876aed6bc22d4a6ff53d8406c6ad864195ed144ab5c87621b6c233b548baeae6956df346ec8c17f5ea10f35ee3cbc514797ed7ddd3145464e2a0bab413', 'Sergio', 'González', 'sergio@gmail.com', '123456789', 'administración');
 
 --
 -- Índices para tablas volcadas
