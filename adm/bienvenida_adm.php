@@ -59,11 +59,12 @@
             <div class="menu" id="show-menu">
                 <nav>
                     <ul>
-                        <li class="menu-selected"><a href="../../index.php" class="text-menu-selected"><i class="fas fa-home"></i> Inicio</a></li>
-                        <li><a href="../assets/club.php"><i class="fas fa-biking"></i> Club</a></li>
-                        <li><a href="../assets/escuela.php"><i class="fas fa-chalkboard-teacher"></i> Escuela</a></li>
-                        <li><a href="../assets/galeria.php"><i class="fas fa-images"></i> Galería</a></li>
-                        <li><a href="../assets/contacto.php"><i class="fas fa-envelope"></i> Contáctanos</a></li>
+                        <li><a href="../index.php"><i class="fas fa-home"></i> Inicio</a></li>
+                        <li class="menu-selected"><a href="bienvenida_adm.php" class="text-menu-selected"><i class="fas fa-home"></i> Área Técnica</a></li>
+                        <li><a href="notas_anuncios.php"><i class="fas fa-biking"></i> Notas - Anuncios</a></li>
+                        <!-- <li><a href="bienvenida_adm.php"><i class="fas fa-chalkboard-teacher"></i> Volver</a></li> -->
+                        <!-- <li><a href="../assets/galeria.php"><i class="fas fa-images"></i> Galería</a></li>
+                        <li><a href="../assets/contacto.php"><i class="fas fa-envelope"></i> Contáctanos</a></li> -->
                         <!-- <li><a href="../login-reg.php"><i class="fas fa-lock"></i> Entrar</a></li> -->
                     </ul>
                 </nav>
@@ -136,11 +137,11 @@
 
             <!--Tarjeta 5-->
             <div class="card-files">
-                <img src="../img/iconos/powerpoint.png">
+                <img src="../img/iconos/pdf.png">
                 <p class="fecha-files">15 noviembre 2021</p>
-                <h4>Resultados 3ª Punta Larga</h4>
-                <p>Listado de resultados de la 3ª Prueba de la Liga Punta Larga</p>
-                <a href="visor_pwp_1.php">Abrir</a>
+                <h4>Programa 2021 - 2022</h4>
+                <p>Programación del Club Ciclista Ballester, 2021-2022</p>
+                <a href="visor_pdf_3.php">Abrir</a>
             </div>
         </div>
 
@@ -149,11 +150,11 @@
 
             <!--Tarjeta 1-->
             <div class="card-files">
-                <img src="../img/iconos/powerpoint.png">
+                <img src="../img/iconos/pdf.png">
                 <p class="fecha-files">15 noviembre 2021</p>
-                <h4>Resultados 3ª Punta Larga</h4>
-                <p>Listado de resultados de la 3ª Prueba de la Liga Punta Larga</p>
-                <a href="#">Abrir</a>
+                <h4>VIVENTLY</h4>
+                <p>Presentación de VIVENTLY, Web de eventos internacionales</p>
+                <a href="visor_pdf_4.php">Abrir</a>
             </div>
 
             <!--Tarjeta 2-->
@@ -196,9 +197,9 @@
 
     <!-- Enunciado de la sección del tablón de notas -->
 
-    <div class="enunciado">
+    <!-- <div class="enunciado">
         <h2>Tablón de <b>Notas</b></h2>
-    </div>
+    </div> -->
 
 
     <!-- Publicaciones Responsivas (Noticias) -->
