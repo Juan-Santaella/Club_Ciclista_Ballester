@@ -82,6 +82,12 @@
 
     <div class="container-all" id="move-content">
 
+    <!--Enunciado-->
+
+    <div class="enunciado-anuncios">
+        <h2>Notas y <b>Anuncios</b></h2>
+        <h4>Puedes mandarnos tu nota o anuncio al correo <b>info@clubcballester.es</b> , adjuntando opcionalmente fotografías</h4>
+    </div>
     
     <!--Posts de notas y anuncios-->
     <div class="blog-body">
@@ -92,8 +98,8 @@
 
             <div class="blog-post__info">
                 <div class="blog-post__date">
-                    <span>Sunday</span>
-                    <span>October 27 2019</span>
+                    <span>Martes</span>
+                    <span>23 Noviembre 2021</span>
                 </div>
                 <h1 class="blog-post__title">Liga MTB Puntalarga</h1>
                 <p class="blog-post__text">
