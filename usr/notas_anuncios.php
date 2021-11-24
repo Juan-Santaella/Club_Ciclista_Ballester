@@ -60,11 +60,8 @@
                 <nav>
                     <ul>
                         <li><a href="../index.php"><i class="fas fa-home"></i> Inicio</a></li>
-                        <!-- <li><a href="club.php"><i class="fas fa-biking"></i> Club</a></li>
-                        <li><a href="escuela.php"><i class="fas fa-chalkboard-teacher"></i> Escuela</a></li> -->
-                        <li><a href="bienvenida_adm.php"><i class="fas fa-lock"></i> Área Técnica</a></li>
+                        <li><a href="bienvenida_usr.php"><i class="fas fa-lock"></i> Área Usuarios</a></li>
                         <li class="menu-selected"><a href="visor_excel_1.php" class="text-menu-selected"><i class="fas fa-images"></i> Notas - Anuncios</a></li>
-                        <!-- <li><a href="contacto.php"><i class="fas fa-envelope"></i> Contáctanos</a></li> -->
                     </ul>
                 </nav>
             </div>
@@ -91,13 +88,16 @@
     
     <!--Posts de notas y anuncios-->
 
+
     <!-- Línea 1 -->
     <div class="blog-body">
+
         <!--Post 1-->
         <div class="blog-post">
             <div class="blog-post__img">
                 <img class="blog-img" src="../img/DSC_7372.jpg" alt="Ruedas de bicicletas">
             </div>
+
             <div class="blog-post__info">
                 <div class="blog-post__date">
                     <span>Martes</span>
@@ -105,16 +105,18 @@
                 </div>
                 <h1 class="blog-post__title">Liga MTB Puntalarga</h1>
                 <p class="blog-post__text">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero consequatur nihil totam maiores mollitia aliquid odit a sit vel ut? Temporibus consequuntur     expedita ipsum et.    
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero consequatur nihil totam maiores mollitia aliquid odit a sit vel ut? Temporibus  consequuntur     expedita ipsum et.    
                 </p>
                 <a href="" class="blog-post__cta">Leer más</a>
             </div>
         </div>
+
         <!--Post 2-->
         <div class="blog-post">
             <div class="blog-post__img">
                 <img class="blog-img" src="../img/DSC_7372.jpg" alt="Ruedas de bicicletas">
             </div>
+
             <div class="blog-post__info">
                 <div class="blog-post__date">
                     <span>Martes</span>
@@ -122,7 +124,7 @@
                 </div>
                 <h1 class="blog-post__title">Liga MTB Puntalarga</h1>
                 <p class="blog-post__text">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero consequatur nihil totam maiores mollitia aliquid odit a sit vel ut? Temporibus consequuntur     expedita ipsum et.    
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero consequatur nihil totam maiores mollitia aliquid odit a sit vel ut? Temporibus  consequuntur     expedita ipsum et.    
                 </p>
                 <a href="" class="blog-post__cta">Leer más</a>
             </div>

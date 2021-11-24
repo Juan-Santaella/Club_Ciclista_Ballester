@@ -80,7 +80,7 @@
                 <!--Contenedor de las tarjetas-->
                 <div class="card">
                     <!--Contenedor de la parte frontal de la tarjeta-->
-                    <div class="card__front" style="background-image: url(img/Antonio.png);">
+                    <div class="card__front" style="background-image: url(../img/Antonio.png);">
                         <div class="bg"></div>
                         <!--Contenedor del cuerpo del frontal de la tarjeta-->
                         <div class="body__card__front">
@@ -108,7 +108,7 @@
                 <!--Contenedor de las tarjetas-->
                 <div class="card">
                     <!--Contenedor de la parte frontal de la tarjeta-->
-                    <div class="card__front" style="background-image: url(img/Ana.png);">
+                    <div class="card__front" style="background-image: url(../img/Ana.png);">
                         <div class="bg"></div>
                         <!--Contenedor del cuerpo del frontal de la tarjeta-->
                         <div class="body__card__front">
@@ -136,7 +136,7 @@
                 <!--Contenedor de las tarjetas-->
                 <div class="card">
                     <!--Contenedor de la parte frontal de la tarjeta-->
-                    <div class="card__front" style="background-image: url(img/Sergio.png);">
+                    <div class="card__front" style="background-image: url(../img/Sergio.png);">
                         <div class="bg"></div>
                         <!--Contenedor del cuerpo del frontal de la tarjeta-->
                         <div class="body__card__front">
@@ -171,7 +171,7 @@
                 <!--Contenedor de las tarjetas-->
                 <div class="card">
                     <!--Contenedor de la parte frontal de la tarjeta-->
-                    <div class="card__front" style="background-image: url(img/road-cycling.png);">
+                    <div class="card__front" style="background-image: url(../img/road-cycling.png);">
                         <div class="bg"></div>
                         <!--Contenedor del cuerpo del frontal de la tarjeta-->
                         <div class="body__card__front">
@@ -199,7 +199,7 @@
                 <!--Contenedor de las tarjetas-->
                 <div class="card">
                     <!--Contenedor de la parte frontal de la tarjeta-->
-                    <div class="card__front" style="background-image: url(img/road-cycling.png);">
+                    <div class="card__front" style="background-image: url(../img/road-cycling.png);">
                         <div class="bg"></div>
                         <!--Contenedor del cuerpo del frontal de la tarjeta-->
                         <div class="body__card__front">
@@ -227,7 +227,7 @@
                 <!--Contenedor de las tarjetas-->
                 <div class="card">
                     <!--Contenedor de la parte frontal de la tarjeta-->
-                    <div class="card__front" style="background-image: url(img/road-cycling.png);">
+                    <div class="card__front" style="background-image: url(../img/road-cycling.png);">
                         <div class="bg"></div>
                         <!--Contenedor del cuerpo del frontal de la tarjeta-->
                         <div class="body__card__front">
@@ -255,7 +255,7 @@
                 <!--Contenedor de las tarjetas-->
                 <div class="card">
                     <!--Contenedor de la parte frontal de la tarjeta-->
-                    <div class="card__front" style="background-image: url(img/road-cycling.png);">
+                    <div class="card__front" style="background-image: url(../img/road-cycling.png);">
                         <div class="bg"></div>
                         <!--Contenedor del cuerpo del frontal de la tarjeta-->
                         <div class="body__card__front">
@@ -311,7 +311,7 @@
 
             <!--aside 1-->
             <aside>
-                <img src="img/act_educativas/DSC_1216.jpg" alt="actividad educativa">
+                <img src="../img/act_educativas/DSC_1216.jpg" alt="actividad educativa">
                 <h2>Actividades educativas</h2>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus in nulla perspiciatis deleniti! Dicta consequuntur, fuga adipisci quam magnam molestias. Voluptatibus autem hic dolor perferendis?</p>
 
@@ -321,7 +321,7 @@
 
             <!--aside 2-->
             <aside>
-                <img src="img/DSC_8191.jpg" alt="grupo Ballester">
+                <img src="../img/DSC_8191.jpg" alt="grupo Ballester">
                 <h2>Título del artículo</h2>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus in nulla perspiciatis deleniti! Dicta consequuntur, fuga adipisci quam magnam molestias. Voluptatibus autem hic dolor perferendis?</p>
 
@@ -331,7 +331,7 @@
 
             <!--aside 3-->
             <aside>
-                <img src="img/DSC_7372.jpg" alt="ruedas bicicleta">
+                <img src="../img/DSC_7372.jpg" alt="ruedas bicicleta">
                 <h2>Título del artículo</h2>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus in nulla perspiciatis deleniti! Dicta consequuntur, fuga adipisci quam magnam molestias. Voluptatibus autem hic dolor perferendis?</p>
 
@@ -340,7 +340,7 @@
             </aside>
             <!--aside 4-->
             <aside>
-                <img src="img/DSC_7264.jpg" alt="circuito mountainbike">
+                <img src="../img/DSC_7264.jpg" alt="circuito mountainbike">
                 <h2>Título del artículo</h2>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus in nulla perspiciatis deleniti! Dicta consequuntur, fuga adipisci quam magnam molestias. Voluptatibus autem hic dolor perferendis?</p>
 

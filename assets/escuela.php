@@ -98,7 +98,7 @@
 
             <!--aside 1-->
             <aside>
-                <img src="img/DSC_7372.jpg" alt="ruedas bicicletas">
+                <img src="../img/DSC_7372.jpg" alt="ruedas bicicletas">
                 <h2>Título del artículo</h2>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus in nulla perspiciatis deleniti! Dicta consequuntur, fuga adipisci quam magnam molestias. Voluptatibus autem hic dolor perferendis?</p>
 
@@ -108,7 +108,7 @@
 
             <!--aside 2-->
             <aside>
-                <img src="img/DSC_8191.jpg" alt="grupo Ballester">
+                <img src="../img/DSC_8191.jpg" alt="grupo Ballester">
                 <h2>Título del artículo</h2>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus in nulla perspiciatis deleniti! Dicta consequuntur, fuga adipisci quam magnam molestias. Voluptatibus autem hic dolor perferendis?</p>
 
@@ -118,7 +118,7 @@
 
             <!--aside 3-->
             <aside>
-                <img src="img/DSC_7264.jpg" alt="circuito mountainbike">
+                <img src="../img/DSC_7264.jpg" alt="circuito mountainbike">
                 <h2>Título del artículo</h2>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus in nulla perspiciatis deleniti! Dicta consequuntur, fuga adipisci quam magnam molestias. Voluptatibus autem hic dolor perferendis?</p>
 

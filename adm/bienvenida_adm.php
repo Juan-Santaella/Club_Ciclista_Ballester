@@ -62,10 +62,6 @@
                         <li><a href="../index.php"><i class="fas fa-home"></i> Inicio</a></li>
                         <li class="menu-selected"><a href="bienvenida_adm.php" class="text-menu-selected"><i class="fas fa-home"></i> Área Técnica</a></li>
                         <li><a href="notas_anuncios.php"><i class="fas fa-biking"></i> Notas - Anuncios</a></li>
-                        <!-- <li><a href="bienvenida_adm.php"><i class="fas fa-chalkboard-teacher"></i> Volver</a></li> -->
-                        <!-- <li><a href="../assets/galeria.php"><i class="fas fa-images"></i> Galería</a></li>
-                        <li><a href="../assets/contacto.php"><i class="fas fa-envelope"></i> Contáctanos</a></li> -->
-                        <!-- <li><a href="../login-reg.php"><i class="fas fa-lock"></i> Entrar</a></li> -->
                     </ul>
                 </nav>
             </div>
