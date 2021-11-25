@@ -99,45 +99,50 @@
             <div class="card-files">
                 <img src="../img/iconos/word.png">
                 <p class="fecha-files">15 noviembre 2021</p>
-                <h4>Resultados 3ª Punta Larga</h4>
-                <p>Listado de resultados de la 3ª Prueba de la Liga Punta Larga</p>
+                <h4>HTML - CSS</h4>
+                <p>Introducción al diseño web</p>
                 <a href="visor_word_1.php">Abrir</a>
+                <a href="ficheros-adm/HTML, CSS 1.docx">Descargar</a>
             </div>
 
             <!--Tarjeta 2-->
             <div class="card-files">
                 <img src="../img/iconos/excel.png">
                 <p class="fecha-files">15 noviembre 2021</p>
-                <h4>Resultados 3ª Punta Larga</h4>
-                <p>Listado de resultados de la 3ª Prueba de la Liga Punta Larga</p>
+                <h4>Auditoría de tiempos</h4>
+                <p>Lista de la gestión de tareas</p>
                 <a href="visor_excel_1.php">Abrir</a>
+                <a href="ficheros-adm/AUDITORÍA DEL TIEMPO.xlsx">Descargar</a>
             </div>
 
             <!--Tarjeta 3-->
             <div class="card-files">
                 <img src="../img/iconos/pdf.png">
                 <p class="fecha-files">15 noviembre 2021</p>
-                <h4>Resultados 3ª Punta Larga</h4>
-                <p>Listado de resultados de la 3ª Prueba de la Liga Punta Larga</p>
+                <h4>Algoritmos-Diagramas Flujo</h4>
+                <p>Uso de algoritmos y diagramas de flujo</p>
                 <a href="visor_pdf_1.php">Abrir</a>
+                <a href="ficheros-adm/PHP_download/download_pdf1.php">Descargar</a>
             </div>
 
             <!--Tarjeta 4-->
             <div class="card-files">
                 <img src="../img/iconos/word.png">
                 <p class="fecha-files">15 noviembre 2021</p>
-                <h4>Resultados 3ª Punta Larga</h4>
-                <p>Listado de resultados de la 3ª Prueba de la Liga Punta Larga</p>
+                <h4>SQL</h4>
+                <p>Introducción a bases de datos SQL           </p>
                 <a href="visor_word_2.php">Abrir</a>
+                <a href="ficheros-adm/SQL.docx">Descargar</a>
             </div>
 
             <!--Tarjeta 5-->
             <div class="card-files">
                 <img src="../img/iconos/pdf.png">
                 <p class="fecha-files">15 noviembre 2021</p>
-                <h4>Programa 2021 - 2022</h4>
-                <p>Programación del Club Ciclista Ballester, 2021-2022</p>
-                <a href="visor_pdf_3.php">Abrir</a>
+                <h4>Atajos VSC</h4>
+                <p>Atajos de Visual Studio Code</p>
+                <a href="visor_pdf_2.php">Abrir</a>
+                <a href="ficheros-adm/PHP_download/download_pdf2.php">Descargar</a>
             </div>
         </div>
 
@@ -148,55 +153,53 @@
             <div class="card-files">
                 <img src="../img/iconos/pdf.png">
                 <p class="fecha-files">15 noviembre 2021</p>
-                <h4>VIVENTLY</h4>
-                <p>Presentación de VIVENTLY, Web de eventos internacionales</p>
-                <a href="visor_pdf_4.php">Abrir</a>
+                <h4>Guía UF1</h4>
+                <p>Guía Unidad Formativa 1 UF1</p>
+                <a href="visor_pdf_3.php">Abrir</a>
+                <a href="ficheros-adm/PHP_download/download_pdf3.php">Descargar</a>
             </div>
 
             <!--Tarjeta 2-->
             <div class="card-files">
                 <img src="../img/iconos/word.png">
                 <p class="fecha-files">15 noviembre 2021</p>
-                <h4>Resultados 3ª Punta Larga</h4>
-                <p>Listado de resultados de la 3ª Prueba de la Liga Punta Larga</p>
+                <h4>HTML5</h4>
+                <p>Introducción a HTML5 y Lenguajes de Marcado</p>
                 <a href="visor_word_3.php">Abrir</a>
+                <a href="ficheros-adm/UA3 HTML5.docx">Descargar</a>
             </div>
 
             <!--Tarjeta 3-->
             <div class="card-files">
                 <img src="../img/iconos/excel.png">
                 <p class="fecha-files">15 noviembre 2021</p>
-                <h4>Resultados 3ª Punta Larga</h4>
-                <p>Listado de resultados de la 3ª Prueba de la Liga Punta Larga</p>
+                <h4>Ejercicio de Autoevaluación</h4>
+                <p>Encuesta de conducta en el entorno de trabajo</p>
                 <a href="visor_excel_2.php">Abrir</a>
+                <a href="ficheros-adm/Ejercicio.xls">Descargar</a>
             </div>
 
             <!--Tarjeta 4-->
             <div class="card-files">
                 <img src="../img/iconos/pdf.png">
                 <p class="fecha-files">15 noviembre 2021</p>
-                <h4>Resultados 3ª Punta Larga</h4>
-                <p>Listado de resultados de la 3ª Prueba de la Liga Punta Larga</p>
-                <a href="visor_pdf_2.php">Abrir</a>
+                <h4>UA1</h4>
+                <p>Unidad de Aprendizaje 1 - Diseño Web</p>
+                <a href="visor_pdf_4.php">Abrir</a>
+                <a href="ficheros-adm/PHP_download/download_pdf4.php">Descargar</a>
             </div>
 
             <!--Tarjeta 5-->
             <div class="card-files">
                 <img src="../img/iconos/excel.png">
                 <p class="fecha-files">15 noviembre 2021</p>
-                <h4>Resultados 3ª Punta Larga</h4>
-                <p>Listado de resultados de la 3ª Prueba de la Liga Punta Larga</p>
+                <h4>Encuesta Conocimientos</h4>
+                <p>Encuesta aprendizajes y entorno laboral</p>
                 <a href="visor_excel_3.php">Abrir</a>
+                <a href="ficheros-adm/PRE.xls">Descargar</a>
             </div>
         </div>
     </div>
-
-    <!-- Enunciado de la sección del tablón de notas -->
-
-    <!-- <div class="enunciado">
-        <h2>Tablón de <b>Notas</b></h2>
-    </div> -->
-
 
     <!-- Publicaciones Responsivas (Noticias) -->
 

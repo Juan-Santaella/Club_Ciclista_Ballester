@@ -59,12 +59,9 @@
             <div class="menu" id="show-menu">
                 <nav>
                     <ul>
-                        <li><a href="index.php"><i class="fas fa-home"></i> Inicio</a></li>
-                        <!-- <li><a href="club.php"><i class="fas fa-biking"></i> Club</a></li>
-                        <li><a href="escuela.php"><i class="fas fa-chalkboard-teacher"></i> Escuela</a></li> -->
-                        <li class="menu-selected"><a href="visor_pwp_1.php" class="text-menu-selected"><i class="fas fa-images"></i> Visor-PowerPoint</a></li>
-                        <!-- <li><a href="contacto.php"><i class="fas fa-envelope"></i> Contáctanos</a></li> -->
-                        <li><a href="bienvenida_adm.php"><i class="fas fa-lock"></i> Volver</a></li>
+                    <li><a href="../index.php"><i class="fas fa-home"></i> Inicio</a></li>
+                        <li><a href="bienvenida_adm.php"><i class="fas fa-lock"></i> Área Técnica</a></li>
+                        <li class="menu-selected"><a href="visor_pdf_2.php" class="text-menu-selected"><i class="fas fa-images"></i> Visor-PDF</a></li>
                     </ul>
                 </nav>
             </div>
@@ -85,7 +82,7 @@
     
     <!-- Visor del archivo PowerPoint seleccionado -->
     <div class="visor">
-        <iframe src="ficheros-adm/VIVENTLY.pdf"> </iframe> 
+        <iframe src="ficheros-adm/UA1 Diseño Web.pdf"> </iframe> 
     </div>
 
     <!--Incrustamos el código del botón de scroll_up-->

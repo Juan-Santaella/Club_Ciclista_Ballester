@@ -114,6 +114,15 @@ function register(){
     }
 }
 
+//Función que dá al input de nombre de usuario, el foco
+function focus_user(){
+    document.getElementById("log_usuario").focus();
+}
+
+//Función que dá al input de número de socio, el foco
+function focus_soc(){
+    document.getElementById("reg_socio").focus();
+}
 
 
 //*************************  PUBLICACIONES RESPONSIVAS  (NOTICIAS) ******************************/
