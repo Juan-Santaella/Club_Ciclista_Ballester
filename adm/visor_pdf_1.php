@@ -81,8 +81,8 @@
 
     
     <!-- Visor del archivo PDF seleccionado -->
-    <div class="visor">
-        <iframe src="ficheros-adm/algoritmos_diagrarmas_de_flujo.pdf" frameborder="0"></iframe>
+    <div class="visor-pdf">
+        <iframe class="visor-iframe" src="ficheros-adm/algoritmos_diagrarmas_de_flujo.pdf" frameborder="0"></iframe>
     </div>
 
     <!--Incrustamos el código del botón de scroll_up-->

@@ -79,10 +79,19 @@
 
     <div class="container-all" id="move-content">
 
-    
+    <!--Botón de descarga superior-->
+    <div class="download-button-up">
+        <a href="ficheros-adm/PRE.xls">Descargar</a>
+    </div>
+
     <!-- Visor del archivo Excel seleccionado -->
     <div class="visor">
-        <iframe src="ficheros-adm/html/Encuesta.htm" frameborder="0"></iframe>
+        <iframe class="visor-iframe" src="ficheros-adm/html/Encuesta.htm" frameborder="0"></iframe>
+    </div>
+
+    <!--Botón de descarga inferior-->
+    <div class="download-button-down">
+        <a href="ficheros-adm/PRE.xls">Descargar</a>
     </div>
 
     <!--Incrustamos el código del botón de scroll_up-->

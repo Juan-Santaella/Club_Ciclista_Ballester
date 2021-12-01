@@ -80,9 +80,9 @@
     <div class="container-all" id="move-content">
 
     
-    <!-- Visor del archivo PowerPoint seleccionado -->
-    <div class="visor">
-        <iframe src="ficheros-adm/Guía del alumnado UF1.pdf"> </iframe> 
+    <!-- Visor del archivo PDF seleccionado -->
+    <div class="visor-pdf">
+        <iframe class="visor-iframe" src="ficheros-adm/Guía del alumnado UF1.pdf"> </iframe> 
     </div>
 
     <!--Incrustamos el código del botón de scroll_up-->

@@ -98,7 +98,7 @@
                 <!--Formulario de login-->
                 <form action="../login-register/php/login_usuario_bd.php" method="POST" class="formulario__login">
                     <h2>Iniciar Sesión</h2>
-                    <input type="text" id="log_usuario" name="usuario" placeholder="Usuario">
+                    <input type="text" id="log_usuario" name="usuario" placeholder="Usuario" autofocus>
                     <input type="password" minlength="6" maxlength="6" name="contrasena" placeholder="Contraseña" required>
                     <button>Entrar</button>
                 </form>

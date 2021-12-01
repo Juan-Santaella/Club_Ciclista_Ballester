@@ -79,11 +79,21 @@
 
     <div class="container-all" id="move-content">
 
-    
-    <!-- Visor del archivo PDF seleccionado -->
-    <div class="visor">
-        <iframe src="ficheros-adm/html/HTML, CSS 1.htm" frameborder="0"></iframe>
+    <!--Botón de descarga superior-->
+    <div class="download-button-up">
+        <a href="ficheros-adm/HTML, CSS 1.docx">Descargar</a>
     </div>
+
+    <!-- Visor del archivo Word seleccionado -->
+    <div class="visor">
+        <iframe class="visor-iframe" src="ficheros-adm/html/HTML, CSS 1.htm" frameborder="0"></iframe>
+    </div>
+
+    <!--Botón de descarga inferior-->
+    <div class="download-button-down">
+        <a href="ficheros-adm/HTML, CSS 1.docx">Descargar</a>
+    </div>
+    
 
     <!--Incrustamos el código del botón de scroll_up-->
     <?php

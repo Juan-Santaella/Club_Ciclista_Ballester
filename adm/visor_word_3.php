@@ -79,10 +79,19 @@
 
     <div class="container-all" id="move-content">
 
-    
-    <!-- Visor del archivo PDF seleccionado -->
+    <!--Botón de descarga superior-->
+    <div class="download-button-up">
+        <a href="ficheros-adm/UA3 HTML5.docx">Descargar</a>
+    </div>
+
+    <!-- Visor del archivo Word seleccionado -->
     <div class="visor">
-        <iframe src="ficheros-adm/html/UA3 HTML5.htm" frameborder="0"></iframe>
+        <iframe class="visor-iframe" src="ficheros-adm/html/UA3 HTML5.htm" frameborder="0"></iframe>
+    </div>
+
+    <!--Botón de descarga inferior-->
+    <div class="download-button-down">
+        <a href="ficheros-adm/UA3 HTML5.docx">Descargar</a>
     </div>
 
     <!--Incrustamos el código del botón de scroll_up-->

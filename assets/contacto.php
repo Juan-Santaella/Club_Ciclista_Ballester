@@ -72,14 +72,13 @@
                 <form action="PHP/mail_contacto.php" method="POST">
                     <p>
                         <label>Nombre</label>
-                        <input type="text" name="nombre">
+                        <input type="text" name="nombre" autofocus>
                     </p>
                     <p>
                         <label>Email</label>
                         <input type="email" name="email">
                     </p>
                     <p>
-                        <!--input html phone-->
                         <label>Teléfono</label>
                         <input type="tel" id="telefono" name="telefono" pattern="[0-9]{3}-[0-9]{3}-[0-9]{3}">     <!--Si el tfn se requiere poner required al final-->
                     </p>
