@@ -32,6 +32,9 @@
             include "includes/social_up.php";
         ?>
 
+        <!-- Tambíen se puede utilizar -->
+        <?php //require("inclues/social_up.php") ?>
+
         <div class="header-content">
             
             <!--Nav-->
