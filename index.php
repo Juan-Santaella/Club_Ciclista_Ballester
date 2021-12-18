@@ -33,7 +33,7 @@
         ?>
 
         <!-- Tambíen se puede utilizar -->
-        <?php //require("inclues/social_up.php") ?>
+        <?php //require("includes/social_up.php") ?>
 
         <div class="header-content">
             
