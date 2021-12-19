@@ -4,6 +4,8 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <!-- <meta name="viewport" content="> -->
+    <meta name="Description" content="Club Ciclista Ballester">
+    <meta name="Keywords" content="Club Ciclista Ballester, escuela de ciclismo en Tenerife, mountainbike, ciclismo, Tenerife, escuela de mountainbike, ciclismo de carretera, escuela de mountainbike en Tenerife, ciclismo de carretera en Tenerife, ciclismo en Candelaria, escuela de ciclismo de Candelaria, circuito de Punta Larga, Punta Larga, MTB, ciclismo en Tenerife">
     <meta name="author" content="Juan Santaella">
     <title> Club Ciclista Ballester </title>
 
