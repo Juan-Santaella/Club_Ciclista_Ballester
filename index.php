@@ -23,8 +23,8 @@
 <body>
 
     <!--JavaScript SDK de Facebook-->
-    <div id="fb-root"></div>
-    <script async defer crossorigin="anonymous" src="https://connect.facebook.net/es_ES/sdk.js#xfbml=1&version=v12.0" nonce="GrRQRVVS"></script>
+    <!-- <div id="fb-root"></div>
+    <script async defer crossorigin="anonymous" src="https://connect.facebook.net/es_ES/sdk.js#xfbml=1&version=v12.0" nonce="GrRQRVVS"></script> -->
 
     <!-- Header - menu -->
     <header>
@@ -165,13 +165,10 @@
         <div class="container-facebook">
 
             <!--Post 1-->
-            <div class="fb-post" data-href="https://www.facebook.com/clubciclistaballester.azucareraespanola/posts/1842137955992987" data-width="320" data-show-text="true"><blockquote cite="https://www.facebook.com/clubciclistaballester.azucareraespanola/posts/1842137955992987" class="fb-xfbml-parse-ignore"><p>El domingo arrancamos con una de las actividades programadas en nuestro calendario basadas en el deporte y la psicología...</p>Publicada por <a href="https://www.facebook.com/clubciclistaballester.azucareraespanola">Antonio Sanchez Barrera</a> en&nbsp;<a href="https://www.facebook.com/clubciclistaballester.azucareraespanola/posts/1842137955992987">Lunes, 8 de noviembre de 2021</a></blockquote></div>
-
+            <iframe src="https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2Fclubciclistaballester.azucareraespanola%2Fposts%2F1862049047335211&show_text=true&width=500" width="500" height="781" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"></iframe>
+           
             <!--Post 2-->
-            <div class="fb-post" data-href="https://www.facebook.com/clubciclistaballester.azucareraespanola/posts/1832084820331634" data-width="320" data-show-text="true"><blockquote cite="https://www.facebookcom/clubciclistaballester.azucareraespanola/posts/1832084820331634" class="fb-xfbml-parse-ignore"><p>El domingo 24 celebramos la III prueba de la Liga Infantil Villa de Candelaria quedando totalmentesatisfechos con las...</p>Publicada por <a href="https://www.facebook.com/clubciclistaballester.azucareraespanola">Antonio Sanchez Barrera</a> en&nbsp;<a href="https://www.facebook.comclubciclistaballester.azucareraespanola/posts/1832084820331634">Martes, 26 de octubre de 2021</a></blockquote></div>
-
-            <!--Post 3-->
-            <div class="fb-post" data-href="https://www.facebook.com/clubciclistaballester.azucareraespanola/posts/1830742130465903" data-width="320" data-show-text="true"><blockquote cite="https://www.facebook.com/clubciclistaballester.azucareraespanola/posts/1830742130465903" class="fb-xfbml-parse-ignore"><p>Hoy celebramos la III prueba de la Liga Infantil Villa de Candelaria en la cúal disfrutamos del espectáculo que nos...</p>Publicada por <a href="https://www.facebook.com/clubciclistaballester.azucareraespanola">Antonio Sanchez Barrera</a> en&nbsp;<a href="https://www.facebook.com/clubciclistaballester.azucareraespanola/posts/1830742130465903">Domingo, 24 de octubre de 2021</a></blockquote></div>
+            <iframe src="https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2Fclubciclistaballester.azucareraespanola%2Fposts%2F1859192307620885&show_text=true&width=500" width="500" height="743" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"></iframe>
 
         </div>
     
@@ -199,7 +196,6 @@
         <!--Tarjeta 1-->
         <div class="card">
             <iframe src="https://www.youtube.com/embed/f7pLXrH6yJs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-            <!-- <img src="img/DSC_5235.jpg"> -->
             <h4>Circuito de MTB</h4>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda, at quibusdam!</p>
         </div>
