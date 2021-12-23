@@ -380,10 +380,10 @@
     position: relative;             /*Desplazará todo el contenido que esté debajo*/
     margin-top: 5px;                      /*Continúa donde acaba el nav*/
     background-image: url(../img/DSC_8266.jpg);
-    background-position:center;    /*Centra la imagen por todos lados*/
-    /*background-size: 100% 230%;         /*Cubrirá toda la portada*/
-    background-size: 204vh 100vh;
-    background-repeat: no-repeat;   /*No se va a repetir la imagen*/
+    background-position: center center;    /*Centra la imagen por todos lados*/
+    background-size: cover;
+    /*background-size: 100% 230%;         Cubrirá toda la portada*/
+    background-repeat: no-repeat;   /*No se va a repetir la imagen */
 }
 
 .container-cover-club:before{
@@ -403,9 +403,8 @@
     position: relative;             /*Desplazará todo el contenido que esté debajo*/
     margin-top: 5px;                      /*Continúa donde acaba el nav*/
     background-image: url(../img/DSC_8859.jpg);
-    background-position: center;    /*Centra la imagen por todos lados*/
-    /*background-size: 100% 230%;         /*Cubrirá toda la portada*/
-    background-size: 204vh 100vh;
+    background-position: center center;    /*Centra la imagen por todos lados*/
+    background-size: cover;
     background-repeat: no-repeat;   /*No se va a repetir la imagen*/
 }
 
@@ -426,9 +425,8 @@
     position: relative;             /*Desplazará todo el contenido que esté debajo*/
     margin-top: 5px;                      /*Continúa donde acaba el nav*/
     background-image: url(../img/DSC_9130.jpg);
-    background-position: center;    /*Centra la imagen por todos lados*/
-    /*background-size: 100% 250%;         /*Cubrirá toda la portada*/
-    background-size: 204vh 100vh;
+    background-position: center center;    /*Centra la imagen por todos lados*/
+    background-size: cover;;
     background-repeat: no-repeat;   /*No se va a repetir la imagen*/
 }
 
@@ -456,6 +454,7 @@
 }
 
 
+
 /****************  SECCIÓN DE ADMINISTRADOR  ********************/
 
 /*Portada del Área Técnica*/
@@ -465,9 +464,8 @@
     position: relative;             /*Desplazará todo el contenido que esté debajo*/
     margin-top: 5px;                      /*Continúa donde acaba el nav*/
     background-image: url(../img/adm/DSC_7372.jpg);
-    background-position: center;    /*Centra la imagen por todos lados*/
-    /*background-size: 100% 230%;          /*Cubrirá toda la portada*/
-    background-size: 204vh 100vh;
+    background-position: center center;    /*Centra la imagen por todos lados*/
+    background-size: cover;
     background-repeat: no-repeat;   /*No se va a repetir la imagen*/
 }
 
@@ -490,9 +488,8 @@
     position: relative;             /*Desplazará todo el contenido que esté debajo*/
     margin-top: 5px;                      /*Continúa donde acaba el nav*/
     background-image: url(../img/usr/DSC_1249.jpg);
-    background-position: center;    /*Centra la imagen por todos lados*/
-    /*background-size: 100% 230%;          /*Cubrirá toda la portada*/
-    background-size: 204vh 100vh;
+    background-position: center center;    /*Centra la imagen por todos lados*/
+    background-size: cover;
     background-repeat: no-repeat;   /*No se va a repetir la imagen*/
 }
 
@@ -521,6 +518,29 @@
     color:#fff;
     font-size: 20px;
     font-weight: 300;
+}
+
+
+/******************************  RESPONSIVE DESIGN DEL FORMATO DE LAS PORTADAS  *********************************/
+@media screen and (max-width: 991px){
+
+    .container-cover-club,
+    .container-cover-escuela,
+    .container-cover-galeria,
+    .container-cover-tecnica-inicio,
+    .container-cover-user-inicio{
+        height: 450px;
+        padding: 0 15px;
+    }
+
+    .container-info-cover h1{
+        font-size: 40px;
+    }
+
+    .container-info-cover p{
+        font-size: 15px;
+        text-align: justify;
+    }
 }
 
 
@@ -1416,16 +1436,11 @@ main{
 
     .box__footer .logo img{
         width: 150px;
-        left: 0;
         margin-left: -67%;
         border-radius: 5%;
     }
 
     .box__footer .terms{
-        /* max-width: 350px;
-        margin-top: 20px;
-        font-weight: 700;
-        color: #616161; */
         font-size: 16px;
     }
     
@@ -1588,7 +1603,7 @@ main{
     .logo{
         height: 26px;
         font-size: 12px;
-        margin: 10px 0px;
+        margin: 15px 0px;
     }
 
     #icon-menu{
@@ -1628,8 +1643,14 @@ main{
 
 @media screen and (max-width: 435px){
 
-    .box__footer .logo img{
+    /* .box__footer .logo img{
         margin-left: 0;
+    } */
+
+    .logo{
+        /* height: 26px;
+        font-size: 12px; */
+        margin: 15px 0px 20px;
     }
 
 }
@@ -1693,6 +1714,11 @@ main{
 @media screen and (max-width: 850px){
     main{
         margin-top: 50px;
+        height: 1180px;
+    }
+
+    .container-login{
+        height: 1180px;
     }
     
     .caja__trasera{
