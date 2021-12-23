@@ -765,6 +765,7 @@ article img{
     margin: 15px 15px;
     border-radius: 5%;
     box-shadow: 0 1px 6px 1px rgba(0,0,0,.1);
+    transition: all 0.25s ease;
 }
 
 .container-instagram{
@@ -785,7 +786,7 @@ article img{
     transition: all 0.25s ease;
 }
 
-.fb-post:hover{
+.container-facebook iframe:hover{
     transform: translateY(-15px);
     box-shadow: 0 12px 16px rgba(0, 0, 0, 0.2);
 }
@@ -851,28 +852,38 @@ article img{
 .container-sponsors{
     width: 100%;
     max-width: 1000px;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    margin-left: auto;
-    margin-right: auto;
-    margin-bottom: 35px;
+    /* margin-left: auto;
+    margin-right: auto; */
+    margin: 0 auto;
+    padding: 35px 20px;
     top: 0;
 }
 
+.img-sponsors{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
 .img-sponsors img{
-    width: 110px;
+    width: 80px;
     height: 60px;
-    margin: 10px; 
+    margin: 0px 10px; 
 }
 
 #grow1{
-    width: 100px;
+    width: 90px;
     height: 80px; 
 }
 
 #grow2{
     width: 80px;
+    height: 75px;
+}
+
+#grow3{
+    width: 110px;
     height: 75px;
 }
 
@@ -882,9 +893,29 @@ article img{
 @media screen and (max-width: 791px){
     .container-sponsors{
         max-width: 500px;
-        margin-left: auto;
-        margin-right: auto;
     }
+
+    .img-sponsors img{
+        width: 70px;
+        height: 50px;
+        margin: 0px 10px; 
+    }
+    
+    #grow1{
+        width: 80px;
+        height: 70px; 
+    }
+    
+    #grow2{
+        width: 70px;
+        height: 65px;
+    }
+    
+    #grow3{
+        width: 100px;
+        height: 65px;
+    }
+
 }
 
 
@@ -1037,123 +1068,15 @@ article img{
 
 @media screen and (max-width: 590px){
 
-    .container .card h4{
-        font-size: 20px;
-        margin-top: 15px;
-        margin-bottom: 15px;
+    .container{
+        padding: 120px 0px;
     }
-
-    .container .card p{
-        font-size: 16px;
-        line-height: 1.2;
-    }
-}
-
-@media screen and (max-width: 513px){
-
-    .container .card p{
-        font-size: 12px;
-    }
-
-}
-
-@media screen and (max-width: 490px){
 
     .container .card{
-        height: 346px;
-    }
-
-    .container .card iframe{
-        width: 200px;
-    }
-
-    .container .card h4{
-        font-size: 15px;
-        margin-top: 10px;
-        margin-bottom: 15px;
-    }
-
-    .container .card p{
-        padding: 0 1rem;
-        font-size: 10px;
-        line-height: 1.2;
-    }
-}
-
-@media screen and (max-width: 439px){
-
-    .container .card iframe{
-        width: 150px;
+        margin: 25px 0px;
     }
 
 }
-
-
-@media screen and (max-width: 427px){
-
-    .container .card{
-        height: 335px;
-    }
-
-    .container .card iframe{
-        width: 120px;
-    }
-
-    .container .card h4{
-        font-size: 12px;
-        margin-top: 4px;
-        margin-bottom: 8px;
-    }
-
-    .container .card p{
-        padding: 0 1rem;
-        font-size: 10px;
-    }
-
-}
-
-@media screen and (max-width: 399px){
-
-    .container .card{
-        height: 280px;
-    }
-
-    .container .card p{
-        display: none;
-    }
-
-}
-
-@media screen and (max-width: 370px){
-
-
-    .container .card{
-        height: 200px;
-    }
-
-    .container .card iframe{
-        width: 70px;
-        height: 120px;
-    }
-
-    .container .card h4{
-        font-size: 12px;
-        margin-top: 4px;
-        margin-bottom: 8px;
-    }
-
-}
-
-
-
-
-
-
-
-
-
-
-
 
 
 
@@ -1236,7 +1159,6 @@ footer{
 /*Atributos del logo del Club*/
 .box__footer .logo img{
     width: 180px;
-    /* align-content: left; */
     margin-left: -47%;
     border-radius: 5%;
 }
@@ -1491,6 +1413,22 @@ main{
         max-width: 1000px;
         padding: 0 20px;
     }
+
+    .box__footer .logo img{
+        width: 150px;
+        left: 0;
+        margin-left: -67%;
+        border-radius: 5%;
+    }
+
+    .box__footer .terms{
+        /* max-width: 350px;
+        margin-top: 20px;
+        font-weight: 700;
+        color: #616161; */
+        font-size: 16px;
+    }
+    
 }
 
 @media screen and (max-width: 1020px){
@@ -1650,7 +1588,7 @@ main{
     .logo{
         height: 26px;
         font-size: 12px;
-        margin: 8px 0px;
+        margin: 10px 0px;
     }
 
     #icon-menu{
@@ -1686,6 +1624,14 @@ main{
         font-size: 7px;
         right: 5px;
     } 
+}
+
+@media screen and (max-width: 435px){
+
+    .box__footer .logo img{
+        margin-left: 0;
+    }
+
 }
 
 @media screen and (max-width: 395px){ 

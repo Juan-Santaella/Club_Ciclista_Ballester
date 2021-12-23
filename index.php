@@ -231,11 +231,11 @@
     <div class="container-sponsors">
         <div class="img-sponsors">
             <a href="https://www.candelaria.es" target="_blank"><img id="grow1" src="img/sponsors/ayto_candelaria.jpg" alt="Ayuntamiento Candelaria"></a>
-            <a href="https://deportestenerife.es" target="_blank"><img src="img/sponsors/dxt.png" alt="Cabildo Tenerife"></a>
+            <a href="https://deportestenerife.es" target="_blank"><img id="grow3" src="img/sponsors/dxt.png" alt="Cabildo Tenerife"></a>
             <a href="https://ciclismocanario.es › index.php › canarias" target="_blank"><img src="img/sponsors/fed_canaria.png" alt="Federacion Ciclismo"></a>
             <a href="https://aguasdefirgas.com" target="_blank"><img src="img/sponsors/firgas.png" alt="Firgas"></a>
-            <a href="https://libbys.es" target="_blank"><img src="img/sponsors/libbys.png" alt="Libby´s"></a>
-            <a href="https://dulcesol.com" target="_blank"><img src="img/sponsors/dulcesol.png" alt="Dulcesol"></a>
+            <a href="https://libbys.es" target="_blank"><img id="grow3" src="img/sponsors/libbys.png" alt="Libby´s"></a>
+            <a href="https://dulcesol.com" target="_blank"><img id="grow3" src="img/sponsors/dulcesol.png" alt="Dulcesol"></a>
         </div>
 
         <div class="img-sponsors">
