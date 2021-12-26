@@ -84,7 +84,7 @@
     <div class="container-cover-tecnica-inicio">
         <div class="container-info-cover">
             <h1>Área Técnica</h1>  
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus quae ducimus mollitia velit beatae nesciunt!</p>
+            <p>Zona privada de gestión técnica y administrativa del Club</p>
         </div>
     </div>
 
@@ -164,7 +164,7 @@
                 <img src="../img/iconos/word.png">
                 <p class="fecha-files">15 noviembre 2021</p>
                 <h4>HTML5</h4>
-                <p>Introducción a HTML5 y Lenguajes de Marcado</p>
+                <p>HTML5 y Lenguajes de Marcado</p>
                 <a href="visor_word_3.php">Abrir</a>
                 <a href="ficheros-adm/UA3 HTML5.docx">Descargar</a>
             </div>
@@ -173,8 +173,8 @@
             <div class="card-files">
                 <img src="../img/iconos/excel.png">
                 <p class="fecha-files">15 noviembre 2021</p>
-                <h4>Ejercicio de Autoevaluación</h4>
-                <p>Encuesta de conducta en el entorno de trabajo</p>
+                <h4>Ejercicio Autoevaluación</h4>
+                <p>Conducta entorno trabajo</p>
                 <a href="visor_excel_2.php">Abrir</a>
                 <a href="ficheros-adm/Ejercicio.xls">Descargar</a>
             </div>

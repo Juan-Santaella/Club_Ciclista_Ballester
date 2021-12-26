@@ -14,7 +14,7 @@
 
 .contact_logo{
     text-align: center;
-    font-size: 3em;
+    font-size: 1.5em;
     margin-bottom: 15px;
 }
 
@@ -119,10 +119,8 @@
 }
 
 /**** RESPONSIVE DESIGN PARA PANTALLAS GRANDES ****/
+
 @media(min-width:700px){
-    /* body{
-        padding: 0 4rem;
-    } */
 
     .contact-wrapper{
         display: grid;

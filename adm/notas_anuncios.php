@@ -60,11 +60,8 @@
                 <nav>
                     <ul>
                         <li><a href="../index.php"><i class="fas fa-home"></i> Inicio</a></li>
-                        <!-- <li><a href="club.php"><i class="fas fa-biking"></i> Club</a></li>
-                        <li><a href="escuela.php"><i class="fas fa-chalkboard-teacher"></i> Escuela</a></li> -->
                         <li><a href="bienvenida_adm.php"><i class="fas fa-lock"></i> Área Técnica</a></li>
                         <li class="menu-selected"><a href="visor_excel_1.php" class="text-menu-selected"><i class="fas fa-images"></i> Notas - Anuncios</a></li>
-                        <!-- <li><a href="contacto.php"><i class="fas fa-envelope"></i> Contáctanos</a></li> -->
                     </ul>
                 </nav>
             </div>

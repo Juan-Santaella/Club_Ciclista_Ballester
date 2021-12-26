@@ -344,11 +344,12 @@
     }  
 
     .slideshow-item-text h5{
-        font-size: 1.5rem;
+        font-size: 1rem;
+        margin-bottom: .8rem;
     }
 
     .slideshow-item-text p{
-        font-size: 1rem;
+        font-size: .8rem;
     }
 }
 
@@ -362,11 +363,12 @@
     }  
 
     .slideshow-item-text h5{
-        font-size: 0.8rem;
+        font-size: .8rem;
+        margin-bottom: .6rem;
     }
 
     .slideshow-item-text p{
-        font-size: 0.7rem;
+        font-size: .6rem;
     }
 }
 
@@ -705,7 +707,6 @@ article img{
     background: #b71c1c;
     color: #fff;
     width: 50%;
-    /* margin: auto;   Lo alineamos al centro */
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 5px;
@@ -772,7 +773,7 @@ article img{
 .container-facebook{
     display: flex;
     flex-wrap: wrap;
-    top: 0px;
+    top: 0;
     width: 100%;
     align-items: center;
     justify-content: center; 
@@ -784,6 +785,7 @@ article img{
     height: 743px;
     margin: 15px 15px;
     border-radius: 5%;
+    overflow: hidden;
     box-shadow: 0 1px 6px 1px rgba(0,0,0,.1);
     transition: all 0.25s ease;
 }
@@ -791,7 +793,7 @@ article img{
 .container-instagram{
     display: flex;
     flex-wrap: wrap;
-    top: 0px;
+    top: 0;
     width: 100%;
     align-items: center;
     justify-content: center;
@@ -823,6 +825,7 @@ article img{
 /***************  CARTELES DE PRUEBAS Y ANUNCIOS  *********************/
 
 .container-carteles{
+    width: 100%;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -849,17 +852,15 @@ article img{
 
 @media screen and (max-width: 1135px){
     .container-carteles{
-        max-width: 450px;
-        margin-left: auto;
-        margin-right: auto;
+        /* max-width: 450px; */
+        padding: 150px 450px;
+        margin: 0 auto;
     }
 }
 
 @media screen and (max-width: 809px){
     .container-carteles{
         max-width: 350px;
-        margin-left: auto;
-        margin-right: auto;
     }
 }
 
@@ -944,7 +945,7 @@ article img{
 
 /*Contenedor general*/
 .main-files{
-    padding: 120px;
+    padding: 110px;
 }
 
 /*Contenedores de cards*/
@@ -1023,6 +1024,92 @@ article img{
     transform: translateY(-15px);
     background: #FF3300;
     box-shadow: 0 12px 16px rgba(0, 0, 0, 0.2);
+}
+
+/****************  RESPONSIVE DESIGN  ************************/
+
+@media screen and (max-width: 911px){
+
+    .main-files{
+        padding: 60px;
+    }
+
+}
+
+@media screen and (max-width: 415px){
+
+    .main-files{
+        padding: 40px;
+    }
+
+    .container-files .card-files{
+        width: 130px;
+        height: 160px;
+        border-radius: 8px;
+        box-shadow: 0 2px 2px rgba(0, 0, 0, 0.2);
+        overflow: hidden;
+        margin: 15px;
+        text-align: center;
+        transition: all 0.25s ease;
+    }
+    
+    /*Efectos a activar cuando se pase el ratón por encima de la tarjeta*/
+    .container-files .card-files:hover{
+        transform: translateY(-15px);
+        box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    }
+    
+    /*Atributos de las imágenes de las tarjetas*/
+    .container-files .card-files img{
+        width: 45px;
+        height: 40px;
+        margin: 0 auto;
+        padding-top: 2px; 
+    }
+    
+    /*Propiedades de la fecha de las publicaciones*/
+    .container-files .card-files .fecha-files{
+        font-size: 8px;
+        font-weight: 600;
+        margin-bottom: 2px;
+    }
+    
+    /*Atributos de los enunciados de las tarjetas*/
+    .container-files .card-files h4{
+        font-weight: bold;
+        font-size: 11px;
+        margin-bottom: 3px;
+    }
+    
+    /*Atributos de los párrafos de las tarjetas*/
+    .container-files .card-files p{
+        padding: 0 1rem;
+        font-size: 8px;
+        font-weight: 400;
+        line-height: 1.2;
+        margin-bottom: 8px;
+    }
+    
+    /*Atributos de los enlaces de cada tarjeta*/
+    .container-files .card-files a{
+        padding: 4px;
+        font-size: 8px;
+        font-weight: 500;
+        text-decoration: none;
+        color: #fff;
+        background: #b71c1c;
+        border-radius: 5px;
+        transition: all 0.25s ease;
+    }
+    
+    .container-files .card-files a:hover{
+        font-size: 10px;
+        font-weight: 600;
+        transform: translateY(-15px);
+        background: #FF3300;
+        box-shadow: 0 12px 16px rgba(0, 0, 0, 0.2);
+    }
+
 }
 
 
@@ -1211,15 +1298,14 @@ footer{
     color: #a2a2a2;
 }
 
-/*Efecto al pasar el puntero del ratón sobre los enlaces*/
-.box__footer a:hover{
-    /* opacity: 0.5; */
-    color:#b71c1c;
-}
-
 /*Propiedades de los iconos de las redes sociales y el correo*/
 .box__footer a .fab,.fas{
     font-size: 20px;
+}
+
+/*Efecto al pasar el puntero del ratón sobre los enlaces*/
+.box__footer a:hover{
+    color:#b71c1c;
 }
 
 .box__copyright{
@@ -1242,6 +1328,11 @@ footer{
     /*background-color: #B3B6B7;*/
     /* color: #616161; */
     background-color: #616161;
+}
+
+.box__copyright a{
+    text-decoration: none;
+    color:#b71c1c;
 }
 
 /**** ATRIBUTOS DEL BOTÓN SUBIR PARA EL SCROLL ****/
@@ -1609,7 +1700,7 @@ main{
     #icon-menu{
         width: 20px;
         height: 20px;
-        margin-top: 2em;
+        margin-top: 50px;
         padding: 15px;
     }
 

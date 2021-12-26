@@ -15,8 +15,9 @@
     <!--Animate.css-->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
 
-    <link rel="stylesheet" href="../css/style.css">    <!--*** LOS ESTILOS SIEMPRE VAN DESPUÉS DE LOS ICONOS ***-->
     <link rel="stylesheet" href="../css/contact_style.css">    <!--Hoja de estilos de la página de contacto-->
+    
+    <link rel="stylesheet" href="../css/style.css">    <!--*** LOS ESTILOS SIEMPRE VAN DESPUÉS DE LOS ICONOS ***-->
 
     <!--meta etiqueta que va a convertir a la página en RESPONSIVE-->
     <meta name="viewport" content= initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
@@ -100,12 +101,12 @@
             <div class="contact-info">
                 <h4>Más información</h4>
                 <ul>
-                    <li><i class="fas fa-map-marker-alt"></i> Circuito de Punta Larga, Candelaria, Tenerife, Islas Canarias</li>
-                    <li><i class="fas fa-phone"></i> 111 111 111</li>    
-                    <li><i class="fas fa-envelope-open-text"></i> contact@website.com</li>        
+                    <li><i class="fas fa-map-marker-alt"></i> C. Crujiola 5/6, Edif. Alsaca V Torre I, Piso 3-9, 38530, Candelaria, Tenerife, Islas Canarias, España</li>
+                    <li><i class="fas fa-phone"></i> 648 603 247</li>    
+                    <li><i class="fas fa-envelope-open-text"></i> info@clubdballester.es</li>        
                 </ul>
                 <p>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione eligendi, repellat praesentium eius at rerum illo soluta ex dolores incidunt!
+                    Remítenos un mensaje por medio del formulario, si deseas realizarnos alguna consulta. Responderemos en el menor plazo de tiempo posible.
                 </p>
                 <p>Club Ciclista Ballester</p>
             </div>

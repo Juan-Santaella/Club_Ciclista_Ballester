@@ -63,7 +63,7 @@
     <div class="container-cover-club">
         <div class="container-info-cover">
             <h1> Nuestro Club </h1>  
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus quae ducimus mollitia velit beatae nesciunt!</p>
+            <p>El Club Ciclista Ballester es una entidad deportiva fundada en 1997</p>
         </div>
     </div>
 
