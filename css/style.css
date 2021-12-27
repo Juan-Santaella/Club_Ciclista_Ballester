@@ -865,9 +865,6 @@ article img{
 }
 
 
-
-
-
 /***************  SPONSORS  *********************/
 
 .container-sponsors{
@@ -2191,7 +2188,7 @@ main{
     top: 0;
     width: 100%;
     height: 50vh;
-    display: flex;
+    display: flex; 
     flex-wrap: wrap;
     align-items: center;
     justify-content: space-between;
@@ -2203,9 +2200,8 @@ main{
     width: 100%;
     max-width: 28rem;
     margin: auto;
-    padding: 1.9rem;
+    padding: 1.9rem .1rem;
     background-color: #eeeeeefa;
-    /* box-shadow: 0 1.4rem 8rem rgba(0, 0, 0, .2); */
     box-shadow: 0 2px 2px rgba(0, 0, 0, 0.2);
     display: flex;
     align-items: center;
@@ -2235,8 +2231,9 @@ main{
     position: absolute;
     top: 0;
     left: 0;
-    background: linear-gradient(to right, rgba(183, 28, 28, .6),
-                                          rgba(253, 29, 29, .6));
+    /* background: linear-gradient(to right, rgba(183, 28, 28, .6),
+                                          rgba(253, 29, 29, .6)); */
+    background: rgba(11,11,11,.4);
     box-shadow: .5rem .5rem 3rem 1px rgba(0,0,0,.05);
     border-radius: .8rem;
 }
@@ -2286,24 +2283,75 @@ main{
 
 /*****************************  RESPONSIVE DESIGN  ******************************/
 
-@media screen and (max-width: 1068px){
+@media screen and (max-width: 1433px){
+
+    .enunciado-anuncios{
+        height: 7em;
+        padding-top: .5em;
+    }
+
+    .enunciado-anuncios h2{
+        font-size: 18px;
+    }
+    
+    .enunciado-anuncios h4{
+        font-size: 14px;
+        padding: .6em;
+    }
+
     .blog-post{
-        max-width: 80rem;
+        max-width: 20rem;
     }
 
     .blog-post__img{
-        min-width: 30rem;
-        max-width: 30rem;
+        min-width: 13rem;
+        max-width: 13rem;
+        height: 14rem;
+        transform: translateX(-6rem);
+        position: absolute;
+    }
+
+    .blog-post__date span{
+        font-size: .6rem;
+        margin: 1px 0;
+        padding: 0 0 0 8rem;
+    }
+    
+    .blog-post__title{
+        font-size: .65rem;
+        margin: .6rem 0 .6rem;
+        padding: 0 0 0 8rem;
+    }
+    
+    .blog-post__text{
+        margin-bottom: 1rem;
+        padding: 0 0 0 8rem;
+        font-size: .65rem;
+    }
+    
+    .blog-post__cta{
+        margin: 0 0 0 10.5rem;
+        padding: .4rem;
+        font-size: .55rem;
     }
 }
 
-@media screen and (max-width: 868px){
+
+@media screen and (max-width: 1225px){
+
+    .blog-post{
+        padding: 2.5rem;
+        margin: 3rem 15rem;
+    }
+}
+
+@media screen and (max-width: 639px){
     .blog-post{
         max-width: 70rem;
     }
 }
 
-@media screen and (max-width: 768px){
+/*@media screen and (max-width: 768px){
     .blog-post{
         padding: 2.5rem;
         flex-direction: column;
@@ -2314,4 +2362,4 @@ main{
         max-width: 100%;
         transform: translate(0, -8rem);
     }
-}
+} */

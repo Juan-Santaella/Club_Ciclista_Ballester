@@ -14,7 +14,7 @@
 
 .contact_logo{
     text-align: center;
-    font-size: 1.5em;
+    font-size: 3em;
     margin-bottom: 15px;
 }
 
@@ -138,3 +138,13 @@
         text-align: left;
     }
 }
+
+@media screen and (max-width: 700px){
+    .contact_logo{
+        font-size: 1.5em;
+    }
+}
+
+
+
+

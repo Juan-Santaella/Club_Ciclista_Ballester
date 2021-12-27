@@ -205,7 +205,7 @@
                 <p class="blog-post__text">
                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero consequatur nihil totam maiores mollitia aliquid odit a sit vel ut? Temporibus consequuntur     expedita ipsum et.    
                 </p>
-                <a href="" class="blog-post__cta">Leer más</a>
+                <a href="#" class="blog-post__cta">Leer más</a>
             </div>
         </div>
     </div>
