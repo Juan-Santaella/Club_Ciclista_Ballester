@@ -224,6 +224,7 @@
     background: #fff;
     border-radius: 8px;
     box-shadow: 0 1.4rem 8rem rgba(0, 0, 0, .2);
+    text-align: center;
 }
 
 .enunciado-anuncios h2 b,h4 b{
@@ -2175,191 +2176,80 @@ main{
 
 /****************  POST DE USUARIOS O ADMINISTRADORES  *************************/
 
-.blog-img{
-    width: 100%;
-}
 
-.ads-section{
-    margin-bottom: 5em;
-    
-}
-
-.blog-body{
-    top: 0;
+/*Contenedor general*/
+.container_advs{
     width: 100%;
-    height: 50vh;
-    display: flex; 
-    flex-wrap: wrap;
-    align-items: center;
-    justify-content: space-between;
-    background-color: #fff;
-    padding: 0 9.8rem;
-}
-
-.blog-post{
-    width: 100%;
-    max-width: 28rem;
-    margin: auto;
-    padding: 1.9rem .1rem;
-    background-color: #eeeeeefa;
-    box-shadow: 0 2px 2px rgba(0, 0, 0, 0.2);
     display: flex;
-    align-items: center;
-    border-radius: .8rem;
-}
-
-.blog-post__img{
-    min-width: 14rem;
-    max-width: 14rem;
-    height: 16rem;
-    transform: translateX(-8rem);
-    position: absolute;
-}
-
-.blog-post__img img{
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    display: block;
-    border-radius: .8rem;
-}
-
-.blog-post__img::before{
-    content: '';
-    width: 100%;
-    height: 100%;
-    position: absolute;
+    flex-wrap: wrap;
+    justify-content: center;
     top: 0;
-    left: 0;
-    /* background: linear-gradient(to right, rgba(183, 28, 28, .6),
-                                          rgba(253, 29, 29, .6)); */
-    background: rgba(11,11,11,.4);
-    box-shadow: .5rem .5rem 3rem 1px rgba(0,0,0,.05);
-    border-radius: .8rem;
+    padding: 120px;
+    margin-bottom: 29px;
+    letter-spacing: 0.03em;
+    line-height: 1.6;
 }
 
-.blog-post__date span{
-    display: block;
-    color: rgba(0,0,0,.5);
-    font-size: .8rem;
-    font-weight: 600;
-    margin: .1rem 0;
-    padding: 0 0 0 8rem;
+/*Atributos de las tarjetas*/
+.container_advs .card_advs{
+    width: 300px;
+    height: 400px;
+    border-radius: 8px;
+    box-shadow: 0 2px 2px rgba(0, 0, 0, 0.2);
+    overflow: hidden;
+    margin: 25px;
+    text-align: center;
+    transition: all 0.25s ease;
 }
 
-.blog-post__title{
-    font-size: .9rem;
-    margin: 1.2rem 0 1.2rem;
-    padding: 0 0 0 8rem;
-    text-transform: uppercase;
-    color: #b71c1c;
+/*Efectos a activar cuando se pase el ratón por encima de la tarjeta*/
+.container_advs .card_advs:hover{
+    transform: translateY(-15px);
+    box-shadow: 0 12px 16px rgba(0, 0, 0, 0.2);
 }
 
-.blog-post__text{
-    margin-bottom: 2.1rem;
-    padding: 0 0 0 8rem;
-    font-size: .8rem;
-    font-weight: 600;
-    color: rgba(0,0,0,.7);
+/*Atributos de las imágenes de las tarjetas*/
+.container_advs .card_advs img{
+    width: 300px;
+    height: 220px;
 }
 
-.blog-post__cta{
-    display: inline-block;
-    margin: 0 0 0 13.5rem;
-    padding: .6rem;
-    /* letter-spacing: .5px; */
-    text-transform: uppercase;
-    font-size: .7rem;
-    color: #fff;
-    background-image: linear-gradient(to right, #b71c1c 0%, #fd1d1d 100%);
-    border-radius: .8rem;
-    text-decoration: none;
+/*Atributos de los enunciados de las tarjetas*/
+.container_advs .card_advs h4{
+    font-weight: bold;
+    font-size: 20px;
+    margin-top: 12px;
+    margin-bottom: 10px;
 }
 
-.blog-post__cta:hover{
-    background-image: linear-gradient(to right, #fd1d1d 0%, #b71c1c 100%);
-} 
+.container_advs .card_advs h4 span{
+    color:#b71c1c
+}
 
+/*Atributos de los párrafos de las tarjetas*/
+.container_advs .card_advs p{
+    padding: 0 1rem;
+    font-size: 13px;
+    font-weight: 300;
+    line-height: 1.5;
+    margin-bottom: 20px;
+}
 
-/*****************************  RESPONSIVE DESIGN  ******************************/
-
-@media screen and (max-width: 1433px){
-
-    .enunciado-anuncios{
-        height: 7em;
-        padding-top: .5em;
-    }
-
-    .enunciado-anuncios h2{
-        font-size: 18px;
-    }
-    
-    .enunciado-anuncios h4{
-        font-size: 14px;
-        padding: .6em;
-    }
-
-    .blog-post{
-        max-width: 20rem;
-    }
-
-    .blog-post__img{
-        min-width: 13rem;
-        max-width: 13rem;
-        height: 14rem;
-        transform: translateX(-6rem);
-        position: absolute;
-    }
-
-    .blog-post__date span{
-        font-size: .6rem;
-        margin: 1px 0;
-        padding: 0 0 0 8rem;
-    }
-    
-    .blog-post__title{
-        font-size: .65rem;
-        margin: .6rem 0 .6rem;
-        padding: 0 0 0 8rem;
-    }
-    
-    .blog-post__text{
-        margin-bottom: 1rem;
-        padding: 0 0 0 8rem;
-        font-size: .65rem;
-    }
-    
-    .blog-post__cta{
-        margin: 0 0 0 10.5rem;
-        padding: .4rem;
-        font-size: .55rem;
-    }
+.container_advs .card_advs a:hover{
+    color:#b71c1c;
 }
 
 
-@media screen and (max-width: 1225px){
+/*************  RESPONSIVE DESIGN  *************/
 
-    .blog-post{
-        padding: 2.5rem;
-        margin: 3rem 15rem;
+@media screen and (max-width: 590px){
+
+    .container_advs{
+        padding: 120px 0px;
     }
+
+    .container_advs .card_advs{
+        margin: 25px 0px;
+    }
+
 }
-
-@media screen and (max-width: 639px){
-    .blog-post{
-        max-width: 70rem;
-    }
-}
-
-/*@media screen and (max-width: 768px){
-    .blog-post{
-        padding: 2.5rem;
-        flex-direction: column;
-    }
-
-    .blog-post__img{
-        min-width: 100%;
-        max-width: 100%;
-        transform: translate(0, -8rem);
-    }
-} */

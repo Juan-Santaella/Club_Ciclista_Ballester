@@ -88,131 +88,73 @@
     
     <!--Posts de notas y anuncios-->
 
+    <!--Contenedor-->
+    <div class="container_advs">
 
-    <!-- Línea 1 -->
-    <div class="blog-body">
-
-        <!--Post 1-->
-        <div class="blog-post">
-            <div class="blog-post__img">
-                <img class="blog-img" src="../img/DSC_7372.jpg" alt="Ruedas de bicicletas">
-            </div>
-
-            <div class="blog-post__info">
-                <div class="blog-post__date">
-                    <span>Martes</span>
-                    <span>23 Noviembre 2021</span>
-                </div>
-                <h1 class="blog-post__title">Liga MTB Puntalarga</h1>
-                <p class="blog-post__text">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero consequatur nihil totam maiores mollitia aliquid odit a sit vel ut? Temporibus  consequuntur     expedita ipsum et.    
-                </p>
-                <a href="" class="blog-post__cta">Leer más</a>
-            </div>
+        <!--Tarjeta 1-->
+        <div class="card_advs">
+            <img src="../img/usr/advs/DSC_2415.jpg">
+            <h4><span>Resultados</span> Generales Temporada 2021</h4>
+            <p>Resultados de las pruebas celebradas</p>
+            <a href="#">Leer más</a>
         </div>
 
-        <!--Post 2-->
-        <div class="blog-post">
-            <div class="blog-post__img">
-                <img class="blog-img" src="../img/DSC_7372.jpg" alt="Ruedas de bicicletas">
-            </div>
-
-            <div class="blog-post__info">
-                <div class="blog-post__date">
-                    <span>Martes</span>
-                    <span>23 Noviembre 2021</span>
-                </div>
-                <h1 class="blog-post__title">Liga MTB Puntalarga</h1>
-                <p class="blog-post__text">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero consequatur nihil totam maiores mollitia aliquid odit a sit vel ut? Temporibus  consequuntur     expedita ipsum et.    
-                </p>
-                <a href="" class="blog-post__cta">Leer más</a>
-            </div>
-        </div>
-    </div>
-
-    <!-- Línea 2 -->
-    <div class="blog-body">
-
-        <!--Post 1-->
-        <div class="blog-post">
-            <div class="blog-post__img">
-                <img class="blog-img" src="../img/DSC_7372.jpg" alt="Ruedas de bicicletas">
-            </div>
-
-            <div class="blog-post__info">
-                <div class="blog-post__date">
-                    <span>Martes</span>
-                    <span>23 Noviembre 2021</span>
-                </div>
-                <h1 class="blog-post__title">Liga MTB Puntalarga</h1>
-                <p class="blog-post__text">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero consequatur nihil totam maiores mollitia aliquid odit a sit vel ut? Temporibus consequuntur     expedita ipsum et.    
-                </p>
-                <a href="" class="blog-post__cta">Leer más</a>
-            </div>
+        <!--Tarjeta 2-->
+        <div class="card_advs">
+            <img src="../img/usr/advs/DSC_9155.jpg">
+            <h4>Resultados finales <span>Liga Acentejo 2021</span></h4>
+            <p>Resultados finales Liga Acentejo 2021</p>
+            <a href="#">Leer más</a>
         </div>
 
-        <!--Post 2-->
-        <div class="blog-post">
-            <div class="blog-post__img">
-                <img class="blog-img" src="../img/DSC_7372.jpg" alt="Ruedas de bicicletas">
-            </div>
-
-            <div class="blog-post__info">
-                <div class="blog-post__date">
-                    <span>Martes</span>
-                    <span>23 Noviembre 2021</span>
-                </div>
-                <h1 class="blog-post__title">Liga MTB Puntalarga</h1>
-                <p class="blog-post__text">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero consequatur nihil totam maiores mollitia aliquid odit a sit vel ut? Temporibus consequuntur     expedita ipsum et.    
-                </p>
-                <a href="" class="blog-post__cta">Leer más</a>
-            </div>
-        </div>
-    </div>
-
-    <!-- Línea 3 -->
-    <div class="blog-body">
-
-        <!--Post 1-->
-        <div class="blog-post">
-            <div class="blog-post__img">
-                <img class="blog-img" src="../img/DSC_7372.jpg" alt="Ruedas de bicicletas">
-            </div>
-
-            <div class="blog-post__info">
-                <div class="blog-post__date">
-                    <span>Martes</span>
-                    <span>23 Noviembre 2021</span>
-                </div>
-                <h1 class="blog-post__title">Liga MTB Puntalarga</h1>
-                <p class="blog-post__text">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero consequatur nihil totam maiores mollitia aliquid odit a sit vel ut? Temporibus consequuntur     expedita ipsum et.    
-                </p>
-                <a href="" class="blog-post__cta">Leer más</a>
-            </div>
+        <!--Tarjeta 3-->
+        <div class="card_advs">
+            <img src="../img/usr/advs/DSC_9286.jpg">
+            <h4>Resultados 5ª Prueba <span>Liga Acentejo 2021</span></h4>
+            <p>Clasificaciones en las distintas categorías</p>
+            <a href="#">Leer más</a>
         </div>
 
-        <!--Post 2-->
-        <div class="blog-post">
-            <div class="blog-post__img">
-                <img class="blog-img" src="../img/DSC_7372.jpg" alt="Ruedas de bicicletas">
-            </div>
-
-            <div class="blog-post__info">
-                <div class="blog-post__date">
-                    <span>Martes</span>
-                    <span>23 Noviembre 2021</span>
-                </div>
-                <h1 class="blog-post__title">Liga MTB Puntalarga</h1>
-                <p class="blog-post__text">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero consequatur nihil totam maiores mollitia aliquid odit a sit vel ut? Temporibus consequuntur     expedita ipsum et.    
-                </p>
-                <a href="" class="blog-post__cta">Leer más</a>
-            </div>
+        <!--Tarjeta 4-->
+        <div class="card_advs">
+            <img src="../img/usr/advs/DSC_2674.jpg">
+            <h4>5ª Prueba <span>Liga MTB de Candelaria 2021</span></h4>
+            <p>Resultados de la última prueba de la Liga</p>
+            <a href="#">Leer más</a>
         </div>
+
+        <!--Tarjeta 5-->
+        <div class="card_advs">
+            <img src="../img/usr/advs/DSC_1739.jpg">
+            <h4>Curso de <span>Primeros Auxilios</span></h4>
+            <p>Curso impartido en exclusiva para los integrantes del Club</p>
+            <a href="#">Leer más</a>
+        </div>
+
+        <!--Tarjeta 6-->
+        <div class="card_advs">
+            <img src="../img/usr/advs/pretemporada.jpg">
+            <h4>Pruebas <span>Pretemporada 2022</span></h4>
+            <p>Relación de pruebas a celebrar, previas a la competición oficial</p>
+            <a href="#">Leer más</a>
+        </div>
+
+        <!--Tarjeta 7-->
+        <div class="card_advs">
+            <img src="../img/usr/advs/DSC_3296.jpg">
+            <h4>¡Feliz <span>Navidad 2021</span></h4>
+            <p>La familia que integra el Club les desea ¡FELIZ NAVIDAD 2021!</p>
+            <a href="#">Leer más</a>
+        </div>
+
+        <!--Tarjeta 8-->
+        <div class="card_advs">
+            <img src="../img/usr/advs/calendario.jpg">
+            <h4><span>Calendario</span> de pruebas 2022</h4>
+            <p>Calendario Oficial de pruebas a celebrar en la temporada 2022</p>
+            <a href="#">Leer más</a>
+        </div>
+
     </div>
 
 
