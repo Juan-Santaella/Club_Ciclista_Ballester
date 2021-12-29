@@ -148,4 +148,3 @@ document.addEventListener("DOMContentLoaded",function(e){
     alturaMaxima=Math.max.apply(Math,alturas);
     aplicarAlturas();
 });
-

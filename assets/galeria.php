@@ -67,7 +67,7 @@
     <div class="container-cover-galeria">
         <div class="container-info-cover">
             <h1> Galería </h1>  
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus quae ducimus mollitia velit beatae nesciunt!</p>
+            <p>Selección de imágenes y vídeos de nuestras actividades</p>
         </div>
     </div>
 

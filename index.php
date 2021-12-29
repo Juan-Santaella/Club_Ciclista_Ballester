@@ -22,14 +22,10 @@
 </head>
 <body>
 
-    <!--JavaScript SDK de Facebook-->
-    <!-- <div id="fb-root"></div>
-    <script async defer crossorigin="anonymous" src="https://connect.facebook.net/es_ES/sdk.js#xfbml=1&version=v12.0" nonce="GrRQRVVS"></script> -->
-
     <!-- Header - menu -->
     <header>
 
-        <!--SocialBar superior-->
+        <!--SocialBar superior y ventana modal de Página en Construcción-->
         <?php
             include "includes/social_up.php";
         ?>
@@ -79,7 +75,7 @@
             <img src="img/DSC_8181.jpg" alt="Club Ballester posando">
             <div class="slideshow-item-text">
                 <h5>Club Ciclista <span>Ballester</span></h5>
-                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Tempora, neque.</p>
+                <p>Bienvenidos a la Web del Club Ciclista Ballester</p>
             </div>
         </div>
 
@@ -88,7 +84,7 @@
             <img src="img/DSC_7259.jpg" alt="Circuito Punta Larga">
             <div class="slideshow-item-text">
                 <h5><span>Circuito</span> de MTB de Punta Larga, Candelaria</h5>
-                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Deleniti, corrupti!</p>
+                <p>Contamos con unas completas instalaciones</p>
             </div>
         </div>
 
@@ -97,7 +93,7 @@
             <img src="img/DSC_9662.jpg" alt="Club Ballester posando">
             <div class="slideshow-item-text">
                 <h5><span>Escuela</span> de Ciclismo</h5>
-                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Perferendis, officiis.</p>
+                <p>Donde formamos en técnica y valores a los futuros deportistas</p>
             </div>
         </div>
 
