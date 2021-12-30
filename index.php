@@ -215,11 +215,9 @@
     <!-- Carteles de pruebas y anuncios -->
 
     <div class="container-carteles">
-        <div class="post-carteles">
-            <img src="img/carteles/loro_parque.jpg" alt="prueba Loro Parque">
-            <img src="img/carteles/liga_infantil_ptl.jpg" alt="liga infantil Punta Larga">
-            <img src="img/carteles/tour.jpg" alt="tour 2022">
-        </div>
+        <img src="img/carteles/loro_parque.jpg" alt="prueba Loro Parque">
+        <img src="img/carteles/liga_infantil_ptl.jpg" alt="liga infantil Punta Larga">
+        <img src="img/carteles/tour.jpg" alt="tour 2022">
     </div>
 
     <!-- Sponsors -->

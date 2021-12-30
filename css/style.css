@@ -826,15 +826,17 @@ article img{
 /***************  CARTELES DE PRUEBAS Y ANUNCIOS  *********************/
 
 .container-carteles{
+    top: 0;
     width: 100%;
-    display: flex;
+    margin: 0 auto;
+    display: flex; 
     flex-wrap: wrap;
-    justify-content: center;
-    padding: 80px;
+    justify-content: center; 
+    padding: 135px 0px 75px; 
     background: #eeeeee;
 }
 
-.post-carteles img{
+.container-carteles img{
     width: 17em;
     height: 17em;
     margin: 25px;
@@ -844,24 +846,24 @@ article img{
     transition: all 0.4s ease;
 }
 
-.post-carteles img:hover{
+.container-carteles img:hover{
     transform: scale(2.50);
 }
 
 
 /******************  RESPONSIVE DESIGN DE LA SECCIÓN DE CARTELES  *******************/
 
-@media screen and (max-width: 1135px){
+@media screen and (max-width: 967px){
     .container-carteles{
-        /* max-width: 450px; */
-        padding: 150px 450px;
-        margin: 0 auto;
+        flex-direction: column;
+        align-items: center;
     }
 }
 
-@media screen and (max-width: 809px){
-    .container-carteles{
-        max-width: 350px;
+@media screen and (max-width: 695px){
+    .container-carteles img:hover{
+        margin: 35px;
+        transform: scale(1.35);
     }
 }
 
