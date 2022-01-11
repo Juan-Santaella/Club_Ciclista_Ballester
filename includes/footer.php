@@ -43,6 +43,6 @@
 
         <!--Sección de los derechos de copyright-->
         <div class="box__copyright">
-            <hr><p>Todos los derechos reservados &copy; 2021 <a href="https://j-santaella.com/" target="_blank">Juan Santaella</a></p>            
+            <hr><p>Todos los derechos reservados &copy; 2021 <a href="http://developer.j-santaella.com/" target="_blank">Juan Santaella</a></p>            
         </div>
     </footer>

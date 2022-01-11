@@ -243,7 +243,7 @@
 
     <!--Incrustamos el código del botón de scroll_up-->
     <?php
-        include "includes/scroll_button.php"
+        include "includes/scroll_button.php";
     ?>
 
     <!-- Incrustamos el código del footer-->

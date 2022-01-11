@@ -8,6 +8,8 @@
     $usuario=htmlspecialchars($_POST['usuario']);
     $pwd=htmlspecialchars($_POST['contrasena']);
 
+     echo '<script> alert("Aquí llegó"); </script>';
+
     //Verificamos el valor de la contraseña encriptada para su búsqueda en la BD
     $pwd=hash('sha512',$pwd);
     
