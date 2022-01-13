@@ -874,7 +874,7 @@ article img{
     width: 100%;
     max-width: 1000px;
     margin: 0 auto;
-    padding: 35px 20px;
+    padding: 45px 0 15px;
     top: 0;
 }
 
@@ -882,13 +882,14 @@ article img{
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    gap: 30px;
     align-items: center;
 }
 
 .img-sponsors img{
     width: 80px;
     height: 60px;
-    margin: 0px 10px; 
+    /* margin: 0px 10px;  */
 }
 
 #grow1{
@@ -1243,6 +1244,12 @@ footer{
     position: relative;
     display: block;
     top: 15px;
+}
+
+/** footer de las páginas en Construcción **/
+
+.footer{
+    top: 0;
 }
 
 /*Atributos del contenedor del footer*/
@@ -2252,4 +2259,73 @@ main{
         margin: 25px 0px;
     }
 
+}
+
+
+
+/********************  MAINTENANCE PAGE  ************************/
+
+.section{
+    height: 650px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;    /*Se centra verticalmente*/
+    padding: 0 40px;
+    background-image: linear-gradient(to top, #a18cd1 0%, #fbc2eb 100%);
+}
+
+.section h2{
+    font-size: 50px;
+    font-weight: 500;
+    margin-bottom: 5px;
+}
+
+.section p{
+    margin-bottom: 15px;
+}
+
+.section img{
+    height: 60%;
+}
+
+.cta{
+    display: inline-block;
+    padding: 7px 0;
+    width: 100px;
+    border: 1px solid #fff;
+    border-radius: 50px;
+    text-align: center;
+    text-decoration: none;
+    color: #283773;
+    background: #fff;
+}
+
+.cta:hover{
+    color: #fff;
+    background: #FF3300;
+    box-shadow: 0 12px 16px rgba(0, 0, 0, 0.2);
+}
+
+
+/******************  RESPONSIVE DESIGN  *********************/
+
+@media screen and (max-width:1000px) {
+    .section{
+        flex-direction: column-reverse;
+    }
+
+    .section > img{
+        height: 40%;
+    } 
+
+    .contenedor-textos{
+        text-align: center;
+    }
+}
+
+@media screen and (max-width:600px) {
+    
+    .section > img{
+        height: 25%;
+    } 
 }

@@ -113,7 +113,7 @@
                     <span>14 septiembre, 2021</span>
                     <h2>Gran resultado Liga Acentejo</h2>
                     <p class="descripcion">Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique, cum facere unde voluptatem culpa praesentium.</p>
-                    <a href="#" class="post-link">Leer más...</a>
+                    <a href="assets/maintenance/maintenance_inicio.php" class="post-link">Leer más...</a>
                 </div>
             </article>
 
@@ -126,7 +126,7 @@
                     <span>1 septiembre, 2021</span>
                     <h2>Próximas competiciones</h2>
                     <p class="descripcion">Lorem ipsum dolor sit amet consectetur adipisicing elit. At consequuntur sint natus exercitationem aliquid doloribus!</p>
-                    <a href="#" class="post-link">Leer más...</a>
+                    <a href="assets/maintenance/maintenance_inicio.php" class="post-link">Leer más...</a>
                 </div>
             </article>
 
@@ -139,7 +139,7 @@
                     <span>28 agosto, 2021</span></br>
                     <h2>Protocolo COVID-19</h2>
                     <p class="descripcion">Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro praesentium optio nisi adipisci quo non.</p>
-                    <a href="#" class="post-link">Leer más...</a>
+                    <a href="assets/maintenance/maintenance_inicio.php" class="post-link">Leer más...</a>
                 </div>
             </article>
         </div>
@@ -243,7 +243,7 @@
 
     <!--Incrustamos el código del botón de scroll_up-->
     <?php
-        include "includes/scroll_button.php"
+        include "includes/scroll_button.php";
     ?>
 
     <!-- Incrustamos el código del footer-->

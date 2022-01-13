@@ -97,7 +97,7 @@
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus in nulla perspiciatis deleniti! Dicta consequuntur, fuga adipisci quam magnam molestias. Voluptatibus autem hic dolor perferendis?</p>
 
                 <!--Botón para abrir un artículo-->
-                <a href=""><button>Leer más</button></a>
+                <a href="maintenance/maintenance_escuela.php"><button>Leer más</button></a>
             </aside>
 
             <!--aside 2-->
@@ -107,7 +107,7 @@
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus in nulla perspiciatis deleniti! Dicta consequuntur, fuga adipisci quam magnam molestias. Voluptatibus autem hic dolor perferendis?</p>
 
                 <!--Botón para abrir un artículo-->
-                <a href=""><button>Leer más</button></a>
+                <a href="maintenance/maintenance_escuela.php"><button>Leer más</button></a>
             </aside>
 
             <!--aside 3-->
@@ -117,7 +117,7 @@
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus in nulla perspiciatis deleniti! Dicta consequuntur, fuga adipisci quam magnam molestias. Voluptatibus autem hic dolor perferendis?</p>
 
                 <!--Botón para abrir un artículo-->
-                <a href=""><button>Leer más</button></a>
+                <a href="maintenance/maintenance_escuela.php"><button>Leer más</button></a>
             </aside>
 
         </div>
